@@ -172,6 +172,7 @@ export default function PlannerClient() {
   const [dragOverId, setDragOverId] = useState<string | null>(null);
   const [shareUrl, setShareUrl] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
+  const [copied, setCopied] = useState(false);
   const [saveError, setSaveError] = useState<string | null>(null);
   const [planId, setPlanId] = useState<string | null>(null);
 
@@ -515,11 +516,15 @@ export default function PlannerClient() {
           <div className="flex items-center gap-3 shrink-0">
             {shareUrl && (
               <button
-                onClick={() => navigator.clipboard.writeText(shareUrl)}
+                onClick={() => {
+                  navigator.clipboard.writeText(shareUrl);
+                  setCopied(true);
+                  setTimeout(() => setCopied(false), 2000);
+                }}
                 className="text-xs text-(--color-blue) hover:underline course-code truncate max-w-48"
                 title="Click to copy"
               >
-                Copy share link
+                {copied ? "Copied ✓" : "Copy share link"}
               </button>
             )}
             <button
