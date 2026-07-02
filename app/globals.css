@@ -74,3 +74,8 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Tailwind v4 resets buttons to cursor:default; restore pointer for all interactive buttons */
+button:not(:disabled) {
+  cursor: pointer;
+}
