@@ -2,7 +2,7 @@
   {
     "code": "AEROENGC136S",
     "displayCode": "AEROENG C136S",
-    "title": "DYN & CTRL AUTO SL",
+    "title": "Software Laboratory: Dynamics and Control of Autonomous Flight",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -18,7 +18,7 @@
   {
     "code": "AEROENG1",
     "displayCode": "AEROENG 1",
-    "title": "AERO ENG 1 SEMINAR",
+    "title": "Aerospace Engineering 1 Seminar",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -31,7 +31,7 @@
   {
     "code": "AEROENGC184",
     "displayCode": "AEROENG C184",
-    "title": "FLIGHT VEHICLE STRU",
+    "title": "Flight Vehicle Structures and Aeroelasticity",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -47,7 +47,7 @@
   {
     "code": "AEROENG198",
     "displayCode": "AEROENG 198",
-    "title": "DIRECTED GROUP STUD",
+    "title": "Directed Group Study for Advanced Undergraduates",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -60,7 +60,7 @@
   {
     "code": "AEROENG197",
     "displayCode": "AEROENG 197",
-    "title": "UG AERO ENG FLD STU",
+    "title": "Undergraduate Aerospace Engineering Field Studies",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -73,7 +73,7 @@
   {
     "code": "AEROENGH194",
     "displayCode": "AEROENG H194",
-    "title": "HON UGRD RSRCH",
+    "title": "Honors Undergraduate Research",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -89,7 +89,7 @@
   {
     "code": "AEROENGC136",
     "displayCode": "AEROENG C136",
-    "title": "DYN & CNTRL AUTO FL",
+    "title": "Dynamics and Control of Autonomous Flight",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -105,7 +105,7 @@
   {
     "code": "AEROENG100",
     "displayCode": "AEROENG 100",
-    "title": "AEROSPACE CAPSTONE",
+    "title": "Aerospace Capstone",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -138,7 +138,7 @@
   {
     "code": "AEROENG196",
     "displayCode": "AEROENG 196",
-    "title": "UGRD RSRCH",
+    "title": "Undergraduate Research",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -151,7 +151,7 @@
   {
     "code": "AEROENGC162",
     "displayCode": "AEROENG C162",
-    "title": "INTRO TO FLT MEC",
+    "title": "Introduction to Flight Mechanics",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -180,7 +180,7 @@
   {
     "code": "AEROENG2",
     "displayCode": "AEROENG 2",
-    "title": "AERO ENG 2 SEMINAR",
+    "title": "Aerospace Engineering 2 Seminar",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -193,7 +193,7 @@
   {
     "code": "AEROENGC127",
     "displayCode": "AEROENG C127",
-    "title": "COMPOSITE MATERIALS",
+    "title": "Introduction to Composite Materials",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -209,7 +209,7 @@
   {
     "code": "AEROENG193",
     "displayCode": "AEROENG 193",
-    "title": "SP TOPICS AEROENG",
+    "title": "Special Topics in Aerospace Engineering",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -222,7 +222,7 @@
   {
     "code": "AEROENG24",
     "displayCode": "AEROENG 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -235,7 +235,7 @@
   {
     "code": "AEROENGC124",
     "displayCode": "AEROENG C124",
-    "title": "MATS EXTRM ENVRMTS",
+    "title": "Materials for Extreme Environments",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -248,7 +248,7 @@
   {
     "code": "AEROENG199",
     "displayCode": "AEROENG 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -261,7 +261,7 @@
   {
     "code": "AEROENGC193P",
     "displayCode": "AEROENG C193P",
-    "title": "SPACE TECH & POLICY",
+    "title": "The Final Frontier? Space Technology and National Security Policy",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -274,7 +274,7 @@
   {
     "code": "AEROENG98",
     "displayCode": "AEROENG 98",
-    "title": "DIRECTED GROUP STUD",
+    "title": "Supervised Group Study and Research",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -287,7 +287,7 @@
   {
     "code": "AEROENG10",
     "displayCode": "AEROENG 10",
-    "title": "INTRO AEROSP DESIGN",
+    "title": "Introduction to Aerospace Engineering Design",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -316,7 +316,7 @@
   {
     "code": "AEROENG120",
     "displayCode": "AEROENG 120",
-    "title": "INTRO SPACE ENGIN",
+    "title": "Introduction to Space Engineering",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -329,7 +329,7 @@
   {
     "code": "AEROENGC166",
     "displayCode": "AEROENG C166",
-    "title": "INTRO TO COMP FLW",
+    "title": "Introduction to Compressible Flow",
     "department": "AEROENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -354,7 +354,7 @@
   {
     "code": "BIOE10",
     "displayCode": "BIOENG 10",
-    "title": "INTRO/BIOMED ENGIN",
+    "title": "Introduction to Biomedicine for Engineers",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -379,7 +379,7 @@
   {
     "code": "BIOE100",
     "displayCode": "BIOENG 100",
-    "title": "ETHICS IN SCI & ENG",
+    "title": "Ethics in Science and Engineering",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -392,7 +392,7 @@
   {
     "code": "BIOE101",
     "displayCode": "BIOENG 101",
-    "title": "INSTR BIOLOGY MED",
+    "title": "Instrumentation in Biology and Medicine",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -429,7 +429,7 @@
   {
     "code": "BIOE102",
     "displayCode": "BIOENG 102",
-    "title": "BIOMECH ANAL & DSGN",
+    "title": "Biomechanics: Analysis and Design",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -458,7 +458,7 @@
   {
     "code": "BIOE104",
     "displayCode": "BIOENG 104",
-    "title": "BIO TRANS PHEN",
+    "title": "Biological Transport Phenomena",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -487,7 +487,7 @@
   {
     "code": "BIOE110",
     "displayCode": "BIOENG 110",
-    "title": "BIOMED PHYS FOR ENG",
+    "title": "Biomedical Physiology for Engineers",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -512,7 +512,7 @@
   {
     "code": "BIOE111",
     "displayCode": "BIOENG 111",
-    "title": "FUNC BIO DEV & CHAR",
+    "title": "Functional Biomaterials Development and Characterization",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -528,7 +528,7 @@
   {
     "code": "BIOE115",
     "displayCode": "BIOENG 115",
-    "title": "TISSUE ENGINEERING",
+    "title": "Tissue Engineering Lab",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -553,7 +553,7 @@
   {
     "code": "BIOE121",
     "displayCode": "BIOENG 121",
-    "title": "BIOMEMS & MED D",
+    "title": "BioMEMS and Medical Devices",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -586,7 +586,7 @@
   {
     "code": "BIOE121L",
     "displayCode": "BIOENG 121L",
-    "title": "BIOMEMS BIONANO LAB",
+    "title": "BioMems and BioNanotechnology Laboratory",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -611,7 +611,7 @@
   {
     "code": "BIOE124",
     "displayCode": "BIOENG 124",
-    "title": "BASIC PRIN DRUG",
+    "title": "Basic Principles of Drug Delivery",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -636,7 +636,7 @@
   {
     "code": "BIOE131",
     "displayCode": "BIOENG 131",
-    "title": "INTRO TO COMP MCB",
+    "title": "Introduction to Computational Molecular and Cell Biology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -661,7 +661,7 @@
   {
     "code": "BIOE135",
     "displayCode": "BIOENG 135",
-    "title": "FRONT/MICRO SYS BIO",
+    "title": "Frontiers in Microbial Systems Biology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -674,7 +674,7 @@
   {
     "code": "BIOE140L",
     "displayCode": "BIOENG 140L",
-    "title": "SYNTH BIO LAB",
+    "title": "Synthetic Biology Laboratory",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -699,7 +699,7 @@
   {
     "code": "BIOE147",
     "displayCode": "BIOENG 147",
-    "title": "PRIN OF SYN BIO",
+    "title": "Principles of Synthetic Biology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -728,7 +728,7 @@
   {
     "code": "BIOE148",
     "displayCode": "BIOENG 148",
-    "title": "BIO CHEM SYN BIO",
+    "title": "Bioenergy and Sustainable Chemical Synthesis: Metabolic Engineering and Synthetic Biology Approaches",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -753,7 +753,7 @@
   {
     "code": "BIOE150",
     "displayCode": "BIOENG 150",
-    "title": "INTRO TO BIO &",
+    "title": "Introduction of Bionanoscience and Bionanotechnology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -787,7 +787,7 @@
   {
     "code": "BIOE163",
     "displayCode": "BIOENG 163",
-    "title": "PRIN OF MOLEC &",
+    "title": "Principles of Molecular and Cellular Biophotonics",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -816,7 +816,7 @@
   {
     "code": "BIOE163L",
     "displayCode": "BIOENG 163L",
-    "title": "MOLEC & CELL LAB",
+    "title": "Molecular and Cellular Biophotonics Laboratory",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -832,7 +832,7 @@
   {
     "code": "BIOE168L",
     "displayCode": "BIOENG 168L",
-    "title": "PRAC LT MICROSCOPY",
+    "title": "Practical Light Microscopy",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -845,7 +845,7 @@
   {
     "code": "BIOE190",
     "displayCode": "BIOENG 190",
-    "title": "SPECIAL TOP IN BIOE",
+    "title": "Special Topics in Bioengineering",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -858,7 +858,7 @@
   {
     "code": "BIOE192",
     "displayCode": "BIOENG 192",
-    "title": "SR DESIGN PROJECT",
+    "title": "Senior Design Projects",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 5,
@@ -871,7 +871,7 @@
   {
     "code": "BIOE196",
     "displayCode": "BIOENG 196",
-    "title": "UNDERG DES RES",
+    "title": "Undergraduate Design Research",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -884,7 +884,7 @@
   {
     "code": "BIOE198",
     "displayCode": "BIOENG 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study for Advanced Undergraduates",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -900,7 +900,7 @@
   {
     "code": "BIOE199",
     "displayCode": "BIOENG 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -913,7 +913,7 @@
   {
     "code": "BIOE24",
     "displayCode": "BIOENG 24",
-    "title": "FRESHMEN SEMINAR",
+    "title": "Aspects of Bioengineering",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -926,7 +926,7 @@
   {
     "code": "BIOE25",
     "displayCode": "BIOENG 25",
-    "title": "CAREERS IN BIOTECH",
+    "title": "Careers in Biotechnology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -939,7 +939,7 @@
   {
     "code": "BIOE98",
     "displayCode": "BIOENG 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Supervised Independent Group Studies",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -952,7 +952,7 @@
   {
     "code": "BIOE99",
     "displayCode": "BIOENG 99",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study and Research",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -965,7 +965,7 @@
   {
     "code": "BIOEH194",
     "displayCode": "BIOENG H194",
-    "title": "HON UNDERGRAD RES",
+    "title": "Honors Undergraduate Research",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -981,7 +981,7 @@
   {
     "code": "BIOEC142",
     "displayCode": "BIOENG C142",
-    "title": "MACHINE LRNING OPTI",
+    "title": "Machine Learning, Statistical Models, and Optimization for Molecular Problems",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1006,7 +1006,7 @@
   {
     "code": "BIOEC171",
     "displayCode": "BIOENG C171",
-    "title": "NEURAL ENGINEERING",
+    "title": "Interface Between Neuroethology & Neural Engineering",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -1044,7 +1044,7 @@
   {
     "code": "BIOE166",
     "displayCode": "BIOENG 166",
-    "title": "BIOMED IMAG SYS II",
+    "title": "Biomedical Imaging Systems II: Targeted Molecular Imaging in Disease",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1069,7 +1069,7 @@
   {
     "code": "BIOEC157",
     "displayCode": "BIOENG C157",
-    "title": "NANOMEDICINE",
+    "title": "Nanomaterials in Medicine",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -1085,7 +1085,7 @@
   {
     "code": "BIOEC131",
     "displayCode": "BIOENG C131",
-    "title": "INTRO COMP MOLECULA",
+    "title": "Introduction to Computational Molecular and Cell Biology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1110,7 +1110,7 @@
   {
     "code": "BIOE153",
     "displayCode": "BIOENG 153",
-    "title": "BIOTECH ENTREPREN",
+    "title": "Biotechnology Entrepreneurship: Impact, History, Therapeutics R&D, Entrepreneurship & Careers",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -1123,7 +1123,7 @@
   {
     "code": "BIOEC137",
     "displayCode": "BIOENG C137",
-    "title": "DES HUMAN BODY",
+    "title": "Designing for the Human Body",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1148,7 +1148,7 @@
   {
     "code": "BIOE105",
     "displayCode": "BIOENG 105",
-    "title": "ENGINEERING DEVICES",
+    "title": "Engineering Devices 1",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1177,7 +1177,7 @@
   {
     "code": "BIOE26",
     "displayCode": "BIOENG 26",
-    "title": "INTRO TO BIOENG",
+    "title": "Introduction to Bioengineering",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -1190,7 +1190,7 @@
   {
     "code": "BIOEC106A",
     "displayCode": "BIOENG C106A",
-    "title": "INTRO TO ROBOTICS",
+    "title": "Introduction to Robotics",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1215,7 +1215,7 @@
   {
     "code": "BIOEC106B",
     "displayCode": "BIOENG C106B",
-    "title": "INTRO ROBO PART II",
+    "title": "Introduction to Robotics, Part II",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1240,7 +1240,7 @@
   {
     "code": "BIOE145",
     "displayCode": "BIOENG 145",
-    "title": "INTRO MACHINE LRN",
+    "title": "Introduction to Machine Learning for Computational Biology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1265,7 +1265,7 @@
   {
     "code": "BIOE195",
     "displayCode": "BIOENG 195",
-    "title": "BIOENGINEERING DEPA",
+    "title": "Bioengineering Department Seminar",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -1278,7 +1278,7 @@
   {
     "code": "BIOE134",
     "displayCode": "BIOENG 134",
-    "title": "BIODESIGN",
+    "title": "Biodesign Automation",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1303,7 +1303,7 @@
   {
     "code": "BIOE114",
     "displayCode": "BIOENG 114",
-    "title": "CELL ENGINEERING",
+    "title": "Cell Engineering",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1316,7 +1316,7 @@
   {
     "code": "BIOE11",
     "displayCode": "BIOENG 11",
-    "title": "ENGINEERING MOLECUL",
+    "title": "Engineering Molecules 1",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -1332,7 +1332,7 @@
   {
     "code": "BIOE103",
     "displayCode": "BIOENG 103",
-    "title": "ENGINEERING MOLECUL",
+    "title": "Engineering Molecules 2",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1373,7 +1373,7 @@
   {
     "code": "BIOEC112",
     "displayCode": "BIOENG C112",
-    "title": "MOLEC BIOMEC CELL",
+    "title": "Molecular Biomechanics and Mechanobiology of the Cell",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1398,7 +1398,7 @@
   {
     "code": "BIOEC118",
     "displayCode": "BIOENG C118",
-    "title": "BIOLOG PERF MATS",
+    "title": "Biological Performance of Materials",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1423,7 +1423,7 @@
   {
     "code": "BIOEC165",
     "displayCode": "BIOENG C165",
-    "title": "MED IMG SIG & S",
+    "title": "Medical Imaging Signals and Systems",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1448,7 +1448,7 @@
   {
     "code": "BIOEC145M",
     "displayCode": "BIOENG C145M",
-    "title": "INTR MICRO INTERF L",
+    "title": "Introductory Microcomputer Interfacing Laboratory",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -1464,7 +1464,7 @@
   {
     "code": "BIOEC136L",
     "displayCode": "BIOENG C136L",
-    "title": "LAB IN MEC ORG",
+    "title": "Laboratory in the Mechanics of Organisms",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -1480,7 +1480,7 @@
   {
     "code": "BIOEC119",
     "displayCode": "BIOENG C119",
-    "title": "ORTHOP BIOMECH",
+    "title": "Orthopedic Biomechanics",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1505,7 +1505,7 @@
   {
     "code": "BIOEC117",
     "displayCode": "BIOENG C117",
-    "title": "STRUCT ASP BIOMATER",
+    "title": "Structural Aspects of Biomaterials",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1534,7 +1534,7 @@
   {
     "code": "BIOEC176",
     "displayCode": "BIOENG C176",
-    "title": "ORTHOP BIOMECH",
+    "title": "Orthopaedic Biomechanics",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1559,7 +1559,7 @@
   {
     "code": "BIOEC146",
     "displayCode": "BIOENG C146",
-    "title": "DATA SCIENCE BIO",
+    "title": "Data Science for Biology",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -1588,7 +1588,7 @@
   {
     "code": "BIOEC145L",
     "displayCode": "BIOENG C145L",
-    "title": "TRANSDUCER LAB",
+    "title": "Introductory Electronic Transducers Laboratory",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -1601,7 +1601,7 @@
   {
     "code": "BIOEC149",
     "displayCode": "BIOENG C149",
-    "title": "FUNCTIONAL GENOMICS",
+    "title": "Computational Functional Genomics",
     "department": "BIOENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -1647,7 +1647,7 @@
   {
     "code": "CHEMC191",
     "displayCode": "CHEM C191",
-    "title": "INTRO QUANTUM COMP",
+    "title": "Introduction to Quantum Computing",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -1681,7 +1681,7 @@
   {
     "code": "CHEM125",
     "displayCode": "CHEM 125",
-    "title": "PHYS CHEM LAB",
+    "title": "Physical Chemistry Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1710,7 +1710,7 @@
   {
     "code": "CHEMC191B",
     "displayCode": "CHEM C191B",
-    "title": "INTRO QUANTUM COMP",
+    "title": "Introduction to Quantum Computing II",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -1723,7 +1723,7 @@
   {
     "code": "CHEMC191A",
     "displayCode": "CHEM C191A",
-    "title": "INTRO QUANTUM COMP",
+    "title": "Introduction to Quantum Computing I",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -1736,7 +1736,7 @@
   {
     "code": "CHEM34",
     "displayCode": "CHEM 34",
-    "title": "GENCHEM PREP COC MJ",
+    "title": "Preparation for General Chemistry for CoC Majors",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -1752,7 +1752,7 @@
   {
     "code": "CHEM101",
     "displayCode": "CHEM 101",
-    "title": "GREENER SOLUTIONS",
+    "title": "Greener Solutions: A Safer Design Partnership",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1768,7 +1768,7 @@
   {
     "code": "CHEM136",
     "displayCode": "CHEM 136",
-    "title": "BIOORGANIC CHEMISTR",
+    "title": "Bioorganic Chemistry and Advanced Chemical Biology",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1797,7 +1797,7 @@
   {
     "code": "CHEM121",
     "displayCode": "CHEM 121",
-    "title": "INTRO TO COMP CHEM",
+    "title": "Introduction to Computational Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1822,7 +1822,7 @@
   {
     "code": "CHEM32",
     "displayCode": "CHEM 32",
-    "title": "PREP FOR GEN CHEM",
+    "title": "Preparation for General Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -1835,7 +1835,7 @@
   {
     "code": "CHEM120A",
     "displayCode": "CHEM 120A",
-    "title": "PHYSICAL CHEMISTRY",
+    "title": "Physical Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1851,7 +1851,7 @@
   {
     "code": "CHEM32L",
     "displayCode": "CHEM 32L",
-    "title": "GEN CHEM PREP",
+    "title": "Preparation for General Chemistry Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -1867,7 +1867,7 @@
   {
     "code": "CHEM1AD",
     "displayCode": "CHEM 1AD",
-    "title": "GENERAL CHEMISTRY",
+    "title": "General Chemistry (Digital)",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1880,7 +1880,7 @@
   {
     "code": "CHEMC110L",
     "displayCode": "CHEM C110L",
-    "title": "BIOCHEM & MOLBI",
+    "title": "General Biochemistry and Molecular Biology Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -1896,7 +1896,7 @@
   {
     "code": "CHEMC170L",
     "displayCode": "CHEM C170L",
-    "title": "BIOCHEM ENG LAB",
+    "title": "Biochemical Engineering Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1912,7 +1912,7 @@
   {
     "code": "CHEMC130",
     "displayCode": "CHEM C130",
-    "title": "BIOPHYSICAL CHEM",
+    "title": "Biophysical Chemistry: Physical Principles and the Molecules of Life",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -1937,7 +1937,7 @@
   {
     "code": "CHEM120B",
     "displayCode": "CHEM 120B",
-    "title": "PHYSICAL CHEMISTRY",
+    "title": "Physical Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1953,7 +1953,7 @@
   {
     "code": "CHEMC150",
     "displayCode": "CHEM C150",
-    "title": "INTR MATERIALS CHEM",
+    "title": "Introduction to Materials Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1969,7 +1969,7 @@
   {
     "code": "CHEMC182",
     "displayCode": "CHEM C182",
-    "title": "ATMOS CHEM PHYS LAB",
+    "title": "Atmospheric Chemistry and Physics Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -1994,7 +1994,7 @@
   {
     "code": "CHEMC178",
     "displayCode": "CHEM C178",
-    "title": "POLYMER SCI & TECH",
+    "title": "Polymer Science and Technology",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2007,7 +2007,7 @@
   {
     "code": "CHEM159",
     "displayCode": "CHEM 159",
-    "title": "POLYMER ORGANIC CHE",
+    "title": "Polymer Organic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2023,7 +2023,7 @@
   {
     "code": "CHEM1A",
     "displayCode": "CHEM 1A",
-    "title": "GENERAL CHEMISTRY",
+    "title": "General Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2036,7 +2036,7 @@
   {
     "code": "CHEM1AL",
     "displayCode": "CHEM 1AL",
-    "title": "GENERAL CHEM LAB",
+    "title": "General Chemistry Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2061,7 +2061,7 @@
   {
     "code": "CHEM1B",
     "displayCode": "CHEM 1B",
-    "title": "GENERAL CHEMISTRY",
+    "title": "General Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -2095,7 +2095,7 @@
   {
     "code": "CHEM100",
     "displayCode": "CHEM 100",
-    "title": "COMMUNICATING CHEM",
+    "title": "Communicating Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2108,7 +2108,7 @@
   {
     "code": "CHEM103",
     "displayCode": "CHEM 103",
-    "title": "INORG CHEM BIO",
+    "title": "Inorganic Chemistry in Living Systems",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2124,7 +2124,7 @@
   {
     "code": "CHEM104A",
     "displayCode": "CHEM 104A",
-    "title": "ADV INORGANIC CHEM",
+    "title": "Advanced Inorganic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2140,7 +2140,7 @@
   {
     "code": "CHEM104B",
     "displayCode": "CHEM 104B",
-    "title": "ADV INORGANIC CHEM",
+    "title": "Advanced Inorganic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2156,7 +2156,7 @@
   {
     "code": "CHEM105",
     "displayCode": "CHEM 105",
-    "title": "INSTRUMEN ANALYSIS",
+    "title": "Instrumental Methods in Analytical Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -2199,7 +2199,7 @@
   {
     "code": "CHEM108",
     "displayCode": "CHEM 108",
-    "title": "INORGANIC SYNTHESIS",
+    "title": "Inorganic Synthesis and Reactions",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -2236,7 +2236,7 @@
   {
     "code": "CHEM112A",
     "displayCode": "CHEM 112A",
-    "title": "ORGANIC CHEMISTRY",
+    "title": "Organic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 5,
@@ -2249,7 +2249,7 @@
   {
     "code": "CHEM12A",
     "displayCode": "CHEM 12A",
-    "title": "ORGANIC CHEMISTRY",
+    "title": "Organic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 5,
@@ -2265,7 +2265,7 @@
   {
     "code": "CHEM112B",
     "displayCode": "CHEM 112B",
-    "title": "ORGANIC CHEMISTRY",
+    "title": "Organic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 5,
@@ -2278,7 +2278,7 @@
   {
     "code": "CHEM12B",
     "displayCode": "CHEM 12B",
-    "title": "ORGANIC CHEMISTRY",
+    "title": "Organic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 5,
@@ -2294,7 +2294,7 @@
   {
     "code": "CHEM122",
     "displayCode": "CHEM 122",
-    "title": "QUANTUM MECHANICS",
+    "title": "Quantum Mechanics and Spectroscopy",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2310,7 +2310,7 @@
   {
     "code": "CHEM113",
     "displayCode": "CHEM 113",
-    "title": "ADV MECH ORGAN CHEM",
+    "title": "Advanced Mechanistic Organic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2326,7 +2326,7 @@
   {
     "code": "CHEM114",
     "displayCode": "CHEM 114",
-    "title": "ADV SYN ORGAN CHEM",
+    "title": "Advanced Synthetic Organic Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2342,7 +2342,7 @@
   {
     "code": "CHEM115",
     "displayCode": "CHEM 115",
-    "title": "ORGANIC CHEMISTRY",
+    "title": "Organic Chemistry--Advanced Laboratory Methods",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -2358,7 +2358,7 @@
   {
     "code": "CHEM130B",
     "displayCode": "CHEM 130B",
-    "title": "BIOPHYSICAL CHEM",
+    "title": "Biophysical Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2383,7 +2383,7 @@
   {
     "code": "CHEM135",
     "displayCode": "CHEM 135",
-    "title": "CHEMICAL BIOLOGY",
+    "title": "Chemical Biology",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2399,7 +2399,7 @@
   {
     "code": "CHEM143",
     "displayCode": "CHEM 143",
-    "title": "NUCLEAR CHEMISTRY",
+    "title": "Nuclear Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2415,7 +2415,7 @@
   {
     "code": "CHEMC146",
     "displayCode": "CHEM C146",
-    "title": "NUCLEAR CHEM TECH",
+    "title": "Radiochemical Methods in Nuclear Technology and Forensics",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2440,7 +2440,7 @@
   {
     "code": "CHEM149",
     "displayCode": "CHEM 149",
-    "title": "UP DIV SUPPL WORK",
+    "title": "Supplementary Work in Upper Division Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2453,7 +2453,7 @@
   {
     "code": "CHEM15",
     "displayCode": "CHEM 15",
-    "title": "BIO/ANALYTICAL CHEM",
+    "title": "Analytical and Bioanalytical Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2469,7 +2469,7 @@
   {
     "code": "CHEM192",
     "displayCode": "CHEM 192",
-    "title": "INDIVIDUAL STUDY",
+    "title": "Individual Study for Advanced Undergraduates",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2482,7 +2482,7 @@
   {
     "code": "CHEM195",
     "displayCode": "CHEM 195",
-    "title": "SPECIAL TOPICS",
+    "title": "Special Topics",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2495,7 +2495,7 @@
   {
     "code": "CHEM196",
     "displayCode": "CHEM 196",
-    "title": "SPECIAL LAB STUDY",
+    "title": "Special Laboratory Study",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2508,7 +2508,7 @@
   {
     "code": "CHEM197",
     "displayCode": "CHEM 197",
-    "title": "FIELD STUDY IN CHEM",
+    "title": "Field Study in Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2521,7 +2521,7 @@
   {
     "code": "CHEM198",
     "displayCode": "CHEM 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2537,7 +2537,7 @@
   {
     "code": "CHEM199",
     "displayCode": "CHEM 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study and Research",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2550,7 +2550,7 @@
   {
     "code": "CHEM24",
     "displayCode": "CHEM 24",
-    "title": "FRESHMAN SEMINAR",
+    "title": "Freshman Seminar",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2563,7 +2563,7 @@
   {
     "code": "CHEM3A",
     "displayCode": "CHEM 3A",
-    "title": "CHEM STRUCT REACT",
+    "title": "Chemical Structure and Reactivity",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -2576,7 +2576,7 @@
   {
     "code": "CHEM3AL",
     "displayCode": "CHEM 3AL",
-    "title": "ORGANIC CHEM LAB",
+    "title": "Organic Chemistry Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2618,7 +2618,7 @@
   {
     "code": "CHEM3B",
     "displayCode": "CHEM 3B",
-    "title": "CHEM STRUCT REACT",
+    "title": "Chemical Structure and Reactivity",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -2634,7 +2634,7 @@
   {
     "code": "CHEM3BL",
     "displayCode": "CHEM 3BL",
-    "title": "ORGANIC CHEM LAB",
+    "title": "Organic Chemistry Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2650,7 +2650,7 @@
   {
     "code": "CHEM4A",
     "displayCode": "CHEM 4A",
-    "title": "GEN CHM QUANT ANALY",
+    "title": "General Chemistry and Quantitative Analysis",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 5,
@@ -2663,7 +2663,7 @@
   {
     "code": "CHEM4B",
     "displayCode": "CHEM 4B",
-    "title": "GEN CHM QUANT ANALY",
+    "title": "General Chemistry and Quantitative Analysis",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 5,
@@ -2676,7 +2676,7 @@
   {
     "code": "CHEM49",
     "displayCode": "CHEM 49",
-    "title": "LOW DIV SUPPL WORK",
+    "title": "Supplementary Work in Lower Division Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2689,7 +2689,7 @@
   {
     "code": "CHEM96",
     "displayCode": "CHEM 96",
-    "title": "INTRO TO RESEARCH",
+    "title": "Introduction to Research and Study in the College of Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2702,7 +2702,7 @@
   {
     "code": "CHEM98",
     "displayCode": "CHEM 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Supervised Group Study",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2715,7 +2715,7 @@
   {
     "code": "CHEM98W",
     "displayCode": "CHEM 98W",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2728,7 +2728,7 @@
   {
     "code": "CHEMH193",
     "displayCode": "CHEM H193",
-    "title": "HONORS THESIS",
+    "title": "Senior Honors Thesis",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2744,7 +2744,7 @@
   {
     "code": "CHEMH194",
     "displayCode": "CHEM H194",
-    "title": "HONORS RESEARCH",
+    "title": "Research for Advanced Undergraduates",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2760,7 +2760,7 @@
   {
     "code": "CHEMN3AL",
     "displayCode": "CHEM N3AL",
-    "title": "ORGANIC CHEM LAB",
+    "title": "Organic Chemistry Laboratory",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 2,
@@ -2802,7 +2802,7 @@
   {
     "code": "CHEMW1A",
     "displayCode": "CHEM W1A",
-    "title": "GENERAL CHEMISTRY",
+    "title": "General Chemistry",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2815,7 +2815,7 @@
   {
     "code": "CHEM171H",
     "displayCode": "CHEM 171H",
-    "title": "GREEN MATERIALS",
+    "title": "Berkeley Changemaker: The Green Materials Innovation Challenge",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 3,
@@ -2840,7 +2840,7 @@
   {
     "code": "CHEM102",
     "displayCode": "CHEM 102",
-    "title": "FOUNDATIONS OF DISC",
+    "title": "Foundations of Discovery Learning for College of Chemistry Transfer Students",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 1,
@@ -2853,7 +2853,7 @@
   {
     "code": "CHEMC142",
     "displayCode": "CHEM C142",
-    "title": "MACHINE LRNING OPTI",
+    "title": "Machine Learning, Statistical Models, and Optimization for Molecular Problems",
     "department": "CHEM",
     "college": "CCH - College of Chemistry",
     "units": 4,
@@ -2878,7 +2878,7 @@
   {
     "code": "CEE24",
     "displayCode": "CIVENG 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -2891,7 +2891,7 @@
   {
     "code": "CEE60",
     "displayCode": "CIVENG 60",
-    "title": "CIVIL ENGRG MATLS",
+    "title": "Structure and Properties of Civil Engineering Materials",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -2904,7 +2904,7 @@
   {
     "code": "CEE70",
     "displayCode": "CIVENG 70",
-    "title": "ENGINEERING GEOLOGY",
+    "title": "Engineering Geology",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -2920,7 +2920,7 @@
   {
     "code": "CEE92",
     "displayCode": "CIVENG 92",
-    "title": "INTR CIVIL ENV ENGR",
+    "title": "Introduction to Civil and Environmental Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -2933,7 +2933,7 @@
   {
     "code": "CEE93",
     "displayCode": "CIVENG 93",
-    "title": "ENGRG DATA ANALYSIS",
+    "title": "Engineering Data Analysis",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -2958,7 +2958,7 @@
   {
     "code": "CEE98",
     "displayCode": "CIVENG 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Supervised Group Study and Research",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -2971,7 +2971,7 @@
   {
     "code": "CEE99",
     "displayCode": "CIVENG 99",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study and Research",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -2987,7 +2987,7 @@
   {
     "code": "CEEH194",
     "displayCode": "CIVENG H194",
-    "title": "HONORS UGRAD RES",
+    "title": "Honors Undergraduate Research",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3003,7 +3003,7 @@
   {
     "code": "CEE176",
     "displayCode": "CIVENG 176",
-    "title": "ENVIRON GEOTECHNICS",
+    "title": "Environmental Geotechnics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3019,7 +3019,7 @@
   {
     "code": "CEE175",
     "displayCode": "CIVENG 175",
-    "title": "GEOT GEOENV ENGRG",
+    "title": "Geotechnical and Geoenvironmental Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3035,7 +3035,7 @@
   {
     "code": "CEE140N",
     "displayCode": "CIVENG 140N",
-    "title": "MAT CEMENT CONCRETE",
+    "title": "Materials Science and Characterization of Cement and Concrete",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3051,7 +3051,7 @@
   {
     "code": "CEE119",
     "displayCode": "CIVENG 119",
-    "title": "DATA EQ IN ENV ENG",
+    "title": "Data and Equity in Environmental Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3080,7 +3080,7 @@
   {
     "code": "CEE157",
     "displayCode": "CIVENG 157",
-    "title": "SUSTAINABL AVIATION",
+    "title": "Sustainable Aviation and Infrastructure",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3096,7 +3096,7 @@
   {
     "code": "CEE188",
     "displayCode": "CIVENG 188",
-    "title": "CARBON CAPTURE",
+    "title": "Carbon Capture and Storage",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3109,7 +3109,7 @@
   {
     "code": "CEE190S",
     "displayCode": "CIVENG 190S",
-    "title": "SPECIAL TOPICS CEE",
+    "title": "Special Topics in Civil and Environmental Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3134,7 +3134,7 @@
   {
     "code": "CEE187",
     "displayCode": "CIVENG 187",
-    "title": "PUBLIC HEALTH TECH",
+    "title": "Emerging Technologies for Public Health",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3159,7 +3159,7 @@
   {
     "code": "CEE92B",
     "displayCode": "CIVENG 92B",
-    "title": "CORN STRUCT DESIGN",
+    "title": "Cornerstone Structural Design",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -3172,7 +3172,7 @@
   {
     "code": "CEE180",
     "displayCode": "CIVENG 180",
-    "title": "CEE SYSTEMS DESIGN",
+    "title": "Cee Systems Design",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -3188,7 +3188,7 @@
   {
     "code": "CEEC138",
     "displayCode": "CIVENG C138",
-    "title": "FLIGHT VEHICLE STRU",
+    "title": "Flight Vehicle Structures and Aeroelasticity",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3204,7 +3204,7 @@
   {
     "code": "CEEC172",
     "displayCode": "CIVENG C172",
-    "title": "REMOTE SENSE ENV",
+    "title": "Remote Sensing of the Environment",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -3217,7 +3217,7 @@
   {
     "code": "CEE92A",
     "displayCode": "CIVENG 92A",
-    "title": "DESIGN FUTURE INFRA",
+    "title": "Design for Future Infrastructure Systems",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -3230,7 +3230,7 @@
   {
     "code": "CEE173",
     "displayCode": "CIVENG 173",
-    "title": "GROUNDWATER,SEEPAGE",
+    "title": "Groundwater and Seepage",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3246,7 +3246,7 @@
   {
     "code": "CEE171",
     "displayCode": "CIVENG 171",
-    "title": "ROCK MECHANICS",
+    "title": "Rock Mechanics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3262,7 +3262,7 @@
   {
     "code": "CEE126",
     "displayCode": "CIVENG 126",
-    "title": "ENG DYNAMICS & VIB",
+    "title": "Engineering Dynamics and Vibrations",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3278,7 +3278,7 @@
   {
     "code": "CEE190",
     "displayCode": "CIVENG 190",
-    "title": "SPECIAL TOPICS CEE",
+    "title": "Special Topics in Civil and Environmental Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -3291,7 +3291,7 @@
   {
     "code": "CEE104",
     "displayCode": "CIVENG 104",
-    "title": "PLANETARYBOUNDARIES",
+    "title": "Planetary Boundaries and the Anthropocene",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -3304,7 +3304,7 @@
   {
     "code": "CEE179",
     "displayCode": "CIVENG 179",
-    "title": "GEO DESIGN",
+    "title": "Geosystems Engineering Design",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3320,7 +3320,7 @@
   {
     "code": "CEE170A",
     "displayCode": "CIVENG 170A",
-    "title": "INFRA SENSING&MODEL",
+    "title": "Infrastructure Sensing and Modeling",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3349,7 +3349,7 @@
   {
     "code": "CEE123",
     "displayCode": "CIVENG 123",
-    "title": "DES REINF CON STRUC",
+    "title": "Design of Reinforced Concrete Structures",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3365,7 +3365,7 @@
   {
     "code": "CEE110",
     "displayCode": "CIVENG 110",
-    "title": "WATER SYS, FUTURE",
+    "title": "Water Systems of the Future",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3378,7 +3378,7 @@
   {
     "code": "CEE122",
     "displayCode": "CIVENG 122",
-    "title": "DESIGN STEEL STRUCT",
+    "title": "Design of Steel Structures",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3394,7 +3394,7 @@
   {
     "code": "CEE88B",
     "displayCode": "CIVENG 88B",
-    "title": "DATSCI SEALEVELRISE",
+    "title": "Time Series Analysis: Sea Level Rise and Coastal Flooding",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -3410,7 +3410,7 @@
   {
     "code": "CEEC88",
     "displayCode": "CIVENG C88",
-    "title": "DATA SC SMARTCITIES",
+    "title": "Data Science for Smart Cities",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -3426,7 +3426,7 @@
   {
     "code": "CEE88",
     "displayCode": "CIVENG 88",
-    "title": "DATA SC SMARTCITIES",
+    "title": "Data Science for Smart Cities",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -3439,7 +3439,7 @@
   {
     "code": "CEE160D",
     "displayCode": "CIVENG 160D",
-    "title": "AVIATION DATA SCI",
+    "title": "Data Science in Aviation",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3464,7 +3464,7 @@
   {
     "code": "CEEW30",
     "displayCode": "CIVENG W30",
-    "title": "INTRO SOLID MECHNCS",
+    "title": "Introduction to Solid Mechanics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3489,7 +3489,7 @@
   {
     "code": "CEEC103N",
     "displayCode": "CIVENG C103N",
-    "title": "TERRESTRIAL HYDROLO",
+    "title": "Terrestrial Hydrology",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -3502,7 +3502,7 @@
   {
     "code": "CEEC30",
     "displayCode": "CIVENG C30",
-    "title": "INTRO SOLID MECHNCS",
+    "title": "Introduction to Solid Mechanics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3518,7 +3518,7 @@
   {
     "code": "CEEC116",
     "displayCode": "CIVENG C116",
-    "title": "CHEMISTRY OF SOILS",
+    "title": "Chemistry of Soils",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3534,7 +3534,7 @@
   {
     "code": "CEEC133",
     "displayCode": "CIVENG C133",
-    "title": "ENG ANALYFINITE MTH",
+    "title": "Engineering Analysis Using the Finite Element Method",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3559,7 +3559,7 @@
   {
     "code": "CEE132",
     "displayCode": "CIVENG 132",
-    "title": "APPLSTRUCT MECH",
+    "title": "Applied Structural Mechanics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3584,7 +3584,7 @@
   {
     "code": "CEEC106",
     "displayCode": "CIVENG C106",
-    "title": "AIR POLLUTION",
+    "title": "Air Pollution",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3597,7 +3597,7 @@
   {
     "code": "CEE186",
     "displayCode": "CIVENG 186",
-    "title": "IOT SMART CITIES",
+    "title": "Design of Internet-of-Things for Smart Cities",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3613,7 +3613,7 @@
   {
     "code": "CEE100",
     "displayCode": "CIVENG 100",
-    "title": "ELEM FLUID MECHANIC",
+    "title": "Elementary Fluid Mechanics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -3642,7 +3642,7 @@
   {
     "code": "CEEC178",
     "displayCode": "CIVENG C178",
-    "title": "APPLIED GEOPHYSICS",
+    "title": "Applied Geophysics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3655,7 +3655,7 @@
   {
     "code": "CEE105",
     "displayCode": "CIVENG 105",
-    "title": "DESIGN GLOBAL TRANS",
+    "title": "Design for Global Transformation",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3668,7 +3668,7 @@
   {
     "code": "CEE107",
     "displayCode": "CIVENG 107",
-    "title": "CLIMATE CHG MITIG",
+    "title": "Climate Change Mitigation",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3681,7 +3681,7 @@
   {
     "code": "CEE108",
     "displayCode": "CIVENG 108",
-    "title": "CLIM CHANGE ADAPT",
+    "title": "Climate Change Adaptation",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3697,7 +3697,7 @@
   {
     "code": "CEE11",
     "displayCode": "CIVENG 11",
-    "title": "ENG SYS & SUSTA",
+    "title": "Engineered Systems and Sustainability",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3722,7 +3722,7 @@
   {
     "code": "CEE111",
     "displayCode": "CIVENG 111",
-    "title": "ENVIRONMENTAL ENGIN",
+    "title": "Environmental Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3735,7 +3735,7 @@
   {
     "code": "CEE111L",
     "displayCode": "CIVENG 111L",
-    "title": "WAT & AIR QUAL",
+    "title": "Water and Air Quality Laboratory",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -3751,7 +3751,7 @@
   {
     "code": "CEE112",
     "displayCode": "CIVENG 112",
-    "title": "WATER SYS DESIGN",
+    "title": "Water & Wastewater Systems Design and Operation",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3764,7 +3764,7 @@
   {
     "code": "CEE113",
     "displayCode": "CIVENG 113",
-    "title": "ECOL ENG WAT QUAL",
+    "title": "Ecological Engineering for Water Quality Improvement",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3780,7 +3780,7 @@
   {
     "code": "CEE114",
     "displayCode": "CIVENG 114",
-    "title": "ENVIRON MICROBIO",
+    "title": "Environmental Microbiology",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3805,7 +3805,7 @@
   {
     "code": "CEE115",
     "displayCode": "CIVENG 115",
-    "title": "WATER CHEMISTRY",
+    "title": "Water Chemistry",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3818,7 +3818,7 @@
   {
     "code": "CEE120",
     "displayCode": "CIVENG 120",
-    "title": "STRUCTURAL ENGRG",
+    "title": "Structural Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3834,7 +3834,7 @@
   {
     "code": "CEE124",
     "displayCode": "CIVENG 124",
-    "title": "TIMBER DESIGN",
+    "title": "Structural Design in Timber",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3850,7 +3850,7 @@
   {
     "code": "CEE140",
     "displayCode": "CIVENG 140",
-    "title": "FAIL MECHS CE MATLS",
+    "title": "Failure Mechanisms in Civil Engineering Materials",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3866,7 +3866,7 @@
   {
     "code": "CEE153",
     "displayCode": "CIVENG 153",
-    "title": "RESILIENT CITIES",
+    "title": "Resilient Cities by Design",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3882,7 +3882,7 @@
   {
     "code": "CEE155",
     "displayCode": "CIVENG 155",
-    "title": "TRANS SYS ENGRG",
+    "title": "Transportation Systems Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3895,7 +3895,7 @@
   {
     "code": "CEE191",
     "displayCode": "CIVENG 191",
-    "title": "CEE SYSTEM ANALYSIS",
+    "title": "Civil and Environmental Engineering Systems Analysis",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3920,7 +3920,7 @@
   {
     "code": "CEE165",
     "displayCode": "CIVENG 165",
-    "title": "CONCRETE MAT/CONS",
+    "title": "Concrete Materials, Construction, and Sustainability",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3936,7 +3936,7 @@
   {
     "code": "CEE174",
     "displayCode": "CIVENG 174",
-    "title": "ENGINEERING GEOMATI",
+    "title": "Engineering Geomatics",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3949,7 +3949,7 @@
   {
     "code": "CEE166",
     "displayCode": "CIVENG 166",
-    "title": "CONSTRUCTION ENGRG",
+    "title": "Construction Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3965,7 +3965,7 @@
   {
     "code": "CEE167",
     "displayCode": "CIVENG 167",
-    "title": "ENG PROJECT MGMT",
+    "title": "Engineering Project Management",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -3981,7 +3981,7 @@
   {
     "code": "CEE192",
     "displayCode": "CIVENG 192",
-    "title": "ART/SCI OF PRACTICE",
+    "title": "The Art and Science of Civil and Environmental Engineering Practice",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -3994,7 +3994,7 @@
   {
     "code": "CEE193",
     "displayCode": "CIVENG 193",
-    "title": "ENG RISK ANALYSIS",
+    "title": "Probability and Risk Analysis for Civil Engineers",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -4007,7 +4007,7 @@
   {
     "code": "CEE197",
     "displayCode": "CIVENG 197",
-    "title": "FIELD STUDIES IN CE",
+    "title": "Field Studies in Civil Engineering",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4020,7 +4020,7 @@
   {
     "code": "CEE198",
     "displayCode": "CIVENG 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study for Advanced Undergraduates",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4033,7 +4033,7 @@
   {
     "code": "CEE199",
     "displayCode": "CIVENG 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "CIVENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4046,7 +4046,7 @@
   {
     "code": "CS10",
     "displayCode": "COMPSCI 10",
-    "title": "BEAUTY JOY COMPUTNG",
+    "title": "The Beauty and Joy of Computing",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4059,7 +4059,7 @@
   {
     "code": "CS150",
     "displayCode": "COMPSCI 150",
-    "title": "DIGITAL DESIGN",
+    "title": "Components and Design Techniques for Digital Systems",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 5,
@@ -4072,7 +4072,7 @@
   {
     "code": "CS152",
     "displayCode": "COMPSCI 152",
-    "title": "COMP ARCH & ENG",
+    "title": "Computer Architecture and Engineering",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4088,7 +4088,7 @@
   {
     "code": "CS160",
     "displayCode": "COMPSCI 160",
-    "title": "USER INTERFACES",
+    "title": "User Interface Design and Development",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4113,7 +4113,7 @@
   {
     "code": "CS161",
     "displayCode": "COMPSCI 161",
-    "title": "COMPUTER SECURITY",
+    "title": "Computer Security",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4142,7 +4142,7 @@
   {
     "code": "CS162",
     "displayCode": "COMPSCI 162",
-    "title": "OP SYS AND SYS PROG",
+    "title": "Operating Systems and System Programming",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4171,7 +4171,7 @@
   {
     "code": "CS164",
     "displayCode": "COMPSCI 164",
-    "title": "PROG LANG AND COMP",
+    "title": "Programming Languages and Compilers",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4196,7 +4196,7 @@
   {
     "code": "CS168",
     "displayCode": "COMPSCI 168",
-    "title": "INTERNET ARCH",
+    "title": "Introduction to the Internet: Architecture and Protocols",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4212,7 +4212,7 @@
   {
     "code": "CS170",
     "displayCode": "COMPSCI 170",
-    "title": "INTRO CS THEORY",
+    "title": "Efficient Algorithms and Intractable Problems",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4237,7 +4237,7 @@
   {
     "code": "CS172",
     "displayCode": "COMPSCI 172",
-    "title": "COMP AND COMPLEXITY",
+    "title": "Computability and Complexity",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4253,7 +4253,7 @@
   {
     "code": "CS174",
     "displayCode": "COMPSCI 174",
-    "title": "COMB AND DISC PROB",
+    "title": "Combinatorics and Discrete Probability",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4269,7 +4269,7 @@
   {
     "code": "CS176",
     "displayCode": "COMPSCI 176",
-    "title": "ALGO FOR COMP BIO",
+    "title": "Algorithms for Computational Biology",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4294,7 +4294,7 @@
   {
     "code": "CS184",
     "displayCode": "COMPSCI 184",
-    "title": "COMPUTER GRAPHICS",
+    "title": "Foundations of Computer Graphics",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4310,7 +4310,7 @@
   {
     "code": "CS186",
     "displayCode": "COMPSCI 186",
-    "title": "INTRO TO DATABASE",
+    "title": "Introduction to Database Systems",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4335,7 +4335,7 @@
   {
     "code": "CS188",
     "displayCode": "COMPSCI 188",
-    "title": "ARTIF INTELLIGENCE",
+    "title": "Introduction to Artificial Intelligence",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4364,7 +4364,7 @@
   {
     "code": "CS189",
     "displayCode": "COMPSCI 189",
-    "title": "INTRO MACHINE LEARN",
+    "title": "Introduction to Machine Learning",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4393,7 +4393,7 @@
   {
     "code": "CS194",
     "displayCode": "COMPSCI 194",
-    "title": "SPECIAL TOPICS",
+    "title": "Special Topics",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4406,7 +4406,7 @@
   {
     "code": "CS195",
     "displayCode": "COMPSCI 195",
-    "title": "SOCIAL IMPLIC COMP",
+    "title": "Social Implications of Computer Technology",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4419,7 +4419,7 @@
   {
     "code": "CS197",
     "displayCode": "COMPSCI 197",
-    "title": "FIELD STUDY",
+    "title": "Field Study",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4432,7 +4432,7 @@
   {
     "code": "CS198",
     "displayCode": "COMPSCI 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Studies for Advanced Undergraduates",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4457,7 +4457,7 @@
   {
     "code": "CS199",
     "displayCode": "COMPSCI 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4470,7 +4470,7 @@
   {
     "code": "CS199",
     "displayCode": "COMPSCI 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4483,7 +4483,7 @@
   {
     "code": "CS39",
     "displayCode": "COMPSCI 39",
-    "title": "FRESHMAN/SOPHOMORE",
+    "title": "Freshman/Sophomore Seminar",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -4496,7 +4496,7 @@
   {
     "code": "CS47A",
     "displayCode": "COMPSCI 47A",
-    "title": "INTERP COMP PROGS",
+    "title": "Completion of Work in Computer Science 61A",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4521,7 +4521,7 @@
   {
     "code": "CS47B",
     "displayCode": "COMPSCI 47B",
-    "title": "SUPL DATA STRUCTURE",
+    "title": "Completion of Work in Computer Science 61B",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4537,7 +4537,7 @@
   {
     "code": "CS47C",
     "displayCode": "COMPSCI 47C",
-    "title": "SUPL MACH STRUCTURE",
+    "title": "Completion of Work in Computer Science 61C",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4553,7 +4553,7 @@
   {
     "code": "CS61A",
     "displayCode": "COMPSCI 61A",
-    "title": "STR INTERP CMP PRGS",
+    "title": "The Structure and Interpretation of Computer Programs",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4569,7 +4569,7 @@
   {
     "code": "CS61B",
     "displayCode": "COMPSCI 61B",
-    "title": "DATA STRUCTURES",
+    "title": "Data Structures",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4598,7 +4598,7 @@
   {
     "code": "CS61BL",
     "displayCode": "COMPSCI 61BL",
-    "title": "DATA STRS PROG METH",
+    "title": "Data Structures and Programming Methodology",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4627,7 +4627,7 @@
   {
     "code": "CS61C",
     "displayCode": "COMPSCI 61C",
-    "title": "MACHINE STRUCTURES",
+    "title": "Great Ideas of Computer Architecture (Machine Structures)",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4643,7 +4643,7 @@
   {
     "code": "CS70",
     "displayCode": "COMPSCI 70",
-    "title": "DISCRETE MATH&PROB",
+    "title": "Discrete Mathematics and Probability Theory",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4659,7 +4659,7 @@
   {
     "code": "CS84",
     "displayCode": "COMPSCI 84",
-    "title": "SOPHOMORE SEMINAR",
+    "title": "Sophomore Seminar",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4672,7 +4672,7 @@
   {
     "code": "CSH195",
     "displayCode": "COMPSCI H195",
-    "title": "HON SOC IMPLIC COMP",
+    "title": "Honors Social Implications of Computer Technology",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -4685,7 +4685,7 @@
   {
     "code": "CSH196A",
     "displayCode": "COMPSCI H196A",
-    "title": "SR HONORS THESIS",
+    "title": "Senior Honors Thesis Research",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4698,7 +4698,7 @@
   {
     "code": "CSH196B",
     "displayCode": "COMPSCI H196B",
-    "title": "SR HONORS THESIS",
+    "title": "Senior Honors Thesis Research",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -4711,7 +4711,7 @@
   {
     "code": "CSW10",
     "displayCode": "COMPSCI W10",
-    "title": "BEAUTY JOY COMPUTNG",
+    "title": "The Beauty and Joy of Computing",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4724,7 +4724,7 @@
   {
     "code": "CS180",
     "displayCode": "COMPSCI 180",
-    "title": "INTR COMP VIS/PHOTO",
+    "title": "Intro to Computer Vision and Computational Photography",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4774,7 +4774,7 @@
   {
     "code": "CSC187",
     "displayCode": "COMPSCI C187",
-    "title": "DATA ENGINEERING",
+    "title": "Data Engineering",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4812,7 +4812,7 @@
   {
     "code": "CSC176",
     "displayCode": "COMPSCI C176",
-    "title": "ALGO FOR COMP BIO",
+    "title": "Algorithms for Computational Biology",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4837,7 +4837,7 @@
   {
     "code": "CS171",
     "displayCode": "COMPSCI 171",
-    "title": "CRYPTOGRAPHY",
+    "title": "Cryptography",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4853,7 +4853,7 @@
   {
     "code": "CSC182",
     "displayCode": "COMPSCI C182",
-    "title": "NEURAL NETWORKS",
+    "title": "Designing, Visualizing and Understanding Deep Neural Networks",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4882,7 +4882,7 @@
   {
     "code": "CS36",
     "displayCode": "COMPSCI 36",
-    "title": "CS SCHOLARS SEMINAR",
+    "title": "CS Scholars Seminar: The Educational Climate in CS & CS61A technical discussions",
     "department": "COMPSCI",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -4898,7 +4898,7 @@
   {
     "code": "EECS151LB",
     "displayCode": "EECS 151LB",
-    "title": "DIG DES IC FPGA LAB",
+    "title": "Field-Programmable Gate Array Laboratory",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -4927,7 +4927,7 @@
   {
     "code": "EECS151LA",
     "displayCode": "EECS 151LA",
-    "title": "INTRO DIG DES IC AS",
+    "title": "Application Specific Integrated Circuits Laboratory",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -4960,7 +4960,7 @@
   {
     "code": "EECS151",
     "displayCode": "EECS 151",
-    "title": "INTRO DIG INTE CIR",
+    "title": "Introduction to Digital Design and Integrated Circuits",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -4985,7 +4985,7 @@
   {
     "code": "EECSC128",
     "displayCode": "EECS C128",
-    "title": "INV INT CON",
+    "title": "Invitation to Intelligent Control",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -4998,7 +4998,7 @@
   {
     "code": "EECS149",
     "displayCode": "EECS 149",
-    "title": "INTRO EMBEDDED CPS",
+    "title": "Introduction to Embedded and Cyber Physical Systems",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5031,7 +5031,7 @@
   {
     "code": "EECSC106B",
     "displayCode": "EECS C106B",
-    "title": "INTRO ROBO PART II",
+    "title": "Introduction to Robotics, Part II",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5056,7 +5056,7 @@
   {
     "code": "EECS47F",
     "displayCode": "EECS 47F",
-    "title": "SUPL DISC MATH&PROB",
+    "title": "Completion of work in Computer Science 70",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -5072,7 +5072,7 @@
   {
     "code": "EECS126",
     "displayCode": "EECS 126",
-    "title": "PROB & RANDOM P",
+    "title": "Probability and Random Processes",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5088,7 +5088,7 @@
   {
     "code": "EECSC128",
     "displayCode": "EECS C128",
-    "title": "INV INT CON",
+    "title": "Invitation to Intelligent Control",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5101,7 +5101,7 @@
   {
     "code": "EECS151LB",
     "displayCode": "EECS 151LB",
-    "title": "DIG DES IC FPGA LAB",
+    "title": "Field-Programmable Gate Array Laboratory",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -5130,7 +5130,7 @@
   {
     "code": "EECS151LA",
     "displayCode": "EECS 151LA",
-    "title": "INTRO DIG DES IC AS",
+    "title": "Application Specific Integrated Circuits Laboratory",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -5163,7 +5163,7 @@
   {
     "code": "EECS151",
     "displayCode": "EECS 151",
-    "title": "INTRO DIG INTE CIR",
+    "title": "Introduction to Digital Design and Integrated Circuits",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -5188,7 +5188,7 @@
   {
     "code": "EECS149",
     "displayCode": "EECS 149",
-    "title": "INTRO EMBEDDED CPS",
+    "title": "Introduction to Embedded and Cyber Physical Systems",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5221,7 +5221,7 @@
   {
     "code": "EECS127",
     "displayCode": "EECS 127",
-    "title": "OPTIMIZATION MODELS",
+    "title": "Optimization Models in Engineering",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5246,7 +5246,7 @@
   {
     "code": "EECS144",
     "displayCode": "EECS 144",
-    "title": "INTRO DES AUTO",
+    "title": "Introduction to Design Automation",
     "department": "EECS",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5262,7 +5262,7 @@
   {
     "code": "EE117B",
     "displayCode": "ELENG 117B",
-    "title": "MICRO&WIRELESS MEAS",
+    "title": "Microwave and Wireless Measurements",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5275,7 +5275,7 @@
   {
     "code": "EE156",
     "displayCode": "ELENG 156",
-    "title": "BUS & FIN FOR ENG",
+    "title": "Business and Finance for Engineers",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -5288,7 +5288,7 @@
   {
     "code": "EE113B",
     "displayCode": "ELENG 113B",
-    "title": "POWER ELECTR DESIGN",
+    "title": "Power Electronics Design",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5304,7 +5304,7 @@
   {
     "code": "EE108",
     "displayCode": "ELENG 108",
-    "title": "INTRO TO ELEC. PWR.",
+    "title": "Introduction to Electric Power and Renewable Energy",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5337,7 +5337,7 @@
   {
     "code": "EEC145M",
     "displayCode": "ELENG C145M",
-    "title": "INTR MICRO INTERF L",
+    "title": "Introductory Microcomputer Interfacing Laboratory",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -5353,7 +5353,7 @@
   {
     "code": "EEC145B",
     "displayCode": "ELENG C145B",
-    "title": "MED IMG SIG & S",
+    "title": "Medical Imaging Signals and Systems",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5378,7 +5378,7 @@
   {
     "code": "EEC145O",
     "displayCode": "ELENG C145O",
-    "title": "LAB IN MEC ORG",
+    "title": "Laboratory in the Mechanics of Organisms",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -5394,7 +5394,7 @@
   {
     "code": "EEC145L",
     "displayCode": "ELENG C145L",
-    "title": "TRANSDUCER LAB",
+    "title": "Introductory Electronic Transducers Laboratory",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -5407,7 +5407,7 @@
   {
     "code": "EE105",
     "displayCode": "ELENG 105",
-    "title": "MICRO DEV & CIR",
+    "title": "Microelectronic Devices and Circuits",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5432,7 +5432,7 @@
   {
     "code": "EE113",
     "displayCode": "ELENG 113",
-    "title": "POWER ELECTRONICS",
+    "title": "Power Electronics",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5448,7 +5448,7 @@
   {
     "code": "EE117",
     "displayCode": "ELENG 117",
-    "title": "EM FIELDS & WAV",
+    "title": "Electromagnetic Fields and Waves",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5481,7 +5481,7 @@
   {
     "code": "EE118",
     "displayCode": "ELENG 118",
-    "title": "INTRO OPTICAL ENG",
+    "title": "Introduction to Optical Engineering",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5519,7 +5519,7 @@
   {
     "code": "EE120",
     "displayCode": "ELENG 120",
-    "title": "SIGNALS AND SYSTEMS",
+    "title": "Signals and Systems",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5544,7 +5544,7 @@
   {
     "code": "EE121",
     "displayCode": "ELENG 121",
-    "title": "INTRO DIGITAL COMM",
+    "title": "Introduction to Digital Communications",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5573,7 +5573,7 @@
   {
     "code": "EE122",
     "displayCode": "ELENG 122",
-    "title": "COMM NETWORKS",
+    "title": "Introduction to Communication Networks",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5589,7 +5589,7 @@
   {
     "code": "EE123",
     "displayCode": "ELENG 123",
-    "title": "DIGIT SIG PROCESS",
+    "title": "Digital Signal Processing",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5605,7 +5605,7 @@
   {
     "code": "EE127",
     "displayCode": "ELENG 127",
-    "title": "OPTIMIZATION MODELS",
+    "title": "Optimization Models in Engineering",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5618,7 +5618,7 @@
   {
     "code": "EE130",
     "displayCode": "ELENG 130",
-    "title": "IC DEVICES",
+    "title": "Integrated-Circuit Devices",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5643,7 +5643,7 @@
   {
     "code": "EE134",
     "displayCode": "ELENG 134",
-    "title": "PHOTOVOLTAIC DEVIC",
+    "title": "Fundamentals of Photovoltaic Devices",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5681,7 +5681,7 @@
   {
     "code": "EE137A",
     "displayCode": "ELENG 137A",
-    "title": "ELEC POWER SYSTEMS",
+    "title": "Introduction to Electric Power Systems",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5697,7 +5697,7 @@
   {
     "code": "EE137B",
     "displayCode": "ELENG 137B",
-    "title": "ELEC POWER SYSTEMS",
+    "title": "Introduction to Electric Power Systems",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5713,7 +5713,7 @@
   {
     "code": "EE140",
     "displayCode": "ELENG 140",
-    "title": "LIN INTEG CIRC",
+    "title": "Linear Integrated Circuits",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5729,7 +5729,7 @@
   {
     "code": "EE141",
     "displayCode": "ELENG 141",
-    "title": "INTRO DIG INTE CIR",
+    "title": "Introduction to Digital Integrated Circuits",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5745,7 +5745,7 @@
   {
     "code": "EE142",
     "displayCode": "ELENG 142",
-    "title": "INTEG CIRC FOR COMM",
+    "title": "Integrated Circuits for Communications",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5774,7 +5774,7 @@
   {
     "code": "EE143",
     "displayCode": "ELENG 143",
-    "title": "MICROFAB TECH",
+    "title": "Microfabrication Technology",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5790,7 +5790,7 @@
   {
     "code": "EE146L",
     "displayCode": "ELENG 146L",
-    "title": "ASIC LAB",
+    "title": "Application Specific Integrated Circuits Laboratory",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -5806,7 +5806,7 @@
   {
     "code": "EE147",
     "displayCode": "ELENG 147",
-    "title": "MICROELECTROMEC SYS",
+    "title": "Introduction to Microelectromechanical Systems (MEMS)",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -5831,7 +5831,7 @@
   {
     "code": "EE16A",
     "displayCode": "ELENG 16A",
-    "title": "DESIGN INFO DEV I",
+    "title": "Designing Information Devices and Systems I",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5844,7 +5844,7 @@
   {
     "code": "EE66",
     "displayCode": "ELENG 66",
-    "title": "INTRO SG, DS & INFO",
+    "title": "Introduction to Signals, Dynamics, and Information",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5857,7 +5857,7 @@
   {
     "code": "EE16B",
     "displayCode": "ELENG 16B",
-    "title": "DESIGN INFO DEV II",
+    "title": "Designing Information Devices and Systems II",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5870,7 +5870,7 @@
   {
     "code": "EE64",
     "displayCode": "ELENG 64",
-    "title": "INTRO CKT & DEV",
+    "title": "Introduction to Circuits & Devices",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5883,7 +5883,7 @@
   {
     "code": "EE192",
     "displayCode": "ELENG 192",
-    "title": "MECHTRON DESIGN LAB",
+    "title": "Mechatronic Design Laboratory",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -5924,7 +5924,7 @@
   {
     "code": "EE194",
     "displayCode": "ELENG 194",
-    "title": "SPECIAL TOPICS",
+    "title": "Special Topics",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -5937,7 +5937,7 @@
   {
     "code": "EE197",
     "displayCode": "ELENG 197",
-    "title": "FIELD STUDY",
+    "title": "Field Study",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -5950,7 +5950,7 @@
   {
     "code": "EE198",
     "displayCode": "ELENG 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study for Advanced Undergraduates",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -5975,7 +5975,7 @@
   {
     "code": "EE199",
     "displayCode": "ELENG 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -5988,7 +5988,7 @@
   {
     "code": "EE24",
     "displayCode": "ELENG 24",
-    "title": "FRESHMAN SEMINAR",
+    "title": "Freshman Seminar",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6001,7 +6001,7 @@
   {
     "code": "EE39",
     "displayCode": "ELENG 39",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6014,7 +6014,7 @@
   {
     "code": "EE84",
     "displayCode": "ELENG 84",
-    "title": "SOPHOMORE SEMINAR",
+    "title": "Sophomore Seminar",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6027,7 +6027,7 @@
   {
     "code": "EE97",
     "displayCode": "ELENG 97",
-    "title": "FIELD STUDY",
+    "title": "Field Study",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6040,7 +6040,7 @@
   {
     "code": "EE98",
     "displayCode": "ELENG 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study for Undergraduates",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6053,7 +6053,7 @@
   {
     "code": "EE99",
     "displayCode": "ELENG 99",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Individual Study and Research for Undergraduates",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6069,7 +6069,7 @@
   {
     "code": "EEH196A",
     "displayCode": "ELENG H196A",
-    "title": "SR HONORS THESIS",
+    "title": "Senior Honors Thesis Research",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6082,7 +6082,7 @@
   {
     "code": "EEH196B",
     "displayCode": "ELENG H196B",
-    "title": "SR HONORS THESIS",
+    "title": "Senior Honors Thesis Research",
     "department": "ELENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6095,7 +6095,7 @@
   {
     "code": "ENGIN10",
     "displayCode": "ENGIN 10",
-    "title": "ENG DESIGN & ANALYS",
+    "title": "Engineering Design and Analysis",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6108,7 +6108,7 @@
   {
     "code": "ENGIN117",
     "displayCode": "ENGIN 117",
-    "title": "METH ENGR ANALYSIS",
+    "title": "Methods of Engineering Analysis",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6133,7 +6133,7 @@
   {
     "code": "ENGIN120",
     "displayCode": "ENGIN 120",
-    "title": "PRIN OF ENGR ECONOM",
+    "title": "Principles of Engineering Economics",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6149,7 +6149,7 @@
   {
     "code": "ENGIN125",
     "displayCode": "ENGIN 125",
-    "title": "ENGINEERING ETHICS",
+    "title": "Ethics, Engineering, and Society",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6162,7 +6162,7 @@
   {
     "code": "ENGIN128",
     "displayCode": "ENGIN 128",
-    "title": "ADV ENGR DES GRAPH",
+    "title": "Advanced Engineering Design Graphics",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6178,7 +6178,7 @@
   {
     "code": "ENGIN147",
     "displayCode": "ENGIN 147",
-    "title": "SUPP WK UPP DIV ENG",
+    "title": "Supplementary Work in Upper Division Engineering",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6191,7 +6191,7 @@
   {
     "code": "ENGIN177",
     "displayCode": "ENGIN 177",
-    "title": "ADV PROGRMMNG MTLAB",
+    "title": "Advanced Programming with MATLAB",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6220,7 +6220,7 @@
   {
     "code": "ENGIN194",
     "displayCode": "ENGIN 194",
-    "title": "UGRD RSRCH",
+    "title": "Undergraduate Research",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6233,7 +6233,7 @@
   {
     "code": "ENGIN198",
     "displayCode": "ENGIN 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Studies for Advanced Undergraduates",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6246,7 +6246,7 @@
   {
     "code": "ENGIN24",
     "displayCode": "ENGIN 24",
-    "title": "FRESHMAN SEMINAR",
+    "title": "Freshman Seminar",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6259,7 +6259,7 @@
   {
     "code": "ENGIN25",
     "displayCode": "ENGIN 25",
-    "title": "VIS FOR DES",
+    "title": "Visualization for Design",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6272,7 +6272,7 @@
   {
     "code": "ENGIN26",
     "displayCode": "ENGIN 26",
-    "title": "3 DIMEN MOD DES",
+    "title": "Three-Dimensional Modeling for Design",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6285,7 +6285,7 @@
   {
     "code": "ENGIN27",
     "displayCode": "ENGIN 27",
-    "title": "INTRO MANFCTRNG TOL",
+    "title": "Introduction to Manufacturing and Tolerancing",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6301,7 +6301,7 @@
   {
     "code": "ENGIN28",
     "displayCode": "ENGIN 28",
-    "title": "BASIC ENGR DES GRPH",
+    "title": "Basic Engineering Design Graphics",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6314,7 +6314,7 @@
   {
     "code": "ENGIN39",
     "displayCode": "ENGIN 39",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 0,
@@ -6327,7 +6327,7 @@
   {
     "code": "ENGIN39A",
     "displayCode": "ENGIN 39A",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6340,7 +6340,7 @@
   {
     "code": "ENGIN39B",
     "displayCode": "ENGIN 39B",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6353,7 +6353,7 @@
   {
     "code": "ENGIN39E",
     "displayCode": "ENGIN 39E",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6366,7 +6366,7 @@
   {
     "code": "ENGIN39F",
     "displayCode": "ENGIN 39F",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6379,7 +6379,7 @@
   {
     "code": "ENGIN47",
     "displayCode": "ENGIN 47",
-    "title": "SUPP WK LOW DIV ENG",
+    "title": "Supplementary Work in Lower Division Engineering",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6392,7 +6392,7 @@
   {
     "code": "ENGIN7",
     "displayCode": "ENGIN 7",
-    "title": "INTR COMPUTER PROG",
+    "title": "Introduction to Computer Programming and Numerical Methods",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6408,7 +6408,7 @@
   {
     "code": "ENGIN92",
     "displayCode": "ENGIN 92",
-    "title": "PERSPECTIN ENGIN",
+    "title": "Perspectives in Engineering",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6421,7 +6421,7 @@
   {
     "code": "ENGIN93",
     "displayCode": "ENGIN 93",
-    "title": "ENERGY ENG SEMINAR",
+    "title": "Energy Engineering Seminar",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6434,7 +6434,7 @@
   {
     "code": "ENGIN98",
     "displayCode": "ENGIN 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Studies for Lower Division Undergraduates",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6447,7 +6447,7 @@
   {
     "code": "ENGINW7",
     "displayCode": "ENGIN W7",
-    "title": "INTR COMPUTER PROG",
+    "title": "Introduction to Computer Programming for Scientists and Engineers",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6460,7 +6460,7 @@
   {
     "code": "ENGIN170G",
     "displayCode": "ENGIN 170G",
-    "title": "PRODUCT DEVELOPMENT",
+    "title": "Technology Leadership: Product Development",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6473,7 +6473,7 @@
   {
     "code": "ENGIN183G",
     "displayCode": "ENGIN 183G",
-    "title": "CATALYST",
+    "title": "Startup Catalyst",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6486,7 +6486,7 @@
   {
     "code": "ENGIN68",
     "displayCode": "ENGIN 68",
-    "title": "NATURAL HAZARDS",
+    "title": "Natural Hazards: Risk, Resilience, and Adaptation",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6502,7 +6502,7 @@
   {
     "code": "ENGIN188",
     "displayCode": "ENGIN 188",
-    "title": "FUNG FELLOWSHIP SEM",
+    "title": "Fung Fellowship Seminar: Health + Innovation",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6515,7 +6515,7 @@
   {
     "code": "ENGIN170D",
     "displayCode": "ENGIN 170D",
-    "title": "ENTREPRENEURSHIP",
+    "title": "Technology Leadership: Entrepreneurship",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6528,7 +6528,7 @@
   {
     "code": "ENGINC183F",
     "displayCode": "ENGIN C183F",
-    "title": "CHALLENGE LAB",
+    "title": "Challenge Lab: Building Bridges between Democracy and Technology for a Better Society",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6541,7 +6541,7 @@
   {
     "code": "ENGIN170C",
     "displayCode": "ENGIN 170C",
-    "title": "AGILE PRODUCT DEVEL",
+    "title": "Technology Leadership: Agile Product Development",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6554,7 +6554,7 @@
   {
     "code": "ENGIN170A",
     "displayCode": "ENGIN 170A",
-    "title": "OPTIMIZING FIRMS",
+    "title": "Technology Leadership: Optimizing Firms for Innovation",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6567,7 +6567,7 @@
   {
     "code": "ENGIN184",
     "displayCode": "ENGIN 184",
-    "title": "WRITING ROBOTS",
+    "title": "Writing Robots",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6580,7 +6580,7 @@
   {
     "code": "ENGIN195B",
     "displayCode": "ENGIN 195B",
-    "title": "ES UGRD RS",
+    "title": "Engineering Science Senior Thesis Research",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6596,7 +6596,7 @@
   {
     "code": "ENGIN195A",
     "displayCode": "ENGIN 195A",
-    "title": "ES UGRD RSRCH",
+    "title": "Engineering Science Senior Thesis Research",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6612,7 +6612,7 @@
   {
     "code": "ENGIN151",
     "displayCode": "ENGIN 151",
-    "title": "MOD & SIM INFO DIS",
+    "title": "Modeling and Simulation of Infectious Diseases",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6658,7 +6658,7 @@
   {
     "code": "ENGIN29",
     "displayCode": "ENGIN 29",
-    "title": "MANUFAC & DES COMM",
+    "title": "Manufacturing and Design Communication",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6674,7 +6674,7 @@
   {
     "code": "ENGIN183D",
     "displayCode": "ENGIN 183D",
-    "title": "PRODUCT MANAGEMENT",
+    "title": "Product Management",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6687,7 +6687,7 @@
   {
     "code": "ENGIN183C",
     "displayCode": "ENGIN 183C",
-    "title": "CHALLENGE LAB",
+    "title": "Challenge Lab",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6700,7 +6700,7 @@
   {
     "code": "ENGIN183E",
     "displayCode": "ENGIN 183E",
-    "title": "ENTREPRENEURSHIP",
+    "title": "Technology Entrepreneurship",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6713,7 +6713,7 @@
   {
     "code": "ENGIN1",
     "displayCode": "ENGIN 1",
-    "title": "ENGIN YOUR LIFE",
+    "title": "Engineering Your Life: Skills for Leadership, Discovery and Service",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6726,7 +6726,7 @@
   {
     "code": "ENGIN11",
     "displayCode": "ENGIN 11",
-    "title": "INTRO TO RAD DET",
+    "title": "A Hands-on Introduction to Radiation Detection: Getting to know our Radioactive World",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6739,7 +6739,7 @@
   {
     "code": "ENGIN187",
     "displayCode": "ENGIN 187",
-    "title": "GLOBAL ENGINEERING",
+    "title": "Global Engineering: The Challenges of Globalization and Disruptive Innovation",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6752,7 +6752,7 @@
   {
     "code": "ENGIN185",
     "displayCode": "ENGIN 185",
-    "title": "STEM COMMUNICATION",
+    "title": "Beyond Data: Scientific Writing for Non-Scientific Audiences",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6765,7 +6765,7 @@
   {
     "code": "ENGIN150",
     "displayCode": "ENGIN 150",
-    "title": "COMP IND RES TOOLS",
+    "title": "Basic Modeling and Simulation Tools for Industrial Research Applications",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6794,7 +6794,7 @@
   {
     "code": "ENGIN180",
     "displayCode": "ENGIN 180",
-    "title": "PREP FLD & JOBS FUT",
+    "title": "Preparing for the Fields and Jobs of the Future",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6807,7 +6807,7 @@
   {
     "code": "ENGIN40",
     "displayCode": "ENGIN 40",
-    "title": "ENG THERMODYNAMICS",
+    "title": "Engineering Thermodynamics",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6832,7 +6832,7 @@
   {
     "code": "ENGIN183",
     "displayCode": "ENGIN 183",
-    "title": "SP TOP TEC INOV ENT",
+    "title": "Special Topics in Technology Innovation and Entrepreneurship",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6845,7 +6845,7 @@
   {
     "code": "ENGIN183B",
     "displayCode": "ENGIN 183B",
-    "title": "BME BOOTCAMP",
+    "title": "Berkeley Method of Entrepreneurship Bootcamp",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -6858,7 +6858,7 @@
   {
     "code": "ENGIN183A",
     "displayCode": "ENGIN 183A",
-    "title": "NEWTON LECT SERIES",
+    "title": "A. Richard Newton Lecture Series",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -6871,7 +6871,7 @@
   {
     "code": "ENGIN157AC",
     "displayCode": "ENGIN 157AC",
-    "title": "ENG,ENVRN & SOCIETY",
+    "title": "Engineering, The Environment, and Society",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6884,7 +6884,7 @@
   {
     "code": "ENGIN178",
     "displayCode": "ENGIN 178",
-    "title": "STATS & DATA ENGIN",
+    "title": "Statistics and Data Science for Engineers",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6921,7 +6921,7 @@
   {
     "code": "ENGIN170B",
     "displayCode": "ENGIN 170B",
-    "title": "DEEP TECH INNOV",
+    "title": "Technology Leadership: Commercializing Deep Tech Innovations",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6934,7 +6934,7 @@
   {
     "code": "ENGIN170F",
     "displayCode": "ENGIN 170F",
-    "title": "HIGH-IMPACT COMMS",
+    "title": "Technology Leadership: High-impact Communication",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6947,7 +6947,7 @@
   {
     "code": "ENGIN189",
     "displayCode": "ENGIN 189",
-    "title": "FUNG FELLOWSHIP SEM",
+    "title": "Fung Fellowship: Conservation and Sustainability",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6960,7 +6960,7 @@
   {
     "code": "ENGIN170E",
     "displayCode": "ENGIN 170E",
-    "title": "LEVERAGING AI",
+    "title": "Technology Leadership: Leveraging AI",
     "department": "ENGIN",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -6973,7 +6973,7 @@
   {
     "code": "IEOR10",
     "displayCode": "INDENG 10",
-    "title": "COMP PRGMG-ANLYTX",
+    "title": "Computer Programming for Analytics",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -6998,7 +6998,7 @@
   {
     "code": "IEOR142B",
     "displayCode": "INDENG 142B",
-    "title": "MACH LRNING DATA II",
+    "title": "Machine Learning and Data Analytics II",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -7023,7 +7023,7 @@
   {
     "code": "IEOR142A",
     "displayCode": "INDENG 142A",
-    "title": "INTRO TO ML & DA",
+    "title": "Introduction to Machine Learning and Data Analytics",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -7048,7 +7048,7 @@
   {
     "code": "IEOR156",
     "displayCode": "INDENG 156",
-    "title": "HEALTHCARE ANALYTIC",
+    "title": "Healthcare Analytics",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7064,7 +7064,7 @@
   {
     "code": "IEOR145",
     "displayCode": "INDENG 145",
-    "title": "FUNDAMENTALS OF REV",
+    "title": "Fundamentals of Revenue Management",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7077,7 +7077,7 @@
   {
     "code": "IEOR169",
     "displayCode": "INDENG 169",
-    "title": "INTEGER OPTIMIZATIO",
+    "title": "Integer Optimization",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7102,7 +7102,7 @@
   {
     "code": "IEOR174",
     "displayCode": "INDENG 174",
-    "title": "SIMULATION SYSTEMS",
+    "title": "Simulation for Enterprise-Scale Systems",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7135,7 +7135,7 @@
   {
     "code": "IEOR135",
     "displayCode": "INDENG 135",
-    "title": "APPLIED DATA SCI",
+    "title": "Applied Data Science with Venture Applications",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7151,7 +7151,7 @@
   {
     "code": "IEOR142",
     "displayCode": "INDENG 142",
-    "title": "INTRO TO ML & DA",
+    "title": "Introduction to Machine Learning and Data Analytics",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7167,7 +7167,7 @@
   {
     "code": "IEOR66",
     "displayCode": "INDENG 66",
-    "title": "A BIVARIATE INTRO",
+    "title": "A Bivariate Introduction to IE and OR",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7180,7 +7180,7 @@
   {
     "code": "IEOR164",
     "displayCode": "INDENG 164",
-    "title": "INTRO TO OPTM MODLN",
+    "title": "Introduction to Optimization Modeling",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7196,7 +7196,7 @@
   {
     "code": "IEOR173",
     "displayCode": "INDENG 173",
-    "title": "INTRO TO STOCH PROC",
+    "title": "Introduction to Stochastic Processes",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7221,7 +7221,7 @@
   {
     "code": "IEOR115",
     "displayCode": "INDENG 115",
-    "title": "IND & COMM DATA SYS",
+    "title": "Industrial and Commercial Data Systems",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7234,7 +7234,7 @@
   {
     "code": "IEOR120",
     "displayCode": "INDENG 120",
-    "title": "PRIN OF ENGR ECONOM",
+    "title": "Principles of Engineering Economics",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7247,7 +7247,7 @@
   {
     "code": "IEOR130",
     "displayCode": "INDENG 130",
-    "title": "METHOD MANUF IMPROV",
+    "title": "Methods of Manufacturing Improvement",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7276,7 +7276,7 @@
   {
     "code": "IEOR150",
     "displayCode": "INDENG 150",
-    "title": "PROD SYSTS ANALYS",
+    "title": "Production Systems Analysis",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7313,7 +7313,7 @@
   {
     "code": "IEOR151",
     "displayCode": "INDENG 151",
-    "title": "SERV OPER DESG ANAL",
+    "title": "Service Operations Design and Analysis",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7338,7 +7338,7 @@
   {
     "code": "IEOR153",
     "displayCode": "INDENG 153",
-    "title": "LOG NT DES SUPCHMGT",
+    "title": "Logistics Network Design and Supply Chain Management",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7351,7 +7351,7 @@
   {
     "code": "IEOR160",
     "displayCode": "INDENG 160",
-    "title": "NONLIN & DIS OPTIMZ",
+    "title": "Nonlinear and Discrete Optimization",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7376,7 +7376,7 @@
   {
     "code": "IEOR161",
     "displayCode": "INDENG 161",
-    "title": "OPERATIONS RES II",
+    "title": "Operations Research II",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7389,7 +7389,7 @@
   {
     "code": "IEOR162",
     "displayCode": "INDENG 162",
-    "title": "LINP & NETWRK FLOWS",
+    "title": "Linear Programming and Network Flows",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7414,7 +7414,7 @@
   {
     "code": "IEOR165",
     "displayCode": "INDENG 165",
-    "title": "QUALITY CONTROL",
+    "title": "Engineering Statistics, Quality Control, and Forecasting",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -7439,7 +7439,7 @@
   {
     "code": "IEOR166",
     "displayCode": "INDENG 166",
-    "title": "DECISION ANALYTICS",
+    "title": "Decision Analytics",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7464,7 +7464,7 @@
   {
     "code": "IEOR170",
     "displayCode": "INDENG 170",
-    "title": "IND DES HUMAN FACT",
+    "title": "Industrial Design and Human Factors",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7477,7 +7477,7 @@
   {
     "code": "IEOR171",
     "displayCode": "INDENG 171",
-    "title": "ETHICS & ENTREPNSHP",
+    "title": "Berkeley Changemaker: Ethical and Effective Entrepreneurship in High Tech",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7490,7 +7490,7 @@
   {
     "code": "IEOR172",
     "displayCode": "INDENG 172",
-    "title": "PROBABILITY ENG",
+    "title": "Probability and Risk Analysis for Engineers",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -7519,7 +7519,7 @@
   {
     "code": "IEOR180",
     "displayCode": "INDENG 180",
-    "title": "SENIOR PROJECT",
+    "title": "Senior Project",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -7532,7 +7532,7 @@
   {
     "code": "IEOR190",
     "displayCode": "INDENG 190",
-    "title": "ADVANCE TOPICS IEOR",
+    "title": "Advanced Topics in Industrial Engineering and Operations Research",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 0,
@@ -7545,7 +7545,7 @@
   {
     "code": "IEOR190B",
     "displayCode": "INDENG 190B",
-    "title": "ADVANCE TOPICS IEOR",
+    "title": "Advanced Topics in Industrial Engr & Operations Research: Entrepreneurial Marketing & Finance",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7558,7 +7558,7 @@
   {
     "code": "IEOR190C",
     "displayCode": "INDENG 190C",
-    "title": "ADVANCE TOPICS IEOR",
+    "title": "Advanced Topics in Industrial Engineering and Operations Research",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7571,7 +7571,7 @@
   {
     "code": "IEOR190D",
     "displayCode": "INDENG 190D",
-    "title": "ADVANCE TOPICS IEOR",
+    "title": "Advanced Topics in Industrial Engineering and Operations Research",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7584,7 +7584,7 @@
   {
     "code": "IEOR190F",
     "displayCode": "INDENG 190F",
-    "title": "ADVANCE TOPICS IEOR",
+    "title": "Advanced Topics in Industrial Engineering and Operations Research",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7597,7 +7597,7 @@
   {
     "code": "IEOR190G",
     "displayCode": "INDENG 190G",
-    "title": "ADVANCE TOPICS IEOR",
+    "title": "Advanced Topics in Industrial Engineering and Operations Research",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7610,7 +7610,7 @@
   {
     "code": "IEOR190H",
     "displayCode": "INDENG 190H",
-    "title": "GLOBAL INNOVATION",
+    "title": "Cases in Global Innovation",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7623,7 +7623,7 @@
   {
     "code": "IEOR190I",
     "displayCode": "INDENG 190I",
-    "title": "GLOBAL INN CHINA",
+    "title": "Cases in Global Innovation: China",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7639,7 +7639,7 @@
   {
     "code": "IEOR190K",
     "displayCode": "INDENG 190K",
-    "title": "GLOBAL INN S ASIA",
+    "title": "Cases in Global Innovation: South Asia",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7655,7 +7655,7 @@
   {
     "code": "IEOR197",
     "displayCode": "INDENG 197",
-    "title": "FIELD STUDY",
+    "title": "Undergraduate Field Research in Industrial Engineering",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7668,7 +7668,7 @@
   {
     "code": "IEOR198",
     "displayCode": "INDENG 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Studies for Advanced Undergraduates",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7681,7 +7681,7 @@
   {
     "code": "IEOR199",
     "displayCode": "INDENG 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7694,7 +7694,7 @@
   {
     "code": "IEOR24",
     "displayCode": "INDENG 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7707,7 +7707,7 @@
   {
     "code": "IEOR98",
     "displayCode": "INDENG 98",
-    "title": "DIRECTED GROUP STUD",
+    "title": "Supervised Group Study and Research",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7720,7 +7720,7 @@
   {
     "code": "IEOR99",
     "displayCode": "INDENG 99",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study and Research",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -7733,7 +7733,7 @@
   {
     "code": "IEORH196A",
     "displayCode": "INDENG H196A",
-    "title": "ORMS HONORS THESIS",
+    "title": "Operations Research and Management Science Honors Thesis",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7746,7 +7746,7 @@
   {
     "code": "IEORH196B",
     "displayCode": "INDENG H196B",
-    "title": "ORMS HONORS THESIS",
+    "title": "Operations Research and Management Science Honors Thesis",
     "department": "INDENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -7759,7 +7759,7 @@
   {
     "code": "MATH1A",
     "displayCode": "MATH 1A",
-    "title": "CALCULUS",
+    "title": "Calculus",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7775,7 +7775,7 @@
   {
     "code": "MATH51",
     "displayCode": "MATH 51",
-    "title": "CALCULUS I",
+    "title": "Calculus I",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7791,7 +7791,7 @@
   {
     "code": "MATH52",
     "displayCode": "MATH 52",
-    "title": "CALCULUS II",
+    "title": "Calculus II",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7807,7 +7807,7 @@
   {
     "code": "MATH10A",
     "displayCode": "MATH 10A",
-    "title": "METHODS OF MATH",
+    "title": "Methods of Mathematics: Calculus, Statistics, and Combinatorics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7820,7 +7820,7 @@
   {
     "code": "MATH10B",
     "displayCode": "MATH 10B",
-    "title": "METHODS OF MATH",
+    "title": "Methods of Mathematics: Calculus, Statistics, and Combinatorics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7836,7 +7836,7 @@
   {
     "code": "MATH104",
     "displayCode": "MATH 104",
-    "title": "INTRO TO ANALYSIS",
+    "title": "Introduction to Analysis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7852,7 +7852,7 @@
   {
     "code": "MATH105",
     "displayCode": "MATH 105",
-    "title": "ANALYSIS II",
+    "title": "Second Course in Analysis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7868,7 +7868,7 @@
   {
     "code": "MATH110",
     "displayCode": "MATH 110",
-    "title": "ABSTRACT LINEAR ALG",
+    "title": "Abstract Linear Algebra",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7884,7 +7884,7 @@
   {
     "code": "MATH113",
     "displayCode": "MATH 113",
-    "title": "ABSTRACT ALGEBRA",
+    "title": "Introduction to Abstract Algebra",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7900,7 +7900,7 @@
   {
     "code": "MATH114",
     "displayCode": "MATH 114",
-    "title": "ABSTRACT ALGEBRA II",
+    "title": "Second Course in Abstract Algebra",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7916,7 +7916,7 @@
   {
     "code": "MATH115",
     "displayCode": "MATH 115",
-    "title": "INTRO NUMBER THEORY",
+    "title": "Introduction to Number Theory",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7932,7 +7932,7 @@
   {
     "code": "MATH116",
     "displayCode": "MATH 116",
-    "title": "CRYPTO",
+    "title": "Cryptography",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7948,7 +7948,7 @@
   {
     "code": "MATH118",
     "displayCode": "MATH 118",
-    "title": "FOURIER,WAVELETS",
+    "title": "Fourier Analysis, Wavelets, and Signal Processing",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7964,7 +7964,7 @@
   {
     "code": "MATH121A",
     "displayCode": "MATH 121A",
-    "title": "MATH TOOL PHYS SCI",
+    "title": "Mathematical Tools for the Physical Sciences",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7980,7 +7980,7 @@
   {
     "code": "MATH121B",
     "displayCode": "MATH 121B",
-    "title": "MATH TOOL PHYS SCI",
+    "title": "Mathematical Tools for the Physical Sciences",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -7996,7 +7996,7 @@
   {
     "code": "MATH123",
     "displayCode": "MATH 123",
-    "title": "ORD DIFF EQUATIONS",
+    "title": "Ordinary Differential Equations",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8012,7 +8012,7 @@
   {
     "code": "MATH125A",
     "displayCode": "MATH 125A",
-    "title": "MATH LOGIC",
+    "title": "Mathematical Logic",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8028,7 +8028,7 @@
   {
     "code": "MATH126",
     "displayCode": "MATH 126",
-    "title": "INTRO PART DIF EQUA",
+    "title": "Introduction to Partial Differential Equations",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8044,7 +8044,7 @@
   {
     "code": "MATH127",
     "displayCode": "MATH 127",
-    "title": "COM METH IN MOL BIO",
+    "title": "Mathematical and Computational Methods in Molecular Biology",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8060,7 +8060,7 @@
   {
     "code": "MATH128A",
     "displayCode": "MATH 128A",
-    "title": "NUMERICAL ANALYSIS",
+    "title": "Numerical Analysis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8076,7 +8076,7 @@
   {
     "code": "MATH128B",
     "displayCode": "MATH 128B",
-    "title": "NUMERICAL ANALYSIS",
+    "title": "Numerical Analysis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8092,7 +8092,7 @@
   {
     "code": "MATH130",
     "displayCode": "MATH 130",
-    "title": "GROUPS & GEOMETRIES",
+    "title": "Groups and Geometries",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8108,7 +8108,7 @@
   {
     "code": "MATH135",
     "displayCode": "MATH 135",
-    "title": "INTRO THEORY SETS",
+    "title": "Introduction to the Theory of Sets",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8124,7 +8124,7 @@
   {
     "code": "MATH136",
     "displayCode": "MATH 136",
-    "title": "INCOMPLETE/UNDECID",
+    "title": "Incompleteness and Undecidability",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8140,7 +8140,7 @@
   {
     "code": "MATH140",
     "displayCode": "MATH 140",
-    "title": "METRIC DIF GEOMETRY",
+    "title": "Metric Differential Geometry",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8156,7 +8156,7 @@
   {
     "code": "MATH141",
     "displayCode": "MATH 141",
-    "title": "ELEM DIFF TOPOLOGY",
+    "title": "Elementary Differential Topology",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8172,7 +8172,7 @@
   {
     "code": "MATH142",
     "displayCode": "MATH 142",
-    "title": "ELEM ALG TOPOLOGY",
+    "title": "Elementary Algebraic Topology",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8188,7 +8188,7 @@
   {
     "code": "MATH143",
     "displayCode": "MATH 143",
-    "title": "ELEM ALG GEOM",
+    "title": "Elementary Algebraic Geometry",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8204,7 +8204,7 @@
   {
     "code": "MATH151",
     "displayCode": "MATH 151",
-    "title": "SCHOOL CURRICULUM",
+    "title": "Mathematics of the Secondary School Curriculum I",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8220,7 +8220,7 @@
   {
     "code": "MATH152",
     "displayCode": "MATH 152",
-    "title": "SCHOOL CURRICULUM",
+    "title": "Mathematics of the Secondary School Curriculum II",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8233,7 +8233,7 @@
   {
     "code": "MATH16A",
     "displayCode": "MATH 16A",
-    "title": "ANAL GEO & CALC",
+    "title": "Analytic Geometry and Calculus",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -8246,7 +8246,7 @@
   {
     "code": "MATH16B",
     "displayCode": "MATH 16B",
-    "title": "ANAL GEO & CALCULUS",
+    "title": "Analytic Geometry and Calculus",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -8262,7 +8262,7 @@
   {
     "code": "MATH160",
     "displayCode": "MATH 160",
-    "title": "HISTORY OF MATH",
+    "title": "History of Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8278,7 +8278,7 @@
   {
     "code": "MATH170",
     "displayCode": "MATH 170",
-    "title": "MATH METH OPTIMIZ",
+    "title": "Mathematical Methods for Optimization",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8294,7 +8294,7 @@
   {
     "code": "MATH172",
     "displayCode": "MATH 172",
-    "title": "COMBINATORICS",
+    "title": "Combinatorics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8310,7 +8310,7 @@
   {
     "code": "MATH185",
     "displayCode": "MATH 185",
-    "title": "COMPLEX ANALYSIS",
+    "title": "Introduction to Complex Analysis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8326,7 +8326,7 @@
   {
     "code": "MATH189",
     "displayCode": "MATH 189",
-    "title": "MATH MET CLASS/QUAN",
+    "title": "Mathematical Methods in Classical and Quantum Mechanics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8342,7 +8342,7 @@
   {
     "code": "MATH191",
     "displayCode": "MATH 191",
-    "title": "EXPER MATH",
+    "title": "Experimental Courses in Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8355,7 +8355,7 @@
   {
     "code": "MATH195",
     "displayCode": "MATH 195",
-    "title": "SPEC MATH TOPICS",
+    "title": "Special Topics in Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8368,7 +8368,7 @@
   {
     "code": "MATH196",
     "displayCode": "MATH 196",
-    "title": "HONORS THESIS",
+    "title": "Honors Thesis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8393,7 +8393,7 @@
   {
     "code": "MATH197",
     "displayCode": "MATH 197",
-    "title": "FIELD STUDY",
+    "title": "Field Study",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8406,7 +8406,7 @@
   {
     "code": "MATH198",
     "displayCode": "MATH 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8422,7 +8422,7 @@
   {
     "code": "MATH198BC",
     "displayCode": "MATH 198BC",
-    "title": "DIRECTED GROUP STUD",
+    "title": "Berkeley Connect in Math",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8435,7 +8435,7 @@
   {
     "code": "MATH199",
     "displayCode": "MATH 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study and Research",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8451,7 +8451,7 @@
   {
     "code": "MATH24",
     "displayCode": "MATH 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8464,7 +8464,7 @@
   {
     "code": "MATH3",
     "displayCode": "MATH 3",
-    "title": "PRECALCULUS",
+    "title": "Precalculus",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8477,7 +8477,7 @@
   {
     "code": "MATH39A",
     "displayCode": "MATH 39A",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -8490,7 +8490,7 @@
   {
     "code": "MATH49",
     "displayCode": "MATH 49",
-    "title": "SUPP LOWER DIV MATH",
+    "title": "Supplementary Work in Lower Division Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8503,7 +8503,7 @@
   {
     "code": "MATH53",
     "displayCode": "MATH 53",
-    "title": "MULTIVAR CALCULUS",
+    "title": "Multivariable Calculus",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8519,7 +8519,7 @@
   {
     "code": "MATH54",
     "displayCode": "MATH 54",
-    "title": "LIN ALG & DIFF",
+    "title": "Linear Algebra and Differential Equations",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8535,7 +8535,7 @@
   {
     "code": "MATH55",
     "displayCode": "MATH 55",
-    "title": "DISCRETE MATH",
+    "title": "Discrete Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8551,7 +8551,7 @@
   {
     "code": "MATH74",
     "displayCode": "MATH 74",
-    "title": "TRANS HIGHER MATH",
+    "title": "Transition to Upper Division Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -8567,7 +8567,7 @@
   {
     "code": "MATH84",
     "displayCode": "MATH 84",
-    "title": "SOPHOMORE SEMINAR",
+    "title": "Sophomore Seminar",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8580,7 +8580,7 @@
   {
     "code": "MATH91",
     "displayCode": "MATH 91",
-    "title": "SPECIAL TOPICS",
+    "title": "Special Topics in Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8593,7 +8593,7 @@
   {
     "code": "MATH96",
     "displayCode": "MATH 96",
-    "title": "COLLEGE ALGEBRA",
+    "title": "College Algebra",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -8606,7 +8606,7 @@
   {
     "code": "MATH98",
     "displayCode": "MATH 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Supervised Group Study",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8619,7 +8619,7 @@
   {
     "code": "MATH98BC",
     "displayCode": "MATH 98BC",
-    "title": "DIRECTED GROUP STUD",
+    "title": "Berkeley Connect in Math",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8632,7 +8632,7 @@
   {
     "code": "MATH99",
     "displayCode": "MATH 99",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -8645,7 +8645,7 @@
   {
     "code": "MATHH1B",
     "displayCode": "MATH H1B",
-    "title": "HONORS CALCULUS",
+    "title": "Honors Calculus",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8661,7 +8661,7 @@
   {
     "code": "MATHH104",
     "displayCode": "MATH H104",
-    "title": "HNRS INTRO ANALYSIS",
+    "title": "Honors Introduction to Analysis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8677,7 +8677,7 @@
   {
     "code": "MATHH110",
     "displayCode": "MATH H110",
-    "title": "HNRS LINEAR ALGEBRA",
+    "title": "Honors Linear Algebra",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8693,7 +8693,7 @@
   {
     "code": "MATHH113",
     "displayCode": "MATH H113",
-    "title": "HNRS INTRO ABST ALG",
+    "title": "Honors Introduction to Abstract Algebra",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8709,7 +8709,7 @@
   {
     "code": "MATHH185",
     "displayCode": "MATH H185",
-    "title": "HNRS COMPLEX ANALYS",
+    "title": "Honors Introduction to Complex Analysis",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8725,7 +8725,7 @@
   {
     "code": "MATHH53",
     "displayCode": "MATH H53",
-    "title": "HONS MULTI CALCULUS",
+    "title": "Honors Multivariable Calculus",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8741,7 +8741,7 @@
   {
     "code": "MATHH54",
     "displayCode": "MATH H54",
-    "title": "HONS LIN ALG/DIF EQ",
+    "title": "Honors Linear Algebra and Differential Equations",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8757,7 +8757,7 @@
   {
     "code": "MATH106",
     "displayCode": "MATH 106",
-    "title": "MATH PROB THEORY",
+    "title": "Mathematical Probability Theory",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8773,7 +8773,7 @@
   {
     "code": "MATH156",
     "displayCode": "MATH 156",
-    "title": "NUMERICAL ANALYSIS",
+    "title": "Numerical Analysis for Data Science and Statistics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8798,7 +8798,7 @@
   {
     "code": "MATH124",
     "displayCode": "MATH 124",
-    "title": "PRGMG FOR MATH",
+    "title": "Programming for Mathematical Applications",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8814,7 +8814,7 @@
   {
     "code": "MATH1",
     "displayCode": "MATH 1",
-    "title": "LOWER-DIV MATH",
+    "title": "Foundations of Lower Division Mathematics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -8827,7 +8827,7 @@
   {
     "code": "MATH56",
     "displayCode": "MATH 56",
-    "title": "LINEAR ALGEBRA",
+    "title": "Linear Algebra",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8843,7 +8843,7 @@
   {
     "code": "MATHC103",
     "displayCode": "MATH C103",
-    "title": "INTRO MATH ECONOMIC",
+    "title": "Introduction to Mathematical Economics",
     "department": "MATH",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -8859,7 +8859,7 @@
   {
     "code": "MSE102",
     "displayCode": "MATSCI 102",
-    "title": "BOND CRYS & CRY",
+    "title": "Bonding, Crystallography, and Crystal Defects",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -8875,7 +8875,7 @@
   {
     "code": "MSE103",
     "displayCode": "MATSCI 103",
-    "title": "PHS TRANS & KIN",
+    "title": "Phase Transformations and Kinetics",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -8900,7 +8900,7 @@
   {
     "code": "MSE104",
     "displayCode": "MATSCI 104",
-    "title": "MAT CHAR",
+    "title": "Materials Characterization",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -8916,7 +8916,7 @@
   {
     "code": "MSE111",
     "displayCode": "MATSCI 111",
-    "title": "PROP ELECT MATS",
+    "title": "Properties of Electronic Materials",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -8941,7 +8941,7 @@
   {
     "code": "MSE112",
     "displayCode": "MATSCI 112",
-    "title": "CORROSI (CHEM PROP)",
+    "title": "Corrosion (Chemical Properties)",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -8966,7 +8966,7 @@
   {
     "code": "MSE113",
     "displayCode": "MATSCI 113",
-    "title": "MECH BEHAV ENG MAT",
+    "title": "Mechanical Behavior of Engineering Materials",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -8995,7 +8995,7 @@
   {
     "code": "MSE117",
     "displayCode": "MATSCI 117",
-    "title": "PROP DIELECT &",
+    "title": "Properties of Dielectric and Magnetic Materials",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9041,7 +9041,7 @@
   {
     "code": "MSE120",
     "displayCode": "MATSCI 120",
-    "title": "MATLS PROD",
+    "title": "Materials Production",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9054,7 +9054,7 @@
   {
     "code": "MSE121",
     "displayCode": "MATSCI 121",
-    "title": "METALS PROCESSING",
+    "title": "Metals Processing",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9070,7 +9070,7 @@
   {
     "code": "MSE122",
     "displayCode": "MATSCI 122",
-    "title": "CERAM PROC",
+    "title": "Ceramic Processing",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9095,7 +9095,7 @@
   {
     "code": "MSE123",
     "displayCode": "MATSCI 123",
-    "title": "ELECT MAT PROC",
+    "title": "Electronic Materials Processing",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -9120,7 +9120,7 @@
   {
     "code": "MSE125",
     "displayCode": "MATSCI 125",
-    "title": "THIN-FILM MAT SCI",
+    "title": "Thin-Film Materials Science",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9136,7 +9136,7 @@
   {
     "code": "MSE130",
     "displayCode": "MATSCI 130",
-    "title": "EXP MAT SCI DESIGN",
+    "title": "Experimental Materials Science and Design",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9149,7 +9149,7 @@
   {
     "code": "MSE136",
     "displayCode": "MATSCI 136",
-    "title": "MAT IN ENERGY TECH",
+    "title": "Materials in Energy Technologies",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -9162,7 +9162,7 @@
   {
     "code": "MSE140",
     "displayCode": "MATSCI 140",
-    "title": "NANOMAT-SCI & E",
+    "title": "Nanomaterials for Scientists and Engineers",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9187,7 +9187,7 @@
   {
     "code": "MSE151",
     "displayCode": "MATSCI 151",
-    "title": "POLYMERIC MATERIALS",
+    "title": "Polymeric Materials",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9212,7 +9212,7 @@
   {
     "code": "MSE195",
     "displayCode": "MATSCI 195",
-    "title": "SPECIAL TOPICS-UG",
+    "title": "Special Topics for Advanced Undergraduates",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -9228,7 +9228,7 @@
   {
     "code": "MSE198",
     "displayCode": "MATSCI 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Studies for Advanced Undergraduates",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -9241,7 +9241,7 @@
   {
     "code": "MSE199",
     "displayCode": "MATSCI 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -9254,7 +9254,7 @@
   {
     "code": "MSE24",
     "displayCode": "MATSCI 24",
-    "title": "FRESHMAN SEMINAR",
+    "title": "Freshman Seminar",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -9267,7 +9267,7 @@
   {
     "code": "MSEH194",
     "displayCode": "MATSCI H194",
-    "title": "HONORS UNDERGRAD",
+    "title": "Honors Undergraduate Research",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -9283,7 +9283,7 @@
   {
     "code": "MSE131",
     "displayCode": "MATSCI 131",
-    "title": "ADD MANU ADV MATRLS",
+    "title": "Additive Manufacturing Processes and Systems for Advanced Materials",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9320,7 +9320,7 @@
   {
     "code": "MSE159",
     "displayCode": "MATSCI 159",
-    "title": "INTR TO SOFT MATTER",
+    "title": "Introduction to Soft Matter",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9353,7 +9353,7 @@
   {
     "code": "MSE127",
     "displayCode": "MATSCI 127",
-    "title": "INTR TO ADD MANUF",
+    "title": "Introduction to Additive Manufacturing: Process, Materials and Designs",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9366,7 +9366,7 @@
   {
     "code": "MSEC157",
     "displayCode": "MATSCI C157",
-    "title": "NANOMEDICINE",
+    "title": "Nanomaterials in Medicine",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9382,7 +9382,7 @@
   {
     "code": "MSE104L",
     "displayCode": "MATSCI 104L",
-    "title": "MAT CHAR LAB",
+    "title": "Materials Characterization Laboratory",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -9407,7 +9407,7 @@
   {
     "code": "MSE45L",
     "displayCode": "MATSCI 45L",
-    "title": "PROP OF MATS L",
+    "title": "Properties of Materials Laboratory",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -9420,7 +9420,7 @@
   {
     "code": "MSE45",
     "displayCode": "MATSCI 45",
-    "title": "PROP OF MATLS",
+    "title": "Properties of Materials",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9433,7 +9433,7 @@
   {
     "code": "MSE129",
     "displayCode": "MATSCI 129",
-    "title": "EXP MATSCI THIN FLM",
+    "title": "Experimental Materials Science of Thin Films and Coatings",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9462,7 +9462,7 @@
   {
     "code": "MSEC118",
     "displayCode": "MATSCI C118",
-    "title": "BIOLOG PERF MATS",
+    "title": "Biological Performance of Materials",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -9487,7 +9487,7 @@
   {
     "code": "MSEC150",
     "displayCode": "MATSCI C150",
-    "title": "INTR MATERIALS CHEM",
+    "title": "Introduction to Materials Chemistry",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9503,7 +9503,7 @@
   {
     "code": "MSEC135",
     "displayCode": "MATSCI C135",
-    "title": "MATS EXTRM ENVRMTS",
+    "title": "Materials for Extreme Environments",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9516,7 +9516,7 @@
   {
     "code": "MSE128",
     "displayCode": "MATSCI 128",
-    "title": "MOD STR MTRS SUS",
+    "title": "Modern Structural Materials and Sustainability",
     "department": "MATSCI",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9532,7 +9532,7 @@
   {
     "code": "ME101",
     "displayCode": "MECENG 101",
-    "title": "INTRO LEAN MFG SYS",
+    "title": "Introduction to Lean Manufacturing Systems",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9545,7 +9545,7 @@
   {
     "code": "ME102B",
     "displayCode": "MECENG 102B",
-    "title": "MECHATRONICS DESIGN",
+    "title": "Mechatronics Design",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -9574,7 +9574,7 @@
   {
     "code": "ME104",
     "displayCode": "MECENG 104",
-    "title": "ENGR MECHANICS II",
+    "title": "Engineering Mechanics II",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9590,7 +9590,7 @@
   {
     "code": "ME106",
     "displayCode": "MECENG 106",
-    "title": "FLUID MECHANICS",
+    "title": "Fluid Mechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9606,7 +9606,7 @@
   {
     "code": "ME108",
     "displayCode": "MECENG 108",
-    "title": "MECH BEH ENG MATRS",
+    "title": "Mechanical Behavior of Engineering Materials",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -9622,7 +9622,7 @@
   {
     "code": "ME109",
     "displayCode": "MECENG 109",
-    "title": "HEAT TRANSFER",
+    "title": "Heat Transfer",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9647,7 +9647,7 @@
   {
     "code": "ME110",
     "displayCode": "MECENG 110",
-    "title": "INTRO PRODUCT DEV",
+    "title": "Introduction to Product Development",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9660,7 +9660,7 @@
   {
     "code": "ME118",
     "displayCode": "MECENG 118",
-    "title": "INTRO NANOTECHNOLGY",
+    "title": "Introduction to Nanotechnology and Nanoscience",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9685,7 +9685,7 @@
   {
     "code": "ME119",
     "displayCode": "MECENG 119",
-    "title": "INTRO TO MEMS",
+    "title": "Introduction to MEMS (Microelectromechanical Systems)",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9732,7 +9732,7 @@
   {
     "code": "ME120",
     "displayCode": "MECENG 120",
-    "title": "COMP BIO ACR SCLS",
+    "title": "Computational Biomechanics Across Multiple Scales",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9748,7 +9748,7 @@
   {
     "code": "ME122",
     "displayCode": "MECENG 122",
-    "title": "PROC OF MAT IN MFG",
+    "title": "Processing of Materials in Manufacturing",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9764,7 +9764,7 @@
   {
     "code": "ME130",
     "displayCode": "MECENG 130",
-    "title": "DESIGN PLANAR MACH",
+    "title": "Design of Planar Machinery",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9780,7 +9780,7 @@
   {
     "code": "ME131",
     "displayCode": "MECENG 131",
-    "title": "VEH DYN AND CTR",
+    "title": "Vehicle Dynamics and Control",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -9825,7 +9825,7 @@
   {
     "code": "ME132",
     "displayCode": "MECENG 132",
-    "title": "DYN SYSTEM/FEEDBACK",
+    "title": "Dynamic Systems and Feedback",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9858,7 +9858,7 @@
   {
     "code": "ME133",
     "displayCode": "MECENG 133",
-    "title": "MECH VIBR",
+    "title": "Mechanical Vibrations",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9874,7 +9874,7 @@
   {
     "code": "ME135",
     "displayCode": "MECENG 135",
-    "title": "DES MPRC-BD MEC SYS",
+    "title": "Design of Microprocessor-Based Mechanical Systems",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -9890,7 +9890,7 @@
   {
     "code": "MEC136",
     "displayCode": "MECENG C136",
-    "title": "DYN & CNTRL AUTO FL",
+    "title": "Dynamics and Control of Autonomous Flight",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9906,7 +9906,7 @@
   {
     "code": "ME138",
     "displayCode": "MECENG 138",
-    "title": "INTRO M/N MECH LAB",
+    "title": "Introduction to Micro/Nano Mechanical Systems Laboratory",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9931,7 +9931,7 @@
   {
     "code": "ME140",
     "displayCode": "MECENG 140",
-    "title": "COMB PROC",
+    "title": "Combustion Processes",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9960,7 +9960,7 @@
   {
     "code": "ME146",
     "displayCode": "MECENG 146",
-    "title": "ENRGY CONV PRINCPLS",
+    "title": "Energy Conversion Principles",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -9989,7 +9989,7 @@
   {
     "code": "ME150A",
     "displayCode": "MECENG 150A",
-    "title": "SOLAR PWR VEHICLES",
+    "title": "Solar-Powered Vehicles: Analysis, Design and Fabrication",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10014,7 +10014,7 @@
   {
     "code": "ME151",
     "displayCode": "MECENG 151",
-    "title": "ADV HEAT TRANS",
+    "title": "Advanced Heat Transfer",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10043,7 +10043,7 @@
   {
     "code": "ME163",
     "displayCode": "MECENG 163",
-    "title": "ENGR AERODYNAMICS",
+    "title": "Engineering Aerodynamics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10068,7 +10068,7 @@
   {
     "code": "ME164",
     "displayCode": "MECENG 164",
-    "title": "MARINE STAT & STRUC",
+    "title": "Marine Statics and Structures",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10084,7 +10084,7 @@
   {
     "code": "ME165",
     "displayCode": "MECENG 165",
-    "title": "OCEAN-ENVIRONM MECH",
+    "title": "Ocean-Environment Mechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10109,7 +10109,7 @@
   {
     "code": "ME168",
     "displayCode": "MECENG 168",
-    "title": "MECH OFFSHORE-SYS",
+    "title": "Mechanics of Offshore Systems",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10125,7 +10125,7 @@
   {
     "code": "ME170",
     "displayCode": "MECENG 170",
-    "title": "ENGR MECH III",
+    "title": "Engineering Mechanics III",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10141,7 +10141,7 @@
   {
     "code": "ME173",
     "displayCode": "MECENG 173",
-    "title": "FUND OF ACOUST",
+    "title": "Fundamentals of Acoustics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10157,7 +10157,7 @@
   {
     "code": "ME175",
     "displayCode": "MECENG 175",
-    "title": "INTERMED DYNAMICS",
+    "title": "Intermediate Dynamics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10173,7 +10173,7 @@
   {
     "code": "ME185",
     "displayCode": "MECENG 185",
-    "title": "INTRO CONTINUM MECH",
+    "title": "Introduction to Continuum Mechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10202,7 +10202,7 @@
   {
     "code": "ME190L",
     "displayCode": "MECENG 190L",
-    "title": "PRCCONTRL SYS DESGN",
+    "title": "Practical Control System Design: A Systematic Loopshaping Approach",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10218,7 +10218,7 @@
   {
     "code": "ME190M",
     "displayCode": "MECENG 190M",
-    "title": "MODEL PRCDT. CONTRL",
+    "title": "Model Predictive Control",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10234,7 +10234,7 @@
   {
     "code": "ME190Y",
     "displayCode": "MECENG 190Y",
-    "title": "PRCCONTRL SYS DESGN",
+    "title": "Practical Control System Design: A Systematic Optimization Approach",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10250,7 +10250,7 @@
   {
     "code": "ME191K",
     "displayCode": "MECENG 191K",
-    "title": "PROF COMMUNICATION",
+    "title": "Professional Communication",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10263,7 +10263,7 @@
   {
     "code": "ME196",
     "displayCode": "MECENG 196",
-    "title": "UNDERGRAD RESEARCH",
+    "title": "Undergraduate Research",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -10276,7 +10276,7 @@
   {
     "code": "ME197",
     "displayCode": "MECENG 197",
-    "title": "UGRAD ENG FIELD STU",
+    "title": "Undergraduate Engineering Field Studies",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10289,7 +10289,7 @@
   {
     "code": "ME198",
     "displayCode": "MECENG 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Studies for Advanced Undergraduates",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10302,7 +10302,7 @@
   {
     "code": "ME199",
     "displayCode": "MECENG 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10315,7 +10315,7 @@
   {
     "code": "ME24",
     "displayCode": "MECENG 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10328,7 +10328,7 @@
   {
     "code": "ME40",
     "displayCode": "MECENG 40",
-    "title": "THERMODYNAMICS",
+    "title": "Thermodynamics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10361,7 +10361,7 @@
   {
     "code": "ME98",
     "displayCode": "MECENG 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Supervised Independent Group Studies",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10374,7 +10374,7 @@
   {
     "code": "MEH194",
     "displayCode": "MECENG H194",
-    "title": "HONS UNDERGRAD RES",
+    "title": "Honors Undergraduate Research",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -10390,7 +10390,7 @@
   {
     "code": "MEC162",
     "displayCode": "MECENG C162",
-    "title": "INTRO TO FLT MEC",
+    "title": "Introduction to Flight Mechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10419,7 +10419,7 @@
   {
     "code": "ME136HL",
     "displayCode": "MECENG 136HL",
-    "title": "DYN & CTRL AUTO HL",
+    "title": "Hardware Laboratory: Dynamics and Control of Autonomous Flight",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10435,7 +10435,7 @@
   {
     "code": "ME172",
     "displayCode": "MECENG 172",
-    "title": "WILD FIRES SCI&APP",
+    "title": "Wildland Fires: Science and Applications",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10451,7 +10451,7 @@
   {
     "code": "ME139",
     "displayCode": "MECENG 139",
-    "title": "ROBOTIC LOCOMOTION",
+    "title": "Robotic Locomotion",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10464,7 +10464,7 @@
   {
     "code": "MEC184",
     "displayCode": "MECENG C184",
-    "title": "FLIGHT VEHICLE STRU",
+    "title": "Flight Vehicle Structures and Aeroelasticity",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10480,7 +10480,7 @@
   {
     "code": "ME126",
     "displayCode": "MECENG 126",
-    "title": "SCI&ENG OF COOKING",
+    "title": "The Science and Engineering of Cooking",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10513,7 +10513,7 @@
   {
     "code": "MEC127",
     "displayCode": "MECENG C127",
-    "title": "COMPOSITE MATERIALS",
+    "title": "Introduction to Composite Materials",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10529,7 +10529,7 @@
   {
     "code": "ME153",
     "displayCode": "MECENG 153",
-    "title": "APP OPT RAD",
+    "title": "Applied Optics and Radiation",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10545,7 +10545,7 @@
   {
     "code": "ME174",
     "displayCode": "MECENG 174",
-    "title": "NONLINEAR & RAN VIB",
+    "title": "Nonlinear and Random Vibrations",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10561,7 +10561,7 @@
   {
     "code": "ME179",
     "displayCode": "MECENG 179",
-    "title": "AUG HUMAN DEXTERITY",
+    "title": "Augmenting Human Dexterity",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10577,7 +10577,7 @@
   {
     "code": "ME100",
     "displayCode": "MECENG 100",
-    "title": "ELECTRONICS FOR IOT",
+    "title": "Electronics for the Internet of Things",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10618,7 +10618,7 @@
   {
     "code": "ME154",
     "displayCode": "MECENG 154",
-    "title": "ADV THERMODYNMCS",
+    "title": "Thermophysics for Applications",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10634,7 +10634,7 @@
   {
     "code": "ME160",
     "displayCode": "MECENG 160",
-    "title": "OCEAN ENGR SEMINAR",
+    "title": "Ocean Engineering Seminar",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 2,
@@ -10647,7 +10647,7 @@
   {
     "code": "ME151B",
     "displayCode": "MECENG 151B",
-    "title": "CNV TRNS & CMP MTHD",
+    "title": "Convective Transport and Computational Methods",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10676,7 +10676,7 @@
   {
     "code": "ME151A",
     "displayCode": "MECENG 151A",
-    "title": "COND & RAD TRANSP",
+    "title": "Conductive and Radiative Transport",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -10701,7 +10701,7 @@
   {
     "code": "ME125",
     "displayCode": "MECENG 125",
-    "title": "IACME IND CAPSTONES",
+    "title": "Industry-Associated Capstones in Mechanical Engineering (iACME)",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10717,7 +10717,7 @@
   {
     "code": "ME103",
     "displayCode": "MECENG 103",
-    "title": "EXP AND MEASUREMENT",
+    "title": "Experimentation and Measurements",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10742,7 +10742,7 @@
   {
     "code": "MEC106A",
     "displayCode": "MECENG C106A",
-    "title": "INTRO TO ROBOTICS",
+    "title": "Introduction to Robotics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10767,7 +10767,7 @@
   {
     "code": "MEC106B",
     "displayCode": "MECENG C106B",
-    "title": "INTRO ROBO PART II",
+    "title": "Introduction to Robotics, Part II",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10792,7 +10792,7 @@
   {
     "code": "MEC205",
     "displayCode": "MECENG C205",
-    "title": "CRITICAL MAKING",
+    "title": "Critical Making",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10805,7 +10805,7 @@
   {
     "code": "ME193K",
     "displayCode": "MECENG 193K",
-    "title": "SP TOPICS OCEAN ENG",
+    "title": "Special Topics in Ocean Engineering",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10818,7 +10818,7 @@
   {
     "code": "ME193H",
     "displayCode": "MECENG 193H",
-    "title": "SP TOPICS MATERIALS",
+    "title": "Special Topics in Materials",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10831,7 +10831,7 @@
   {
     "code": "ME193G",
     "displayCode": "MECENG 193G",
-    "title": "SP TOPICS MANUF",
+    "title": "Special Topics in Manufacturing",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10844,7 +10844,7 @@
   {
     "code": "ME193I",
     "displayCode": "MECENG 193I",
-    "title": "SP TOPICS MECHANICS",
+    "title": "Special Topics in Mechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10857,7 +10857,7 @@
   {
     "code": "ME193F",
     "displayCode": "MECENG 193F",
-    "title": "SP TOPICS FLUIDS",
+    "title": "Special Topics in Fluids",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10870,7 +10870,7 @@
   {
     "code": "ME193J",
     "displayCode": "MECENG 193J",
-    "title": "SP TOPICS MEMS/NANO",
+    "title": "Special Topics in MEMS/Nano",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10883,7 +10883,7 @@
   {
     "code": "ME193E",
     "displayCode": "MECENG 193E",
-    "title": "SP TOPICS EST",
+    "title": "Special Topics in Energy Science and Technology",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10896,7 +10896,7 @@
   {
     "code": "ME193C",
     "displayCode": "MECENG 193C",
-    "title": "SP TOPICS DESIGN",
+    "title": "Special Topics in Design",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10909,7 +10909,7 @@
   {
     "code": "ME193B",
     "displayCode": "MECENG 193B",
-    "title": "SP TOPICS CTLRS",
+    "title": "Special Topics in Controls",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10922,7 +10922,7 @@
   {
     "code": "ME193A",
     "displayCode": "MECENG 193A",
-    "title": "SP TOPICS BIOE",
+    "title": "Special Topics in Biomechanical Engineering",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -10935,7 +10935,7 @@
   {
     "code": "MEC178",
     "displayCode": "MECENG C178",
-    "title": "DES HUMAN BODY",
+    "title": "Designing for the Human Body",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10960,7 +10960,7 @@
   {
     "code": "MEC134",
     "displayCode": "MECENG C134",
-    "title": "INV INT CON",
+    "title": "Invitation to Intelligent Control",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10973,7 +10973,7 @@
   {
     "code": "MEC115",
     "displayCode": "MECENG C115",
-    "title": "MOLEC BIOMEC CELL",
+    "title": "Molecular Biomechanics and Mechanobiology of the Cell",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -10998,7 +10998,7 @@
   {
     "code": "MEW85",
     "displayCode": "MECENG W85",
-    "title": "INTRO SOLID MECHNCS",
+    "title": "Introduction to Solid Mechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11023,7 +11023,7 @@
   {
     "code": "MEC85",
     "displayCode": "MECENG C85",
-    "title": "INTRO SOLID MECHNCS",
+    "title": "Introduction to Solid Mechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11039,7 +11039,7 @@
   {
     "code": "MEC117",
     "displayCode": "MECENG C117",
-    "title": "STRUCT ASP BIOMATER",
+    "title": "Structural Aspects of Biomaterials",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11068,7 +11068,7 @@
   {
     "code": "MEC176",
     "displayCode": "MECENG C176",
-    "title": "ORTHOP BIOMECH",
+    "title": "Orthopedic Biomechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11093,7 +11093,7 @@
   {
     "code": "MEC180",
     "displayCode": "MECENG C180",
-    "title": "ENG ANALYFINITE MTH",
+    "title": "Engineering Analysis Using the Finite Element Method",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11118,7 +11118,7 @@
   {
     "code": "MEC176",
     "displayCode": "MECENG C176",
-    "title": "ORTHOP BIOMECH",
+    "title": "Orthopaedic Biomechanics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11143,7 +11143,7 @@
   {
     "code": "ME193D",
     "displayCode": "MECENG 193D",
-    "title": "SP TOPICS DYNAMICS",
+    "title": "Special Topics in Dynamics",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11156,7 +11156,7 @@
   {
     "code": "ME144",
     "displayCode": "MECENG 144",
-    "title": "MOD, SIM, DIGI TWNS",
+    "title": "Modeling, Simulation, and Digital-Twins of Drone-Based Systems",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11206,7 +11206,7 @@
   {
     "code": "ME150",
     "displayCode": "MECENG 150",
-    "title": "MOD&SIM ADV MFG PRC",
+    "title": "Modeling and Simulation of Advanced Manufacturing Processes",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11219,7 +11219,7 @@
   {
     "code": "MEC166",
     "displayCode": "MECENG C166",
-    "title": "INTRO TO COMP FLW",
+    "title": "Introduction to Compressible Flow",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11244,7 +11244,7 @@
   {
     "code": "MEC136S",
     "displayCode": "MECENG C136S",
-    "title": "DYN & CTRL AUTO SL",
+    "title": "Software Laboratory: Dynamics and Control of Autonomous Flight",
     "department": "MECENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11260,7 +11260,7 @@
   {
     "code": "NE100",
     "displayCode": "NUCENG 100",
-    "title": "INTRO NUC ENE&TECH",
+    "title": "Introduction to Nuclear Energy and Technology",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11289,7 +11289,7 @@
   {
     "code": "NE101",
     "displayCode": "NUCENG 101",
-    "title": "NUCLEAR REACTIONS",
+    "title": "Nuclear Reactions and Radiation",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11314,7 +11314,7 @@
   {
     "code": "NE102",
     "displayCode": "NUCENG 102",
-    "title": "NUCLEARRAD LAB",
+    "title": "Nuclear Reactions and Radiation Laboratory",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11330,7 +11330,7 @@
   {
     "code": "NE104",
     "displayCode": "NUCENG 104",
-    "title": "RAD DETECTION LAB",
+    "title": "Radiation Detection and Nuclear Instrumentation Laboratory",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11346,7 +11346,7 @@
   {
     "code": "NE107",
     "displayCode": "NUCENG 107",
-    "title": "INTRO TO IMAGING",
+    "title": "Introduction to Imaging",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11371,7 +11371,7 @@
   {
     "code": "NE120",
     "displayCode": "NUCENG 120",
-    "title": "NUCL MATER",
+    "title": "Nuclear Materials",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11387,7 +11387,7 @@
   {
     "code": "NE124",
     "displayCode": "NUCENG 124",
-    "title": "RADIOACT WASTE MGMT",
+    "title": "Radioactive Waste Management",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11403,7 +11403,7 @@
   {
     "code": "NE130",
     "displayCode": "NUCENG 130",
-    "title": "NON-PROLIF",
+    "title": "Analytical Methods for Non-proliferation",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11419,7 +11419,7 @@
   {
     "code": "NE150",
     "displayCode": "NUCENG 150",
-    "title": "REACTOR THEORY",
+    "title": "Introduction to Nuclear Reactor Theory",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11432,7 +11432,7 @@
   {
     "code": "NE155",
     "displayCode": "NUCENG 155",
-    "title": "NUM SIM RAD TRANSP",
+    "title": "Introduction to Numerical Simulations in Radiation Transport",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11461,7 +11461,7 @@
   {
     "code": "NE161",
     "displayCode": "NUCENG 161",
-    "title": "NUCLEAR POWER ENG",
+    "title": "Nuclear Power Engineering",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11490,7 +11490,7 @@
   {
     "code": "NE162",
     "displayCode": "NUCENG 162",
-    "title": "RAD BIOPHYS AND DOS",
+    "title": "Radiation Biophysics and Dosimetry",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11503,7 +11503,7 @@
   {
     "code": "NE167",
     "displayCode": "NUCENG 167",
-    "title": "ADV NUCLEAR DESIGN",
+    "title": "Risk-Informed Design for Advanced Nuclear Systems",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11584,7 +11584,7 @@
   {
     "code": "NE170A",
     "displayCode": "NUCENG 170A",
-    "title": "NUCLEAR DESIGN",
+    "title": "Nuclear Design: Design in Nuclear Power Technology and Instrumentation",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11597,7 +11597,7 @@
   {
     "code": "NE170B",
     "displayCode": "NUCENG 170B",
-    "title": "BIONUCLEAR DESIGN",
+    "title": "Nuclear Design: Design in Bionuclear, Nuclear Medicine, and Radiation Therapy",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11610,7 +11610,7 @@
   {
     "code": "NE175",
     "displayCode": "NUCENG 175",
-    "title": "METH RISK ANALYSIS",
+    "title": "Methods of Risk Analysis",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11623,7 +11623,7 @@
   {
     "code": "NEC180",
     "displayCode": "NUCENG C180",
-    "title": "FUSION & PLASMA PHY",
+    "title": "Introduction to Controlled Fusion and Plasma Physics",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11636,7 +11636,7 @@
   {
     "code": "NEC180",
     "displayCode": "NUCENG C180",
-    "title": "FUSION & PLASMA PHY",
+    "title": "Introduction to Controlled Fusion and Plasma Physics",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11649,7 +11649,7 @@
   {
     "code": "NEC180",
     "displayCode": "NUCENG C180",
-    "title": "FUSION & PLASMA PHY",
+    "title": "Introduction to Controlled Fusion and Plasma Physics",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11662,7 +11662,7 @@
   {
     "code": "NEC180",
     "displayCode": "NUCENG C180",
-    "title": "FUSION & PLASMA PHY",
+    "title": "Introduction to Controlled Fusion and Plasma Physics",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11675,7 +11675,7 @@
   {
     "code": "NE198",
     "displayCode": "NUCENG 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Group Study for Advanced Undergraduates",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11688,7 +11688,7 @@
   {
     "code": "NE199",
     "displayCode": "NUCENG 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11701,7 +11701,7 @@
   {
     "code": "NE24",
     "displayCode": "NUCENG 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11714,7 +11714,7 @@
   {
     "code": "NEH194",
     "displayCode": "NUCENG H194",
-    "title": "HONORS UG RESEARCH",
+    "title": "Honors Undergraduate Research",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11730,7 +11730,7 @@
   {
     "code": "NES199",
     "displayCode": "NUCENG S199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11743,7 +11743,7 @@
   {
     "code": "NE140",
     "displayCode": "NUCENG 140",
-    "title": "NUC SCI & TEC SPACE",
+    "title": "Nuclear Science and Technology for Space",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 4,
@@ -11776,7 +11776,7 @@
   {
     "code": "NEC146",
     "displayCode": "NUCENG C146",
-    "title": "NUCLEAR CHEM TECH",
+    "title": "Radiochemical Methods in Nuclear Technology and Forensics",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11801,7 +11801,7 @@
   {
     "code": "NE10",
     "displayCode": "NUCENG 10",
-    "title": "WHAT DO NUCLEAR ENG",
+    "title": "What do nuclear engineers do?",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 1,
@@ -11814,7 +11814,7 @@
   {
     "code": "NE156",
     "displayCode": "NUCENG 156",
-    "title": "NUCLEAR CRITICALITY",
+    "title": "Introduction to MCNP and Nuclear Criticality Safety",
     "department": "NUCENG",
     "college": "COE - College of Engineering",
     "units": 3,
@@ -11827,7 +11827,7 @@
   {
     "code": "PHYS5A",
     "displayCode": "PHYSICS 5A",
-    "title": "INTRO MECH AND REL",
+    "title": "Introductory Mechanics and Relativity",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -11852,7 +11852,7 @@
   {
     "code": "PHYS5B",
     "displayCode": "PHYSICS 5B",
-    "title": "INTR EM WAVES OPTCS",
+    "title": "Introductory Electromagnetism, Waves, and Optics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -11868,7 +11868,7 @@
   {
     "code": "PHYS5BL",
     "displayCode": "PHYSICS 5BL",
-    "title": "INTR TO EXP PHYS I",
+    "title": "Introduction to Experimental Physics I",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -11884,7 +11884,7 @@
   {
     "code": "PHYS5C",
     "displayCode": "PHYSICS 5C",
-    "title": "INTRO THERMO AND QM",
+    "title": "Introductory Thermodynamics and Quantum Mechanics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -11900,7 +11900,7 @@
   {
     "code": "PHYS5CL",
     "displayCode": "PHYSICS 5CL",
-    "title": "INTR TO EXP PHYS II",
+    "title": "Introduction to Experimental Physics II",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -11925,7 +11925,7 @@
   {
     "code": "PHYS198F",
     "displayCode": "PHYSICS 198F",
-    "title": "DIRECTED GROUP STUDY",
+    "title": "Frontiers of Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -11941,7 +11941,7 @@
   {
     "code": "PHYS188",
     "displayCode": "PHYSICS 188",
-    "title": "BAYESIAN DATA ANALY",
+    "title": "Bayesian Data Analysis and Machine Learning for Physical Sciences",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -11978,7 +11978,7 @@
   {
     "code": "PHYS88",
     "displayCode": "PHYSICS 88",
-    "title": "DATA SCIENCE PHYS",
+    "title": "Data Science Applications in Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -11994,7 +11994,7 @@
   {
     "code": "PHYS153",
     "displayCode": "PHYSICS 153",
-    "title": "PHYS SCI TRANSFERS",
+    "title": "Foundational Course for Physical Science Transfer Students",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12007,7 +12007,7 @@
   {
     "code": "PHYSC191B",
     "displayCode": "PHYSICS C191B",
-    "title": "INTRO QUANTUM COMP",
+    "title": "Introduction to Quantum Computing II",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12020,7 +12020,7 @@
   {
     "code": "PHYSC191A",
     "displayCode": "PHYSICS C191A",
-    "title": "INTRO QUANTUM COMP",
+    "title": "Introduction to Quantum Computing I",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12033,7 +12033,7 @@
   {
     "code": "PHYSC142",
     "displayCode": "PHYSICS C142",
-    "title": "FUSION & PLASMA PHY",
+    "title": "Introduction to Controlled Fusion and Plasma Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12046,7 +12046,7 @@
   {
     "code": "PHYS10",
     "displayCode": "PHYSICS 10",
-    "title": "DESCRIPTIVE INTRO",
+    "title": "Descriptive Introduction to Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12059,7 +12059,7 @@
   {
     "code": "PHYS100",
     "displayCode": "PHYSICS 100",
-    "title": "COMMUNICATE PHYSICS",
+    "title": "Communicating Physics and Physical Science",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -12072,7 +12072,7 @@
   {
     "code": "PHYS105",
     "displayCode": "PHYSICS 105",
-    "title": "ANALYTIC MECHANICS",
+    "title": "Analytic Mechanics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12088,7 +12088,7 @@
   {
     "code": "PHYS110A",
     "displayCode": "PHYSICS 110A",
-    "title": "ELECTROMAGNET OPTIC",
+    "title": "Electromagnetism and Optics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12104,7 +12104,7 @@
   {
     "code": "PHYS110B",
     "displayCode": "PHYSICS 110B",
-    "title": "ELECTROMAGNET OPTIC",
+    "title": "Electromagnetism and Optics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12120,7 +12120,7 @@
   {
     "code": "PHYS111A",
     "displayCode": "PHYSICS 111A",
-    "title": "INSTRUMENTATION LAB",
+    "title": "Instrumentation Laboratory",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12133,7 +12133,7 @@
   {
     "code": "PHYS111B",
     "displayCode": "PHYSICS 111B",
-    "title": "ADV EXP LAB",
+    "title": "Advanced Experimentation Laboratory",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12149,7 +12149,7 @@
   {
     "code": "PHYS112",
     "displayCode": "PHYSICS 112",
-    "title": "STAT THERMAL PHYS",
+    "title": "Introduction to Statistical and Thermal Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12165,7 +12165,7 @@
   {
     "code": "PHYS129",
     "displayCode": "PHYSICS 129",
-    "title": "PARTICLE PHYSICS",
+    "title": "Particle Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12181,7 +12181,7 @@
   {
     "code": "PHYS130",
     "displayCode": "PHYSICS 130",
-    "title": "QUANT&NONLIN OP",
+    "title": "Quantum and Nonlinear Optics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12197,7 +12197,7 @@
   {
     "code": "PHYS137A",
     "displayCode": "PHYSICS 137A",
-    "title": "QUANTUM MECHANICS",
+    "title": "Quantum Mechanics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12213,7 +12213,7 @@
   {
     "code": "PHYS137B",
     "displayCode": "PHYSICS 137B",
-    "title": "QUANTUM MECHANICS",
+    "title": "Quantum Mechanics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12229,7 +12229,7 @@
   {
     "code": "PHYS138",
     "displayCode": "PHYSICS 138",
-    "title": "MODERN ATOMIC PHYS",
+    "title": "Modern Atomic Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12245,7 +12245,7 @@
   {
     "code": "PHYS139",
     "displayCode": "PHYSICS 139",
-    "title": "SP THEO RELATIVITY",
+    "title": "Special Relativity and General Relativity",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12258,7 +12258,7 @@
   {
     "code": "PHYS141A",
     "displayCode": "PHYSICS 141A",
-    "title": "SOLID STATE PHYSICS",
+    "title": "Solid State Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12274,7 +12274,7 @@
   {
     "code": "PHYS141B",
     "displayCode": "PHYSICS 141B",
-    "title": "SOLID STATE PHYSICS",
+    "title": "Solid State Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12290,7 +12290,7 @@
   {
     "code": "PHYS142",
     "displayCode": "PHYSICS 142",
-    "title": "INTRO PLASMA PHYS",
+    "title": "Introduction to Plasma Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12306,7 +12306,7 @@
   {
     "code": "PHYS151",
     "displayCode": "PHYSICS 151",
-    "title": "PHYS SPECIAL TOPICS",
+    "title": "Elective Physics: Special Topics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12319,7 +12319,7 @@
   {
     "code": "PHYS177",
     "displayCode": "PHYSICS 177",
-    "title": "MOLEC BIOPHYSICS",
+    "title": "Principles of Molecular Biophysics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12335,7 +12335,7 @@
   {
     "code": "PHYS198",
     "displayCode": "PHYSICS 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12348,7 +12348,7 @@
   {
     "code": "PHYS198BC",
     "displayCode": "PHYSICS 198BC",
-    "title": "DIRECTED GROUP STUD",
+    "title": "Berkeley Connect",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12361,7 +12361,7 @@
   {
     "code": "PHYS199",
     "displayCode": "PHYSICS 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12374,7 +12374,7 @@
   {
     "code": "PHYS21",
     "displayCode": "PHYSICS 21",
-    "title": "PHYSICS OF MUSIC",
+    "title": "Physics of Music",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12387,7 +12387,7 @@
   {
     "code": "PHYS24",
     "displayCode": "PHYSICS 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12400,7 +12400,7 @@
   {
     "code": "PHYS39",
     "displayCode": "PHYSICS 39",
-    "title": "LOW DIV PHYS SEM",
+    "title": "Lower Division Physics Seminar",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -12416,7 +12416,7 @@
   {
     "code": "PHYS49",
     "displayCode": "PHYSICS 49",
-    "title": "LOW DIV SUPPL WORK",
+    "title": "Supplementary Work in Lower Division Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12429,7 +12429,7 @@
   {
     "code": "PHYS7A",
     "displayCode": "PHYSICS 7A",
-    "title": "SCIENT ENGIN PHYS",
+    "title": "Physics for Scientists and Engineers",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12454,7 +12454,7 @@
   {
     "code": "PHYS7B",
     "displayCode": "PHYSICS 7B",
-    "title": "SCIENT ENGIN PHYS",
+    "title": "Physics for Scientists and Engineers",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12483,7 +12483,7 @@
   {
     "code": "PHYS7C",
     "displayCode": "PHYSICS 7C",
-    "title": "SCIENT ENGIN PHYS",
+    "title": "Physics for Scientists and Engineers",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12512,7 +12512,7 @@
   {
     "code": "PHYS77",
     "displayCode": "PHYSICS 77",
-    "title": "INTRO COMP TECH PHY",
+    "title": "Introduction to Computational Techniques in Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12525,7 +12525,7 @@
   {
     "code": "PHYS8A",
     "displayCode": "PHYSICS 8A",
-    "title": "INTRO PHYSICS",
+    "title": "Introductory Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12541,7 +12541,7 @@
   {
     "code": "PHYS8B",
     "displayCode": "PHYSICS 8B",
-    "title": "INTRO PHYSICS",
+    "title": "Introductory Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12557,7 +12557,7 @@
   {
     "code": "PHYS89",
     "displayCode": "PHYSICS 89",
-    "title": "INTRO TO MATH PHYS",
+    "title": "Introduction to Mathematical Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12573,7 +12573,7 @@
   {
     "code": "PHYS98",
     "displayCode": "PHYSICS 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12586,7 +12586,7 @@
   {
     "code": "PHYS98BC",
     "displayCode": "PHYSICS 98BC",
-    "title": "DIRECTED GROUP STUD",
+    "title": "Berkeley Connect",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12599,7 +12599,7 @@
   {
     "code": "PHYS99",
     "displayCode": "PHYSICS 99",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 1,
@@ -12612,7 +12612,7 @@
   {
     "code": "PHYSH190",
     "displayCode": "PHYSICS H190",
-    "title": "PHYS HNRS COURSE",
+    "title": "Physics Honors Course",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -12625,7 +12625,7 @@
   {
     "code": "PHYSH195A",
     "displayCode": "PHYSICS H195A",
-    "title": "THESIS RESEARCH",
+    "title": "Senior Honors Thesis Research",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -12638,7 +12638,7 @@
   {
     "code": "PHYSH195B",
     "displayCode": "PHYSICS H195B",
-    "title": "THESIS RESEARCH",
+    "title": "Senior Honors Thesis Research",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 2,
@@ -12651,7 +12651,7 @@
   {
     "code": "PHYSH7A",
     "displayCode": "PHYSICS H7A",
-    "title": "SCIENT ENGIN PHYS",
+    "title": "Physics for Scientists and Engineers",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12676,7 +12676,7 @@
   {
     "code": "PHYSH7B",
     "displayCode": "PHYSICS H7B",
-    "title": "SCIENT ENGIN PHYS",
+    "title": "Physics for Scientists and Engineers",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12689,7 +12689,7 @@
   {
     "code": "PHYSH7C",
     "displayCode": "PHYSICS H7C",
-    "title": "SCIENT ENGIN PHYS",
+    "title": "Physics for Scientists and Engineers",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12718,7 +12718,7 @@
   {
     "code": "PHYSC180",
     "displayCode": "PHYSICS C180",
-    "title": "ORDERS OF MAG",
+    "title": "Order-Of-Magnitude Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12734,7 +12734,7 @@
   {
     "code": "PHYSW89",
     "displayCode": "PHYSICS W89",
-    "title": "INTRO TO MATH PHYS",
+    "title": "Introduction to Mathematical Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12759,7 +12759,7 @@
   {
     "code": "PHYSC191",
     "displayCode": "PHYSICS C191",
-    "title": "INTRO QUANTUM COMP",
+    "title": "Introduction to Quantum Computing",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12793,7 +12793,7 @@
   {
     "code": "PHYSC10",
     "displayCode": "PHYSICS C10",
-    "title": "DESCRIPTIVE INTRO",
+    "title": "Descriptive Introduction to Physics",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12806,7 +12806,7 @@
   {
     "code": "PHYSC161",
     "displayCode": "PHYSICS C161",
-    "title": "RELA ASTRO & COSMO",
+    "title": "Relativistic Astrophysics and Cosmology",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12819,7 +12819,7 @@
   {
     "code": "PHYSC21",
     "displayCode": "PHYSICS C21",
-    "title": "PHYSICS AND MUSIC",
+    "title": "Physics and Music",
     "department": "PHYSICS",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12835,7 +12835,7 @@
   {
     "code": "STATC88S",
     "displayCode": "STAT C88S",
-    "title": "PROB/STAT DATA SCI",
+    "title": "Probability and Mathematical Statistics in Data Science",
     "department": "STAT",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -12868,7 +12868,7 @@
   {
     "code": "STAT89A",
     "displayCode": "STAT 89A",
-    "title": "LIN ALG FOR DATASCI",
+    "title": "Linear Algebra for Data Science",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -12884,7 +12884,7 @@
   {
     "code": "STATC236B",
     "displayCode": "STAT C236B",
-    "title": "QUANT METH SOCI SCI",
+    "title": "Quantitative Methodology in the Social Sciences Seminar",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -12897,7 +12897,7 @@
   {
     "code": "STATC239B",
     "displayCode": "STAT C239B",
-    "title": "QUANT METH SOCI SCI",
+    "title": "Quantitative Methodology in the Social Sciences Seminar",
     "department": "STAT",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -12910,7 +12910,7 @@
   {
     "code": "STATC140",
     "displayCode": "STAT C140",
-    "title": "PROB FOR DATA SCI",
+    "title": "Probability for Data Science",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -12986,7 +12986,7 @@
   {
     "code": "STATC100",
     "displayCode": "STAT C100",
-    "title": "PRINC&TECH DATA SCI",
+    "title": "Principles & Techniques of Data Science",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13049,7 +13049,7 @@
   {
     "code": "STATC8R",
     "displayCode": "STAT C8R",
-    "title": "INTRO COMP THINK",
+    "title": "Introduction to Computational Thinking with Data",
     "department": "STAT",
     "college": "CLS - College of Letters and Science",
     "units": 3,
@@ -13062,7 +13062,7 @@
   {
     "code": "STATC102",
     "displayCode": "STAT C102",
-    "title": "DATA INF DEC",
+    "title": "Data, Inference, and Decisions",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13146,7 +13146,7 @@
   {
     "code": "STAT33A",
     "displayCode": "STAT 33A",
-    "title": "INTRO R PGM",
+    "title": "Introduction to Programming in R",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13159,7 +13159,7 @@
   {
     "code": "STAT33B",
     "displayCode": "STAT 33B",
-    "title": "ADV R PGM",
+    "title": "Introduction to Advanced Programming in R",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13175,7 +13175,7 @@
   {
     "code": "STAT165",
     "displayCode": "STAT 165",
-    "title": "FORECASTING",
+    "title": "Forecasting",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 3,
@@ -13220,7 +13220,7 @@
   {
     "code": "STAT0PX",
     "displayCode": "STAT 0PX",
-    "title": "PREPARATORY STAT",
+    "title": "Preparatory Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13233,7 +13233,7 @@
   {
     "code": "STATC131A",
     "displayCode": "STAT C131A",
-    "title": "STAT FOR DATASCI",
+    "title": "Statistical Methods for Data Science",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13288,7 +13288,7 @@
   {
     "code": "STAT133",
     "displayCode": "STAT 133",
-    "title": "COMPUTING DATA",
+    "title": "Concepts in Computing with Data",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 3,
@@ -13301,7 +13301,7 @@
   {
     "code": "STAT134",
     "displayCode": "STAT 134",
-    "title": "CONCEPTS OF PROB",
+    "title": "Concepts of Probability",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13314,7 +13314,7 @@
   {
     "code": "STAT135",
     "displayCode": "STAT 135",
-    "title": "CONCEPTS OF STAT",
+    "title": "Concepts of Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13360,7 +13360,7 @@
   {
     "code": "STAT150",
     "displayCode": "STAT 150",
-    "title": "STOCHASTIC PROCESS",
+    "title": "Stochastic Processes",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 3,
@@ -13376,7 +13376,7 @@
   {
     "code": "STAT151A",
     "displayCode": "STAT 151A",
-    "title": "LINEAR MODELLING",
+    "title": "Linear Modelling: Theory and Applications",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13392,7 +13392,7 @@
   {
     "code": "STAT152",
     "displayCode": "STAT 152",
-    "title": "SAMPLING SURVEYS",
+    "title": "Sampling Surveys",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13408,7 +13408,7 @@
   {
     "code": "STAT153",
     "displayCode": "STAT 153",
-    "title": "INTRO TIME SERIES",
+    "title": "Introduction to Time Series",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13424,7 +13424,7 @@
   {
     "code": "STAT154",
     "displayCode": "STAT 154",
-    "title": "STAT PREDICT MACH/L",
+    "title": "Modern Statistical Prediction and Machine Learning",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13477,7 +13477,7 @@
   {
     "code": "STAT155",
     "displayCode": "STAT 155",
-    "title": "GAME THEORY",
+    "title": "Game Theory",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 3,
@@ -13493,7 +13493,7 @@
   {
     "code": "STAT157",
     "displayCode": "STAT 157",
-    "title": "TOPICS IN PROB/STAT",
+    "title": "Seminar on Topics in Probability and Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 3,
@@ -13518,7 +13518,7 @@
   {
     "code": "STAT158",
     "displayCode": "STAT 158",
-    "title": "EXPERIMENTAL DESIGN",
+    "title": "Experimental Design",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13543,7 +13543,7 @@
   {
     "code": "STAT159",
     "displayCode": "STAT 159",
-    "title": "REPRO COLLAB DATSCI",
+    "title": "Reproducible and Collaborative Statistical Data Science",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13572,7 +13572,7 @@
   {
     "code": "STAT197",
     "displayCode": "STAT 197",
-    "title": "FIELD STUDY IN STAT",
+    "title": "Field Study in Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13585,7 +13585,7 @@
   {
     "code": "STAT198",
     "displayCode": "STAT 198",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Study for Undergraduates",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13598,7 +13598,7 @@
   {
     "code": "STAT199",
     "displayCode": "STAT 199",
-    "title": "SUPERV INDEP STUDY",
+    "title": "Supervised Independent Study and Research",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13611,7 +13611,7 @@
   {
     "code": "STAT2",
     "displayCode": "STAT 2",
-    "title": "INTRO TO STAT",
+    "title": "Introduction to Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13624,7 +13624,7 @@
   {
     "code": "STAT20",
     "displayCode": "STAT 20",
-    "title": "INTRO PROB STAT CAL",
+    "title": "Introduction to Probability and Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13657,7 +13657,7 @@
   {
     "code": "STAT21",
     "displayCode": "STAT 21",
-    "title": "INTRO PROB STAT BUS",
+    "title": "Introductory Probability and Statistics for Business",
     "department": "STAT",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -13670,7 +13670,7 @@
   {
     "code": "STAT24",
     "displayCode": "STAT 24",
-    "title": "FRESHMAN SEMINARS",
+    "title": "Freshman Seminars",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13683,7 +13683,7 @@
   {
     "code": "STAT39D",
     "displayCode": "STAT 39D",
-    "title": "FRESH/SOPH SEMINAR",
+    "title": "Freshman/Sophomore Seminar",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 2,
@@ -13696,7 +13696,7 @@
   {
     "code": "STAT94",
     "displayCode": "STAT 94",
-    "title": "TOPICS PROB STAT",
+    "title": "Special Topics in Probability and Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13709,7 +13709,7 @@
   {
     "code": "STAT97",
     "displayCode": "STAT 97",
-    "title": "FIELD STUDY IN STAT",
+    "title": "Field Study in Statistics",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13722,7 +13722,7 @@
   {
     "code": "STAT98",
     "displayCode": "STAT 98",
-    "title": "DIRECTED GROUP STDY",
+    "title": "Directed Group Study",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13735,7 +13735,7 @@
   {
     "code": "STATH195",
     "displayCode": "STAT H195",
-    "title": "HONORS STUDY",
+    "title": "Special Study for Honors Candidates",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 1,
@@ -13748,7 +13748,7 @@
   {
     "code": "STATW21",
     "displayCode": "STAT W21",
-    "title": "INTRO PROB STAT BUS",
+    "title": "Introductory Probability and Statistics for Business",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13761,7 +13761,7 @@
   {
     "code": "STATC236A",
     "displayCode": "STAT C236A",
-    "title": "STATS SOCI SCI",
+    "title": "The Statistics of Causal Inference in the Social Science",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
@@ -13774,7 +13774,7 @@
   {
     "code": "STATC239A",
     "displayCode": "STAT C239A",
-    "title": "STATS SOCI SCI",
+    "title": "The Statistics of Causal Inference in the Social Science",
     "department": "STAT",
     "college": "CLS - College of Letters and Science",
     "units": 4,
@@ -13787,7 +13787,7 @@
   {
     "code": "STATC8",
     "displayCode": "STAT C8",
-    "title": "FOUNDATION DATA SCI",
+    "title": "Foundations of Data Science",
     "department": "STAT",
     "college": "CDSS - Clg of Comp Data Sci & Society",
     "units": 4,
