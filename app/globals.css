@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/*
+  Design tokens — "academic ledger" direction.
+  Grounded in Berkeley's actual institutional colors (Berkeley Blue /
+  California Gold) rather than an arbitrary palette, with a transcript /
+  course-catalog visual language: hairline rules, mono course codes (the
+  signature element), flat surfaces, minimal radius. Serif is used sparingly
+  for course titles only — the mono treatment of course codes carries most
+  of the page's personality, not the serif.
+*/
+:root {
+  --color-paper: #faf8f3;
+  --color-paper-raised: #ffffff;
+  --color-ink: #1c1b1a;
+  --color-ink-soft: #6b6559;
+  --color-rule: #ddd6c4;
+  --color-blue: #003262;
+  --color-blue-soft: #e8eef4;
+  --color-gold: #fdb515;
+  --color-gold-soft: #fff5dd;
+  --color-rust: #b23a2e;
+  --color-rust-soft: #fbe9e7;
+
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@theme inline {
+  --color-paper: var(--color-paper);
+  --color-paper-raised: var(--color-paper-raised);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-rule: var(--color-rule);
+  --color-blue: var(--color-blue);
+  --color-blue-soft: var(--color-blue-soft);
+  --color-gold: var(--color-gold);
+  --color-gold-soft: var(--color-gold-soft);
+  --color-rust: var(--color-rust);
+  --color-rust-soft: var(--color-rust-soft);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Course-code chip: the signature element used throughout the app. */
+.course-code {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
