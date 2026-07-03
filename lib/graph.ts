@@ -1,20 +1,19 @@
-import type { CourseRecord, PrereqExpr } from "./types";
-
 /**
- * Berkeley Course Graph — graph engine
+ * Berkeley Course Graph 
  * ------------------------------------
  * Courses are nodes. Prerequisites are directed edges (prereq -> course).
  * Because a real prereq isn't always a simple chain (CS 188 needs
- * (CS61A OR CS61B) AND CS70), each course stores a small boolean expression
- * tree rather than a flat list of required courses. Everything below either
- * walks that tree directly, or first flattens it into a plain dependency
- * graph (every COURSE leaf becomes an edge) when a plain graph algorithm
- * (BFS/DFS/topo sort) is the right tool.
+ * (CS61A OR CS61B) AND CS70), each course stores a boolean expression
+ * tree rather than a flat list of required courses. Either we walk that tree,
+ * or for different purposes, where plain graph algorithms (BFS/DFS/topo sort)
+ * are needed we first flatten it into a plain dependency graph.
  */
+
+import type { CourseRecord, PrereqExpr } from "./types";
 
 export type Graph = Map<string, Set<string>>; // course code -> set of direct prereq codes
 
-/** Collect every course code referenced anywhere inside a prereq expression. */
+/** Collect every course code referenced anywhere inside a prereq expression */
 function leavesOf(expr: PrereqExpr): string[] {
   if (expr.type === "COURSE") return [expr.code];
   return expr.items.flatMap(leavesOf);
@@ -24,11 +23,11 @@ function leavesOf(expr: PrereqExpr): string[] {
  * Flatten every course's boolean prereq expression into a plain directed
  * graph: course -> set of courses that appear anywhere in its prereq tree
  * (regardless of AND/OR). This is the structure DFS/BFS/topo-sort operate on.
- * Losing the AND/OR distinction here is intentional — for "what's the full
+ * Losing the AND/OR distinction here is fine as for "what's the full
  * ancestor chain" and "what order could I take these in," every course that
- * appears in the tree at all is relevant. AND/OR only matters when checking
- * whether a *specific* plan satisfies a requirement, which is handled
- * separately in validatePlan() using the real tree, not this flattened graph.
+ * appears in the tree at all (regardless of AND/OR) is relevant. AND/OR only
+ * matters when checking whether a specific plan satisfies a requirement, which 
+ * is handled separately in validatePlan() using the real tree.
  */
 export function buildGraph(courses: CourseRecord[]): Graph {
   const graph: Graph = new Map();
@@ -47,7 +46,7 @@ export function buildGraph(courses: CourseRecord[]): Graph {
 /**
  * BFS over the prereq graph to find every course that must eventually be
  * taken before `code` — the full ancestor chain, not just direct prereqs.
- * Returns codes in BFS order (roughly: closest prereqs first).
+ * Returns codes in BFS order (roughly: closest prereqs first)
  */
 export function getFullPrereqChain(graph: Graph, code: string): string[] {
   const visited = new Set<string>();
@@ -67,9 +66,9 @@ export function getFullPrereqChain(graph: Graph, code: string): string[] {
 }
 
 /**
- * DFS to find every course that directly or indirectly REQUIRES `code` —
- * i.e. walking the graph in reverse. Used for "what does taking this course
- * unlock" on a course detail page.
+ * DFS to find every course that directly or indirectly requires `code` —
+ * i.e. walking the graph in reverse. Used to show "what taking this course
+ * unlocks" on the course detail page
  */
 export function getDownstreamCourses(graph: Graph, code: string): string[] {
   const reverse: Graph = new Map();
@@ -97,10 +96,9 @@ export function getDownstreamCourses(graph: Graph, code: string): string[] {
 
 /**
  * Detect a prerequisite cycle anywhere in the graph using DFS with a
- * recursion stack. A cycle would mean course A (transitively) requires
- * itself, which should be impossible for a real degree plan but is worth
- * guarding against — a single bad data entry could otherwise infinite-loop
- * every traversal above.
+ * recursion stack. A cycle would mean course requires itself, which 
+ * even though is impossible I still consider as a single bad data 
+ * entry could otherwise infinite-loop 
  */
 export function findCycle(graph: Graph): string[] | null {
   const visited = new Set<string>();
@@ -140,11 +138,7 @@ export function findCycle(graph: Graph): string[] | null {
  * Kahn's algorithm: produce ONE valid topological ordering of the full
  * course set (prereqs before the courses that need them). Courses with no
  * ordering constraint relative to each other are emitted in alphabetical
- * order within their "ready" tier, just to make the output deterministic.
- *
- * Note there are usually many valid orderings — this returns a single
- * reasonable one, mainly useful as a "suggested sequence" baseline, not a
- * strict requirement.
+ * order within their "ready" tier, to make the output deterministic.
  */
 export function topologicalSort(graph: Graph): string[] {
   const inDegree = new Map<string, number>();
@@ -185,14 +179,14 @@ export function topologicalSort(graph: Graph): string[] {
   return order;
 }
 
-/** Evaluate whether a boolean prereq expression is satisfied by a set of completed course codes. */
+/** Evaluate whether a boolean prereq expression is satisfied by a set of completed course codes */
 export function isSatisfied(expr: PrereqExpr, completed: Set<string>): boolean {
   if (expr.type === "COURSE") return completed.has(expr.code);
   if (expr.type === "AND") return expr.items.every((i) => isSatisfied(i, completed));
   return expr.items.some((i) => isSatisfied(i, completed)); // OR
 }
 
-/** Human-readable rendering of a prereq expression, e.g. "CS 61B and (Math 54 or EECS 16A)". */
+/** Human-readable rendering of a prereq expression, e.g. "CS 61B and (Math 54 or EECS 16A)" */
 export function describeExpr(
   expr: PrereqExpr,
   displayName: (code: string) => string

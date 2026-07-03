@@ -5,7 +5,7 @@
  * catalog pages for prerequisite data.
  *
  * Run: npm run scrape:catalog
- * Resumes from checkpoint if interrupted.
+ * Resumes from checkpoint if interrupted
  */
 
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from "fs";
@@ -14,7 +14,6 @@ import * as cheerio from "cheerio";
 import { parsePrereqs } from "./scrape/prereq-parser";
 import type { PrereqExpr } from "../lib/types";
 
-// ── Config ───────────────────────────────────────────────────────────────────
 
 const CATALOG_ID = "hMSTjIplK6VX5nnJn7ZE";
 const API_BASE = "https://app.coursedog.com/api/v1/cm/ucberkeley_peoplesoft";
@@ -38,7 +37,6 @@ const INCLUDE_SUBJECTS: string[] = [
   "PHYSICS", "CHEM",
 ];
 
-// ── Types ────────────────────────────────────────────────────────────────────
 
 interface CoursedogCourse {
   id: string;
@@ -76,7 +74,6 @@ export interface ScrapedCourse {
   subjectCode: string;
 }
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
@@ -101,7 +98,6 @@ function normalizeCode(subjectCode: string, courseNumber: string): string {
   return `${prefix}${courseNumber.replace(/\s+/g, "")}`;
 }
 
-// ── API ──────────────────────────────────────────────────────────────────────
 
 async function fetchWithRetry(fn: () => Promise<Response>, retries = 5): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -177,13 +173,12 @@ async function fetchAllCourses(): Promise<CoursedogCourse[]> {
   return all;
 }
 
-// ── Catalog page scraper ──────────────────────────────────────────────────────
 
 async function fetchCatalogPage(course: CoursedogCourse): Promise<string | null> {
-  // Use the plain course page — NO /overview suffix.
+  // Use the plain course page — NO /overview suffix
   // /courses/{courseGroupId} returns simple server-rendered HTML with a clean
   // "### Prerequisites" section. /courses/{id}/overview returns the Coursedog
-  // UI shell which is harder to parse.
+  // UI shell which is harder to parse
   const url = `${CATALOG_BASE}/courses/${course.courseGroupId}`;
 
   let html = "";
@@ -202,9 +197,6 @@ async function fetchCatalogPage(course: CoursedogCourse): Promise<string | null>
 
   const $ = cheerio.load(html);
 
-  // cheerio's .text() strips inter-element whitespace, collapsing everything
-  // into one string. Fix: insert a newline marker after every block element's
-  // text so we get clean line boundaries regardless of the exact tags used.
   $("h1,h2,h3,h4,h5,h6,p,div,dt,dd,li,span,section,td,th,label").each((_i, el) => {
     $(el).append("\n");
   });
@@ -244,8 +236,6 @@ async function fetchCatalogPage(course: CoursedogCourse): Promise<string | null>
   return prereqText && prereqText.length > 2 ? prereqText : null;
 }
 
-// ── Checkpoint ────────────────────────────────────────────────────────────────
-
 const CHECKPOINT_PATH = join(process.cwd(), "data", "scraped", "catalog-checkpoint.json");
 
 function saveCheckpoint(results: ScrapedCourse[]) {
@@ -264,7 +254,6 @@ function loadCheckpoint(): ScrapedCourse[] {
   return [];
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
   const apiCourses = await fetchAllCourses();

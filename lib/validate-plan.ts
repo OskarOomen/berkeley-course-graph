@@ -7,7 +7,7 @@ const TERM_ORDER: Record<Semester["term"], number> = {
   Fall: 2,
 };
 
-/** Sort semesters chronologically (year, then term within year). */
+/** Sort semesters chronologically (year, then term within year) */
 export function sortSemesters(semesters: Semester[]): Semester[] {
   return [...semesters].sort((a, b) => {
     if (a.year !== b.year) return a.year - b.year;
@@ -16,13 +16,10 @@ export function sortSemesters(semesters: Semester[]): Semester[] {
 }
 
 /**
- * Validate a full semester plan against prerequisite requirements.
+ * Validate a full semester plan against prerequisite requirements
  *
- * The key rule: a course's prereqs must be satisfied by courses placed in
- * STRICTLY EARLIER semesters — courses in the same semester don't count
- * (you can't have taken a course you're currently taking), which is the
- * detail that's easy to get wrong if you just check "is this course
- * anywhere in the plan."
+ * Note that a course's prereqs must be satisfied by courses placed in
+ * earlier semesters 
  */
 export function validatePlan(
   plan: PlanData,
@@ -50,7 +47,7 @@ export function validatePlan(
       }
     }
     // Only after finishing this semester's check do its courses become
-    // "completed" for the NEXT semester's evaluation.
+    // completed for the next semester's evaluation
     for (const code of semester.courseCodes) {
       completedBefore.add(code);
     }
@@ -59,7 +56,7 @@ export function validatePlan(
   return warnings;
 }
 
-/** Detect a course placed in more than one semester in the same plan. */
+/** Detect a course placed in more than one semester in the same plan */
 export function findDuplicatePlacements(plan: PlanData): string[] {
   const seen = new Set<string>();
   const dupes = new Set<string>();

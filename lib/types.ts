@@ -1,8 +1,9 @@
-// A prerequisite requirement is a small boolean expression tree, because real
-// prereqs aren't simple chains — e.g. CS 161 requires CS61B AND CS70 AND CS61C,
-// while CS 188 requires (CS61A OR CS61B) AND CS70. Modeling this as a flat
-// edge list (like a typical "prereq graph" toy project does) can't represent
-// the OR case correctly, so a leaf-node "is this satisfied" check would be wrong.
+// The prerequisite requirements for each course are a boolean expression tree.
+// This is because we cannot treat prerequisites as just chains - e.g. CS 161
+// requires CS61B AND CS70 AND CS61C, while CS 188 requires (CS61A OR CS61B)
+// AND CS70. Modeling this as a flat edge list would not represent the OR case
+// and so leaf-node checks to see if prerequisites are satisfied could return
+// the wrong answer
 
 export type PrereqExpr = CourseRef | AndExpr | OrExpr;
 
@@ -33,7 +34,7 @@ export interface CourseRecord {
 
 export interface Semester {
   id: string;
-  label: string; // e.g. "Fall 2026"
+  label: string; // For example "Fall 2026"
   year: number;
   term: "Fall" | "Spring" | "Summer";
   courseCodes: string[];

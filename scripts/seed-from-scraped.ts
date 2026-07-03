@@ -1,14 +1,11 @@
 /**
  * Seed from scraped data
  * ======================
- * Priority order:
- *   1. data/scraped/catalog.json  (full Berkeley catalog — from scrape:catalog)
- *   2. data/scraped/eecs.json     (EECS-only — from scrape)
- *   3. data/seed-courses.ts       (hand-curated fallback)
+ * Seeds the database from data/scraped/catalog.json.
+ * Run `npm run scrape:catalog` first to generate it.
  */
 
 import { db, ensureSchema } from "../lib/db";
-import { seedCourses } from "../data/seed-courses";
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
 import type { CourseRecord } from "../lib/types";
@@ -59,39 +56,17 @@ async function upsertCourse(c: CourseRecord) {
 async function main() {
   await ensureSchema();
 
-  // Hand-curated fallback
-  const handCurated: CourseRecord[] = seedCourses.map((c) => ({
-    code: c.code,
-    displayCode: c.displayCode,
-    title: c.title,
-    department: c.department,
-    units: c.units,
-    description: c.description,
-    prereqExpr: c.prereqExpr,
-  }));
-
   const catalogPath = join(process.cwd(), "data", "scraped", "catalog.json");
-  const eecsPath    = join(process.cwd(), "data", "scraped", "eecs.json");
 
-  let scraped: CourseRecord[] = [];
-
-  if (existsSync(catalogPath)) {
-    const raw = JSON.parse(readFileSync(catalogPath, "utf8")) as any[];
-    scraped = raw.map(toRecord);
-    console.log(`Loaded ${scraped.length} courses from full catalog scrape`);
-  } else if (existsSync(eecsPath)) {
-    const raw = JSON.parse(readFileSync(eecsPath, "utf8")) as any[];
-    scraped = raw.map(toRecord);
-    console.log(`Loaded ${scraped.length} EECS courses`);
-  } else {
-    console.log("No scraped data found — using hand-curated data only.");
-    console.log("Run `npm run scrape:catalog` for the full Berkeley catalog.");
+  if (!existsSync(catalogPath)) {
+    console.error("No scraped data found. Run `npm run scrape:catalog` first.");
+    process.exit(1);
   }
+  const raw = JSON.parse(readFileSync(catalogPath, "utf8")) as any[];
+  const scraped: CourseRecord[] = raw.map(toRecord);
+  console.log(`Loaded ${scraped.length} courses from full catalog scrape`);
 
-  // Scraped takes precedence over hand-curated
-  const merged = new Map<string, CourseRecord>();
-  for (const c of handCurated) merged.set(c.code, c);
-  for (const c of scraped)     merged.set(c.code, c);
+  const merged = new Map<string, CourseRecord>(scraped.map((c) => [c.code, c]));
 
   // Apply manual prereq overrides (verified corrections for courses the
   // scraper gets wrong)
@@ -105,17 +80,16 @@ async function main() {
   }
   if (overridden > 0) console.log(`Applied ${overridden} manual prereq overrides`);
 
-  // Merge cross-listed courses (CHEM C146 = NUC ENG C146, etc.) into one
-  // canonical node each, rewriting prereq expressions to match.
+  // Merge cross-listed courses (CHEM C146 = NUC ENG C146) into one
+  // node each, rewriting prereq expressions to match
   const mergeStats = mergeCrossListed(merged as any);
   console.log(
     `Merged ${mergeStats.families} cross-listed families (${mergeStats.aliased} alias mappings)`
   );
 
-
   // A course can never be its own prerequisite. Self-references come from
-  // advisory prose ("consider a course more advanced than 1A") that the
-  // parser mistakes for requirements. Strip them and collapse the expression.
+  // lines such as ("consider a course more advanced than 1A") that the
+  // parser mistakes for requirements
   function stripSelfRefs(expr: PrereqExpr | null, own: string): PrereqExpr | null {
     if (!expr) return null;
     if (expr.type === "COURSE") return expr.code === own ? null : expr;
@@ -135,7 +109,7 @@ async function main() {
   if (selfRefs > 0) console.log(`Stripped self-references from ${selfRefs} courses`);
 
   // Stub nodes for heavily-referenced courses outside the scraped
-  // departments, so prereq chains and planner checks resolve.
+  // departments, so prereq chains and planner checks resolve
   const STUBS: CourseRecord[] = [
     {
       code: "BIO1A", displayCode: "BIOLOGY 1A", title: "General Biology Lecture",
@@ -152,10 +126,10 @@ async function main() {
   ];
   for (const stub of STUBS) if (!merged.has(stub.code)) merged.set(stub.code, stub as any);
 
-  // Remove phantom prereq refs: the parser occasionally turns GPA thresholds
-  // ("3.0 GPA" on research/H194 pages) into course codes like "ENGIN 3".
-  // Rule: drop COURSE refs that don't resolve to any node AND have a bare
-  // single-digit number of 5 or less — no real scraped prereq matches that.
+  // The parser occasionally turns GPA thresholds ("3.0 GPA" on research/H194 pages) 
+  // into course codes like "ENGIN 3". To fix Idrop COURSE refs that don't resolve 
+  // to any node and have a bare single-digit number of 5 or less — no real scraped 
+  // prereq would match this
   const nodeCodes = new Set(merged.keys());
   function dropPhantoms(expr: PrereqExpr | null): PrereqExpr | null {
     if (!expr) return null;
@@ -183,7 +157,7 @@ async function main() {
   const all = [...merged.values()];
 
   // Data-quality gate: the prereq graph must be a DAG. A cycle would mean
-  // some set of courses mutually require each other — always a data error.
+  // some set of courses mutually require each other — always a data error
   const cycle = findCycle(buildGraph(all));
   if (cycle) {
     console.warn(`⚠ WARNING: prerequisite cycle detected: ${cycle.join(" -> ")}`);

@@ -1,23 +1,23 @@
 /**
  * Prerequisite text parser
  * ========================
- * Converts Berkeley's free-text prereq strings into our typed PrereqExpr tree.
+ * Converts Berkeley's free-text prereq strings into our typed PrereqExpr tree
  *
  * Handles:
- *  "COMPSCI 61A, COMPSCI 88, or ENGIN 7"       → OR(CS61A, CS88, ENGIN7)
- *  "COMPSCI 61B and COMPSCI 70"                  → AND(CS61B, CS70)
- *  "COMPSCI 61A, COMPSCI 61B, and COMPSCI 70"   → AND(CS61A, CS61B, CS70)
- *  "(COMPSCI 61A or COMPSCI 61B) and COMPSCI 70" → AND(OR(CS61A,CS61B), CS70)
- *  "COMPSCI 61B and (MATH 54 or EECS 16A)"       → AND(CS61B, OR(MATH54,EECS16A))
- *  "COMPSCI 61A with a grade of B- or better, or COMPSCI 88" → OR(CS61A, CS88)
- *  "COMPSCI 61B or consent of instructor"         → COURSE(CS61B)
+ *  "COMPSCI 61A, COMPSCI 61B, or COMPSCI 61C" → OR(CS61A, CS61B, CS61C)
+ *  "COMPSCI 61A and COMPSCI 61B" → AND(CS61A, CS61B)
+ *  "COMPSCI 61A, COMPSCI 61B, and COMPSCI 61C" → AND(CS61A, CS61B, CS61C)
+ *  "(COMPSCI 61A or COMPSCI 61B) and COMPSCI 61C" → AND(OR(CS61A,CS61B), CS61C)
+ *  "COMPSCI 61C and (COMPSCI 61A or COMPSCI 61B)" → AND(CS61C, OR(CS61A,CS61B))
+ *  "COMPSCI 61A with a grade of B- or better, or COMPSCI 61B" → OR(CS61A, CS61B)
+ *  "COMPSCI 61B or consent of instructor" → COURSE(CS61B)
  */
 
 import type { PrereqExpr } from "../../lib/types";
 
-// Dept name as it appears in prereq text → our internal prefix.
-// Includes BOTH abbreviations ("COMPSCI") and full names ("Computer Science")
-// because the EECS site uses both styles on different pages.
+// Dept name as it appears in prereq text → internal prefix
+// Includes both abbreviations ("COMPSCI") and full names ("Computer Science")
+// because catalog prereq text uses both styles inconsistently
 const DEPT_MAP: Record<string, string> = {
   // CS / EE / EECS
   COMPSCI: "CS",
@@ -70,7 +70,7 @@ const DEPT_MAP: Record<string, string> = {
 };
 
 // Sort longest-first so multi-word names match before their sub-strings
-// (e.g. "ELECTRICAL ENGINEERING" before "EE").
+// ("ELECTRICAL ENGINEERING" before "EE").
 const DEPT_ALT = Object.keys(DEPT_MAP)
   .sort((a, b) => b.length - a.length)
   .join("|");
@@ -95,12 +95,11 @@ const STRIP_PATTERNS: RegExp[] = [
   /\bsenior standing\b/gi,
   /\bjunior standing\b/gi,
   /\bsophomore standing\b/gi,
-  // Common on EECS pages when bare numbers are used:
   /,?\s*or programming experience equivalent to that gained in[^.;]*/gi,
   /,?\s*or equivalent programming experience[^.;]*/gi,
 ];
 
-// Normalise non-standard conjunctions BEFORE parsing so the
+// Normalise non-standard conjunctions before parsing so the
 // core AND/OR logic can handle them uniformly.
 function normalizeConjunctions(text: string): string {
   return text
@@ -140,7 +139,7 @@ function hasAnyCourse(text: string): boolean {
   return COURSE_RE.test(text);
 }
 
-/** Strip outermost matching parentheses if the whole string is wrapped. */
+/** Strip outermost matching parentheses if the whole string is wrapped */
 function stripOuterParens(s: string): string {
   s = s.trim();
   if (!s.startsWith("(") || !s.endsWith(")")) return s;
@@ -154,8 +153,8 @@ function stripOuterParens(s: string): string {
 }
 
 /**
- * Split a string by ` <conj> ` at depth 0 (not inside parens).
- * Returns [] if the conjunction never appears at depth 0.
+ * Split a string by ` <conj> ` at depth 0 (not inside parens)
+ * Returns [] if the conjunction never appears at depth 0
  */
 function topSplit(text: string, conj: string): string[] {
   const parts: string[] = [];
@@ -186,7 +185,7 @@ function topSplit(text: string, conj: string): string[] {
  *  - single course:              "COMPSCI 61A"
  *  - paren sub-expr:             "(COMPSCI 61A or COMPSCI 61B)"
  *  - OR branch inside AND:       "COMPSCI 61B or COMPSCI 61BL"  ← key case
- *  - comma list:                 "COMPSCI 61A, COMPSCI 88,"
+ *  - comma list:                 "COMPSCI 61A, COMPSCI 61B,"
  */
 function extractNodes(text: string): PrereqExpr[] {
   text = text.replace(/,\s*$/, "").trim();
@@ -199,13 +198,13 @@ function extractNodes(text: string): PrereqExpr[] {
   }
 
   // If the branch itself has a top-level OR (e.g. "61B or 61BL" inside an AND),
-  // recurse so it becomes an OR node rather than just picking the first course.
+  // recurse so it becomes an OR node rather than just picking the first course
   if (topSplit(text, "or").length > 1) {
     const inner = parse(text);
     return inner ? [inner] : [];
   }
 
-  // Comma-separated list: "COMPSCI 61A, COMPSCI 88"
+  // Comma-separated list: "COMPSCI 61A, COMPSCI 61B"
   const commaSegments = text.split(/,\s+/).map((s) => s.trim()).filter(Boolean);
   if (commaSegments.length > 1) {
     return commaSegments
@@ -222,7 +221,7 @@ function extractNodes(text: string): PrereqExpr[] {
   return code ? [{ type: "COURSE" as const, code }] : [];
 }
 
-/** Core recursive parser. */
+/** Core recursive parser */
 function parse(text: string): PrereqExpr | null {
   text = stripOuterParens(text).trim();
   if (!text || !hasAnyCourse(text)) return null;
@@ -245,7 +244,7 @@ function parse(text: string): PrereqExpr | null {
     return { type: "OR", items };
   }
 
-  // No top-level conjunction — might be comma list or single
+  // No top-level conjunction - might be comma list or single
   const nodes = extractNodes(text);
   if (nodes.length === 0) return null;
   if (nodes.length === 1) return nodes[0];
@@ -254,14 +253,14 @@ function parse(text: string): PrereqExpr | null {
   return { type: "AND", items: nodes };
 }
 
-// Matches bare course numbers with no department prefix, e.g. "61A", "70", "16B"
-// Used as a fallback when the full dept name is omitted (common on EECS pages)
+// Matches bare course numbers with no department prefix, e.g. "61A", "61B", "61C"
+// Used as a fallback when the full dept name is omitted 
 const BARE_NUM_RE = /\b(\d{1,3}[A-Z]{0,2}\d?[A-Z]?)\b/g;
 
 /**
- * Expand bare numbers like "61A" → "CS 61A" using a default department.
+ * Expand bare numbers like "61A" → "CS 61A" using a default department
  * Only runs when no dept-prefixed courses are found in the text at all,
- * avoiding double-processing strings that already use full names.
+ * avoiding double-processing strings that already use full names
  */
 function expandBareNumbers(text: string, defaultDept: string): string {
   COURSE_RE.lastIndex = 0;
@@ -271,12 +270,11 @@ function expandBareNumbers(text: string, defaultDept: string): string {
 }
 
 /**
- * Parse a raw Berkeley prerequisite string into a typed boolean expression.
- * Returns null expr if no recognizable course codes are found.
+ * Parse a raw Berkeley prerequisite string into a typed boolean expression
+ * Returns null expr if no recognizable course codes are found
  *
  * @param defaultDept - Department prefix to use when the prereq text uses bare
- *   numbers ("61A") instead of full names ("Computer Science 61A"). Pass the
- *   subject being scraped, e.g. "COMPSCI" for CS pages, "EE" for EE pages.
+ *   numbers ("61A") instead of full names ("Computer Science 61A")
  */
 export function parsePrereqs(
   raw: string | null | undefined,

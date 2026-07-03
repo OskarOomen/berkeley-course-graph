@@ -1,10 +1,9 @@
 /**
  * Fix abbreviated course titles in data/scraped/catalog.json
  * ===========================================================
- * The original scrape stored the registrar's abbreviated `name` field
- * ("BIO TRANS PHEN"). The full titles live in the API's `longName` field
- * ("Biotransport Phenomena"). This patches titles in place using ONLY the
- * bulk API — no individual page fetching, runs in ~30 seconds.
+ * The original scrape stored the registrar's abbreviated `name` field.
+ * Full titles live in the API's `longName` field. This patches titles 
+ * in place using only the bulk API — no individual page fetching.
  *
  * Run: npm run fix:titles
  * Then: npm run db:seed

@@ -3,10 +3,10 @@ import type { CourseRecord, PrereqExpr } from "@/lib/types";
 /**
  * Renders a course's prerequisite boolean-expression tree as a left-to-right
  * flowchart: leaf course boxes feed into small AND/OR junction dots, which
- * feed into the target course box on the right. This intentionally mirrors
- * the PrereqExpr data structure directly (a box per COURSE leaf, a dot per
- * AND/OR node) rather than flattening to a generic graph, so the diagram can
- * show real boolean logic instead of just "these courses are involved."
+ * feed into the target course box on the right. This mirrors the PrereqExpr 
+ * data structure directly (a box per COURSE leaf, a dot per AND/OR node) 
+ * rather than flattening to a generic graph, so the diagram can show real 
+ * boolean logic instead of just "these courses are involved."
  */
 
 const ROW_H = 60;

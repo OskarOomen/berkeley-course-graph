@@ -1,6 +1,55 @@
 # Berkeley Course Graph
 
-A Next.js web app that models UC Berkeley CS/EECS/Math courses as a prerequisite graph, with semester planning and shareable academic plans.
+A Next.js web app that models 692 UC Berkeley courses — CS, EECS, Math, Stat, Data Science, Physics, Chemistry, and the College of Engineering — as a prerequisite graph, with a drag-and-drop semester planner, live prerequisite validation, major requirement tracking, and shareable academic plans.
+
+**Live at [berkeley-course-graph.vercel.app](https://berkeley-course-graph.vercel.app)**
+
+## What it does
+
+- **Search** — find any course by code or title, with trie-powered autocomplete
+- **Course pages** — visual prerequisite diagram, full ancestor chain (BFS), downstream unlocked courses (DFS)
+- **Semester planner** — drag courses into semester boxes; live prerequisite validation fires on every change
+- **Major tracking** — progress against requirement groups for 6 majors (CS, EECS, Data Science, Math, Applied Math, Stats)
+- **Share link** — save a plan and get a `/plans/:id` URL anyone can open
+
+## Setup
+
+```bash
+npm install
+npm run db:seed   # creates dev.db and seeds course data from data/scraped/catalog.json
+npm run dev       # http://localhost:3000
+```
+
+No external database server needed — SQLite runs as a local file (`dev.db`). The seed reads `data/scraped/catalog.json` (committed to the repo); to regenerate it from scratch, run `npm run scrape:catalog` first (~10 minutes, politely rate-limited).
+
+## Algorithms
+
+### The core data structure: boolean expression trees
+
+Each course stores its prerequisites as a **boolean expression tree** (not a flat list), because real prerequisites aren't simple chains:
+
+```
+CS 188 requires: (CS 61A OR CS 61B) AND CS 70
+CS 189 requires: CS 61B AND CS 70 AND Math 53 AND (Math 54 OR EECS 16A)
+```
+
+A flat edge list can't represent the OR case — a student who took 61B would be wrongly flagged as missing 61A. The tree makes "is this requirement satisfied" answerable correctly, and doubles as the prereq diagram's layout data.
+
+Raw catalog prose is converted into these trees by a recursive descent parser (`scripts/scrape/prereq-parser.ts`): it strips noise phrases ("with a grade of B- or better", "or consent of instructor"), normalizes conjunctions, then recursively splits on top-level "and"/"or" — respecting parenthesis depth — down to individual course codes.
+
+### Graph traversals (`lib/graph.ts`)
+
+For connectivity questions, each tree is flattened into a plain directed graph (every COURSE leaf becomes an edge — AND/OR intentionally discarded, since reachability doesn't depend on it):
+
+| Algorithm | Where used |
+|-----------|-----------|
+| BFS over prereq graph | Full prereq chain on course pages |
+| DFS over the reversed graph | "What does this unlock" section |
+| DFS with recursion stack | Cycle detection (data-quality gate at seed time) |
+| Kahn's algorithm (topo sort) | Suggested valid take-order |
+| Boolean tree eval (`isSatisfied`) | Prereq validation in the planner |
+
+**Key validation edge case**: courses in the *same* semester don't satisfy each other's prerequisites. If you put CS 61B and CS 170 in Fall 2026, CS 170 will warn — you can't have already taken a course you're currently taking. `lib/validate-plan.ts` handles this by evaluating semesters in chronological order and only adding a semester's courses to the "completed" set *after* that semester is checked.
 
 ### Prefix trie (search autocomplete)
 
@@ -25,51 +74,19 @@ so alias references resolve to the canonical node — then deduplicated, since
 the graph would contain phantom duplicate nodes and prereq checking would
 fail for students who took the "other" listing.
 
-## Setup
+### Data cleanup pipeline (`scripts/seed-from-scraped.ts`)
 
-```bash
-npm install
-npm run db:seed   # creates dev.db and seeds course data
-npm run dev       # http://localhost:3000
-```
+Scraped catalog data is messy; the seed script runs a cleanup gauntlet before anything reaches the database: manual prereq overrides for pages the parser can't handle, cross-listing merge (above), stripping of self-referencing prereqs (advisory prose misparse), removal of phantom course refs (GPA thresholds like "3.0 GPA" misparse as "ENGIN 3"; unit thresholds like "60 units" as "CHEM 60"), and finally a cycle check — the prerequisite graph must be a DAG, so any cycle is flagged as a data error.
 
-That's it. No external database server. SQLite runs as a local file (`dev.db`).
-
-## What it does
-
-- **Search** — find any course by code or title
-- **Course pages** — visual prerequisite diagram, full ancestor chain (BFS), downstream unlocked courses (DFS)
-- **Semester planner** — drag courses into 8 semester boxes; live prerequisite validation fires on every change
-- **Share link** — save a plan and get a `/plans/:id` URL anyone can open
-
-## How the graph works
-
-Each course stores its prerequisites as a **boolean expression tree** (not a flat list), because real prerequisites aren't always simple chains. For example:
-
-```
-CS 188 requires: (CS 61A OR CS 61B) AND CS 70
-CS 189 requires: CS 61B AND CS 70 AND Math 53 AND (Math 54 OR EECS 16A)
-```
-
-Algorithms in `lib/graph.ts`:
-
-| Algorithm | Where used |
-|-----------|-----------|
-| BFS over prereq graph | Full prereq chain on course pages |
-| DFS in reverse | "What does this unlock" section |
-| DFS with recursion stack | Cycle detection on startup |
-| Kahn's algorithm (topo sort) | Suggested valid take-order |
-| Boolean tree eval (`isSatisfied`) | Prereq validation in the planner |
-
-**Key validation edge case**: courses in the *same* semester don't satisfy each other's prerequisites. If you put CS 61B and CS 170 in Fall 2026, CS 170 will warn — you can't have already taken a course you're currently taking. This is handled in `lib/validate-plan.ts` by evaluating each semester in order and only adding its courses to the "completed" set *after* that semester is checked.
-
-## Tech decisions worth knowing for an interview
+## Design decisions
 
 - **Boolean expression tree for prereqs** — a flat list of edges can't represent `(A OR B) AND C`. The tree doubles as the diagram layout data.
+- **Two representations of the same data** — trees for satisfaction checks, a flattened edge graph for traversals. Each question gets the structure it needs.
+- **Trees stored as JSON in a text column** — the app never queries inside a tree; it always loads a course's whole expression and evaluates in code, so normalizing AND/OR nodes into rows would add joins for zero benefit.
 - **SQLite locally / libSQL for production** — `@libsql/client` talks to a local file in dev and a Turso cloud database in prod with zero code change; just swap the env var.
 - **`ON CONFLICT DO UPDATE`** — the seed script is idempotent; running it twice won't break anything.
 - **Topo sort for plan suggestions** — Kahn's algorithm with alphabetical tiebreaking ensures a deterministic output, which matters for consistent UI behavior.
-- **`force-dynamic`** on the search page — ensures Next.js re-runs the server component on every request so search results aren't stale.
+- **`force-dynamic` on the search page** — ensures Next.js re-runs the server component on every request so search results aren't stale.
 
 ## Stack
 
@@ -88,11 +105,12 @@ Algorithms in `lib/graph.ts`:
 
 ## Extending the course catalog
 
-Add entries to `data/seed-courses.ts` and re-run `npm run db:seed`. The prereq expression syntax is:
+The catalog is scraped from Berkeley's Coursedog API. To add departments, add their subject codes to `INCLUDE_SUBJECTS` in `scripts/scrape-catalog.ts`, then:
 
-```typescript
-course("CS61B")                          // single prereq
-and(course("CS61B"), course("CS70"))     // both required
-or(course("CS61A"), course("CS88"))      // either works
-and(course("CS61B"), or(course("MATH54"), course("EECS16A")))  // nested
+```bash
+npm run scrape:catalog   # re-scrape (resumes from checkpoint if interrupted)
+npm run fix:titles       # patch abbreviated titles
+npm run db:seed          # clean, merge, and load into the database
 ```
+
+To correct a specific course's prerequisites, add an entry to `data/prereq-overrides.ts` (plain catalog-style text — it goes through the same parser) and re-run `npm run db:seed`. To add a major to the requirement tracker, add an entry to `data/majors.ts` — no code changes needed.

@@ -4,21 +4,13 @@
  * Nodes are keyed by character. Word-ending nodes store the term to display
  * plus a weight used to rank suggestions.
  *
- * Why a trie instead of filtering an array?
- *  - Suggestion lookup is O(p + k): walk p characters to the prefix node,
- *    then collect k results below it — independent of total term count.
- *    A linear scan is O(n · p) on every keystroke.
- *  - With ~740 courses this is admittedly more about correctness of design
- *    than raw speed, but it gives weighted ranking + prefix completion
- *    cleanly and stays fast as the catalog grows.
- *
  * The insert key and the returned term are separated so we can index a
- * course under multiple keys — e.g. walking "61a" returns "CS 61A".
+ * course under multiple keys — e.g. walking "61a" returns "CS 61A"
  */
 
 interface TrieNode {
   children: Map<string, TrieNode>;
-  /** Terms completed at this node (term display string -> weight). */
+  /** Terms completed at this node (term display string -> weight) */
   terms: Map<string, number> | null;
 }
 
@@ -30,8 +22,8 @@ export class Trie {
   private root: TrieNode = makeNode();
 
   /**
-   * Insert `term` reachable by typing `key`.
-   * If the same key/term pair is inserted twice, the max weight wins.
+   * Insert `term` reachable by typing `key`
+   * If the same key/term pair is inserted twice, the max weight wins
    */
   insert(key: string, term: string, weight = 1): void {
     const k = key.toLowerCase();
@@ -46,7 +38,7 @@ export class Trie {
 
   /**
    * Up to `limit` distinct terms whose key starts with `prefix`,
-   * ranked by weight desc, then alphabetically. O(p + subtree).
+   * ranked by weight desc, then alphabetically. O(p + subtree)
    */
   suggest(prefix: string, limit = 6): string[] {
     const key = prefix.toLowerCase().trim();

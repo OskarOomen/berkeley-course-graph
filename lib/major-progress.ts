@@ -3,7 +3,7 @@ import type { Major, PlanData, RequirementStatus } from "./types";
 /**
  * Given a major and the current plan, return the satisfaction status of
  * every requirement group. A course counts as "completed" if it appears
- * in ANY semester in the plan (regardless of whether prereqs are satisfied —
+ * in any semester in the plan (regardless of whether prereqs are satisfied —
  * that's validated separately).
  */
 export function checkMajorProgress(
@@ -27,7 +27,7 @@ export function checkMajorProgress(
   });
 }
 
-/** How many requirement groups are fully satisfied. */
+/** How many requirement groups are fully satisfied */
 export function countSatisfied(statuses: RequirementStatus[]): number {
   return statuses.filter((s) => s.satisfied).length;
 }

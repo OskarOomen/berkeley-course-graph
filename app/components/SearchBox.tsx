@@ -1,10 +1,10 @@
 "use client";
 
 /**
- * Search box with trie-powered autocomplete.
- * Fetches the course list once on mount, builds a prefix trie client-side,
- * and shows ranked suggestions as you type. Suggestions update in O(p + k)
- * per keystroke — no network round-trips while typing.
+ * Search box with autocomplete from the trie
+ * Fetches the course list once, builds a prefix trie client-side, 
+ * and shows ranked suggestions as you type. Suggestions update in 
+ * O(p + k) per keystroke
  */
 
 import { useEffect, useMemo, useRef, useState } from "react";

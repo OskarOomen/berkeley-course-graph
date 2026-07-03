@@ -94,7 +94,6 @@ export async function getPlan(
   if (result.rows.length === 0) return null;
   const row = result.rows[0] as unknown as PlanRow;
 
-  // increment view count, fire-and-forget (don't block the read on it)
   db.execute({
     sql: "UPDATE plans SET view_count = view_count + 1 WHERE id = ?",
     args: [id],

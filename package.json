@@ -8,8 +8,6 @@
     "start": "next start",
     "lint": "eslint",
     "db:seed": "tsx scripts/seed-from-scraped.ts",
-    "scrape": "tsx scripts/scrape/eecs.ts",
-    "db:seed-manual": "tsx scripts/seed.ts",
     "scrape:catalog": "tsx scripts/scrape-catalog.ts",
     "fix:titles": "tsx scripts/fix-titles.ts"
   },

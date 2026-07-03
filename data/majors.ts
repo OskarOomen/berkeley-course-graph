@@ -2,22 +2,12 @@
  * Major requirements data
  * =======================
  * Sources:
- *  CS BA:         https://eecs.berkeley.edu/resources/undergrads/cs/degree-reqs/
- *  EECS BS:       https://eecs.berkeley.edu/resources/undergrads/ece-major-information/
- *  Data Sci BS:   https://data.berkeley.edu/degrees/data-science-ba
- *
- * Course codes must exactly match what's stored in the database (from the
- * scraper). Key ones: CS61A, CS61B, CS61C, CS70, MATH1A, MATH1B, MATH53,
- * MATH54, EECS16A, EECS16B.
- *
- * Simplifications for v1 (documented here):
- *  - Physics (PHYS7A/7B) and ENGIN7 are not yet in the catalog, so they
- *    appear as notes rather than tracked courses.
- *  - CS BA upper-division breadth areas are collapsed into one "pick 4"
- *    group for simplicity; the real requirement is 4 courses spanning 4
- *    of 5 breadth areas.
- *  - EECS BS upper-division requirement is 20 units (~5 courses); we list
- *    the most common picks rather than the full approved list.
+ *  CS BA:            https://eecs.berkeley.edu/resources/undergrads/cs/degree-reqs/
+ *  EECS BS:          https://eecs.berkeley.edu/resources/undergrads/ece-major-information/
+ *  Data Sci BA:      https://data.berkeley.edu/degrees/data-science-ba
+ *  Math BA:          https://math.berkeley.edu/undergraduate/major/pure
+ *  Applied Math BA:  https://math.berkeley.edu/undergraduate/major/applied
+ *  Stat BA:          https://statistics.berkeley.edu/academics/undergrad/major
  */
 
 import type { Major } from "../lib/types";
@@ -156,8 +146,6 @@ export const MAJORS: Major[] = [
   },
 
   // ── Mathematics B.A. (L&S) ──────────────────────────────────────────────
-  // Source: https://math.berkeley.edu/undergraduate/major/pure
-  // Note: Math 51/52 are the new numbers for 1A/1B — either satisfies.
   {
     id: "math-ba",
     name: "Mathematics B.A.",
@@ -207,7 +195,6 @@ export const MAJORS: Major[] = [
   },
 
   // ── Applied Mathematics B.A. (L&S) ──────────────────────────────────────
-  // Source: https://math.berkeley.edu/undergraduate/major/applied
   {
     id: "applied-math-ba",
     name: "Applied Mathematics B.A.",
@@ -255,9 +242,6 @@ export const MAJORS: Major[] = [
   },
 
   // ── Statistics B.A. (L&S) ───────────────────────────────────────────────
-  // Source: https://statistics.berkeley.edu/academics/undergrad/major
-  // Simplification: the real cluster requirement is 3 thematically-linked
-  // courses from an approved cross-department list; we show popular picks.
   {
     id: "stat-ba",
     name: "Statistics B.A.",

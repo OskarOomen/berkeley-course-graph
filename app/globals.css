@@ -1,14 +1,5 @@
 @import "tailwindcss";
 
-/*
-  Design tokens — "academic ledger" direction.
-  Grounded in Berkeley's actual institutional colors (Berkeley Blue /
-  California Gold) rather than an arbitrary palette, with a transcript /
-  course-catalog visual language: hairline rules, mono course codes (the
-  signature element), flat surfaces, minimal radius. Serif is used sparingly
-  for course titles only — the mono treatment of course codes carries most
-  of the page's personality, not the serif.
-*/
 :root {
   --color-paper: #faf8f3;
   --color-paper-raised: #ffffff;

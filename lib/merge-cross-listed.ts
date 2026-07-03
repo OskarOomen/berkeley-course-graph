@@ -2,26 +2,22 @@
  * Cross-listing canonicalization
  * ===============================
  * Berkeley cross-lists courses under multiple departments (CHEM C146 =
- * NUC ENG C146; MEC ENG C85 = CIV ENG C30). In PeopleSoft these share a
- * 6-digit course family ID; the per-subject versions differ only in the
- * final "offer number" digit of the courseGroupId (e.g. 1155122 vs 1155121).
+ * NUC ENG C146; MEC ENG C85 = CIV ENG C30). These share a 6-digit course 
+ * family ID; the per-subject versions differ only in the final "offer number" 
+ * digit of the courseGroupId (e.g. 1155122 vs 1155121).
  *
- * We saved the courseGroupId inside catalogUrl, so at seed time we:
+ * Save the courseGroupId inside catalogUrl, so at seed time we:
  *   1. Group courses by family (first 6 digits of the groupId).
- *   2. Pick one canonical version per family (preferring the user's target
- *      departments), merge the best data from all versions, and note the
- *      alternate codes in the description.
+ *   2. Pick one canonical version per family, merge the best data from 
+ *      all versions, and note the alternate codes in the description.
  *   3. Rewrite every prerequisite expression so references to any alias
- *      point at the canonical code — otherwise "MECENG C85 or CIVENG C30"
+ *      point at the course code — otherwise "MECENG C85 or CIVENG C30"
  *      would be two different graph nodes and prereq checking would miss.
- *
- * A static alias table handles cross-listed codes whose partner departments
- * we didn't scrape (DATA C8 lives in our data as STAT C8, etc.).
  */
 
 import type { PrereqExpr, CourseRecord } from "../lib/types";
 
-/** Preference order when choosing the canonical version of a family. */
+/** Preference order when choosing the canonical version of a family */
 const DEPT_PRIORITY = [
   "CS", "EECS", "EE", "DATA", "STAT", "MATH",
   "ME", "CEE", "BIOE", "IEOR", "MSE", "NE", "AEROENG", "ENGIN",
@@ -30,8 +26,8 @@ const DEPT_PRIORITY = [
 
 /**
  * Cross-subject aliases for departments we didn't scrape. Anything in a
- * prereq expression matching a key is rewritten to the value (which IS in
- * our dataset).
+ * prereq expression matching a key is rewritten to the value (which is in
+ * our dataset)
  */
 const STATIC_ALIASES: Record<string, string> = {
   DATAC8: "STATC8",
@@ -98,7 +94,7 @@ function rewriteExpr(
 }
 
 /**
- * Merge cross-listed courses in place. Returns stats for logging.
+ * Merge cross-listed courses in place. Returns stats for logging
  */
 export function mergeCrossListed(
   merged: Map<string, MergeInput>
@@ -118,9 +114,9 @@ export function mergeCrossListed(
 
   for (const allMembers of families.values()) {
     if (allMembers.length < 2) continue;
-    // Safety guard: cross-listed versions of a course share the same title.
+    // Safety guard: cross-listed versions of a course share the same title
     // Only merge members whose titles match — prevents false merges if two
-    // unrelated courses ever shared a group-ID prefix.
+    // unrelated courses ever shared a group-ID prefix
     const byTitle = new Map<string, MergeInput[]>();
     for (const m of allMembers) {
       const t = (m.title ?? "").toLowerCase().trim();

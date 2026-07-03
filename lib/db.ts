@@ -1,10 +1,5 @@
 import { createClient, type Client } from "@libsql/client";
 
-// DATABASE_URL points at a local SQLite file for zero-config dev
-// (file:./dev.db) and can point at a remote libSQL/Turso database in
-// production (libsql://your-db-name.turso.io) with the exact same client
-// and queries — no code change needed, just the env var. Turso's free tier
-// is a genuinely reasonable place to host this for real.
 const globalForDb = globalThis as unknown as { dbClient?: Client };
 
 export const db: Client =
@@ -40,7 +35,6 @@ CREATE TABLE IF NOT EXISTS plans (
 
 let initialized = false;
 
-/** Idempotent: safe to call on every cold start. */
 export async function ensureSchema() {
   if (initialized) return;
   for (const statement of SCHEMA.split(";").map((s) => s.trim()).filter(Boolean)) {
