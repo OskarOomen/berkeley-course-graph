@@ -8,7 +8,7 @@ export default function NotFound() {
         Course or page not found
       </h1>
       <p className="text-sm text-(--color-ink-soft) mb-8">
-        That course code or plan doesn't exist in the catalog.
+        That course code or plan doesn&apos;t exist in the catalog.
       </p>
       <Link
         href="/"

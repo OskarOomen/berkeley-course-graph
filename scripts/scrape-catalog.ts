@@ -8,7 +8,7 @@
  * Resumes from checkpoint if interrupted
  */
 
-import { writeFileSync, mkdirSync, existsSync, readFileSync } from "fs";
+import { writeFileSync, mkdirSync, existsSync, readFileSync, unlinkSync } from "fs";
 import { join } from "path";
 import * as cheerio from "cheerio";
 import { parsePrereqs } from "./scrape/prereq-parser";
@@ -319,7 +319,7 @@ async function main() {
   mkdirSync(outDir, { recursive: true });
   const outPath = join(outDir, "catalog.json");
   writeFileSync(outPath, JSON.stringify(results, null, 2));
-  try { require("fs").unlinkSync(CHECKPOINT_PATH); } catch {}
+  try { unlinkSync(CHECKPOINT_PATH); } catch {}
 
   const withPrereqs = results.filter((c) => c.prereqExpr !== null);
   const bySubject = new Map<string, number>();

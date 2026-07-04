@@ -12,6 +12,15 @@
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join } from "path";
 
+interface CatalogApiCourse {
+  code?: string;
+  subjectCode?: string;
+  courseNumber?: string;
+  name?: string;
+  longName?: string;
+  [key: string]: unknown;
+}
+
 const CATALOG_ID = "hMSTjIplK6VX5nnJn7ZE";
 const API_BASE = "https://app.coursedog.com/api/v1/cm/ucberkeley_peoplesoft";
 const API_BATCH = 500;
@@ -20,7 +29,7 @@ function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function fetchBatch(skip: number): Promise<{ data: any[]; listLength: number }> {
+async function fetchBatch(skip: number): Promise<{ data: CatalogApiCourse[]; listLength: number }> {
   const params = new URLSearchParams({
     catalogId: CATALOG_ID,
     skip: String(skip),

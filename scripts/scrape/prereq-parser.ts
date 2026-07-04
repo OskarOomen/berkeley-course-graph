@@ -123,17 +123,6 @@ function extractOne(text: string): string | null {
   return m ? normalizeCode(m[1], m[2]) : null;
 }
 
-/** Pull ALL course codes out of a text, in order. */
-function extractAll(text: string): string[] {
-  const codes: string[] = [];
-  COURSE_RE.lastIndex = 0;
-  let m: RegExpExecArray | null;
-  while ((m = COURSE_RE.exec(text)) !== null) {
-    codes.push(normalizeCode(m[1], m[2]));
-  }
-  return codes;
-}
-
 function hasAnyCourse(text: string): boolean {
   COURSE_RE.lastIndex = 0;
   return COURSE_RE.test(text);

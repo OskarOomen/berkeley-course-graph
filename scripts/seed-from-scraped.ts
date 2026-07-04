@@ -15,7 +15,18 @@ import { mergeCrossListed } from "../lib/merge-cross-listed";
 import { buildGraph, findCycle } from "../lib/graph";
 import type { PrereqExpr } from "../lib/types";
 
-function toRecord(c: any): CourseRecord & { catalogUrl?: string } {
+interface ScrapedCourse {
+  code: string;
+  displayCode: string;
+  title: string;
+  department: string;
+  units?: number;
+  description: string;
+  prereqExpr: PrereqExpr | null;
+  catalogUrl?: string;
+}
+
+function toRecord(c: ScrapedCourse): CourseRecord & { catalogUrl?: string } {
   return {
     code: c.code,
     displayCode: c.displayCode,
@@ -62,7 +73,7 @@ async function main() {
     console.error("No scraped data found. Run `npm run scrape:catalog` first.");
     process.exit(1);
   }
-  const raw = JSON.parse(readFileSync(catalogPath, "utf8")) as any[];
+  const raw = JSON.parse(readFileSync(catalogPath, "utf8")) as ScrapedCourse[];
   const scraped: CourseRecord[] = raw.map(toRecord);
   console.log(`Loaded ${scraped.length} courses from full catalog scrape`);
 
@@ -82,7 +93,7 @@ async function main() {
 
   // Merge cross-listed courses (CHEM C146 = NUC ENG C146) into one
   // node each, rewriting prereq expressions to match
-  const mergeStats = mergeCrossListed(merged as any);
+  const mergeStats = mergeCrossListed(merged);
   console.log(
     `Merged ${mergeStats.families} cross-listed families (${mergeStats.aliased} alias mappings)`
   );
@@ -124,7 +135,7 @@ async function main() {
       prereqExpr: null,
     },
   ];
-  for (const stub of STUBS) if (!merged.has(stub.code)) merged.set(stub.code, stub as any);
+  for (const stub of STUBS) if (!merged.has(stub.code)) merged.set(stub.code, stub);
 
   // The parser occasionally turns GPA thresholds ("3.0 GPA" on research/H194 pages) 
   // into course codes like "ENGIN 3". To fix Idrop COURSE refs that don't resolve 

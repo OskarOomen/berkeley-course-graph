@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getCourseByCode, getCourseMap } from "@/lib/queries";
+import { getCourseByCode} from "@/lib/queries";
 import { buildGraph, getFullPrereqChain, getDownstreamCourses, describeExpr } from "@/lib/graph";
 import { getAllCourses } from "@/lib/queries";
 import { PrereqDiagram } from "@/app/components/PrereqDiagram";

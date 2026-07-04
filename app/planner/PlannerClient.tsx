@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
-import type { CourseRecord, PlanData, PlanWarning, Semester } from "@/lib/types";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
+import type { CourseRecord, PlanWarning, Semester } from "@/lib/types";
 import { buildGraph, getFullPrereqChain } from "@/lib/graph";
 import { validatePlan, findDuplicatePlacements, sortSemesters } from "@/lib/validate-plan";
 import { MAJORS } from "@/data/majors";
@@ -163,8 +163,6 @@ export default function PlannerClient() {
   const [majorId, setMajorId] = useState<string>("cs-ba");
   const [sidebarTab, setSidebarTab] = useState<"search" | "requirements">("search");
   const [query, setQuery] = useState("");
-  const [warnings, setWarnings] = useState<PlanWarning[]>([]);
-  const [dupes, setDupes] = useState<string[]>([]);
   const [dragState, setDragState] = useState<{
     code: string;
     fromSemesterId: string | null;
@@ -188,12 +186,15 @@ export default function PlannerClient() {
   }, []);
 
   // Revalidate whenever semesters change
-  useEffect(() => {
-    if (allCourses.length === 0) return;
-    const plan: PlanData = { semesters };
-    setWarnings(validatePlan(plan, courseMap));
-    setDupes(findDuplicatePlacements(plan));
+  const warnings = useMemo<PlanWarning[]>(() => {
+    if (allCourses.length === 0) return [];
+    return validatePlan({ semesters }, courseMap);
   }, [semesters, allCourses, courseMap]);
+
+  const dupes = useMemo<string[]>(
+    () => findDuplicatePlacements({ semesters }),
+    [semesters]
+  );
 
   // Search results: courses not yet placed anywhere in the plan
   const placedCodes = new Set(semesters.flatMap((s) => s.courseCodes));
