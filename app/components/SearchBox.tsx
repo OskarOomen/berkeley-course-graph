@@ -10,6 +10,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { buildCourseTrie, Trie } from "@/lib/trie";
+import { expandDeptAlias } from "@/lib/dept-aliases";
 
 export default function SearchBox({ initialQuery }: { initialQuery: string }) {
   const router = useRouter();
@@ -34,9 +35,17 @@ export default function SearchBox({ initialQuery }: { initialQuery: string }) {
   }, []);
 
   const suggestions = useMemo(() => {
-    if (!trie || !query.trim()) return [];
-    return trie.suggest(query, 6);
-  }, [trie, query]);
+      if (!trie || !query.trim()) return [];
+      const direct = trie.suggest(query, 6);
+      const expanded = expandDeptAlias(query);
+      if (expanded === query) return direct;
+      // merge direct + alias-expanded results, dedup, keep 6
+      const merged = [...direct];
+      for (const s of trie.suggest(expanded, 6)) {
+        if (!merged.includes(s)) merged.push(s);
+      }
+      return merged.slice(0, 6);
+    }, [trie, query]);
 
   // Close dropdown on outside click
   useEffect(() => {

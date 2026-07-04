@@ -1,6 +1,7 @@
 import { db, ensureSchema } from "./db";
 import type { CourseRecord, PlanData } from "./types";
 import { nanoid } from "nanoid";
+import { expandDeptAlias } from "./dept-aliases";
 
 interface CourseRow {
   code: string;
@@ -42,17 +43,25 @@ export async function getCourseByCode(code: string): Promise<CourseRecord | null
 
 export async function searchCourses(query: string): Promise<CourseRecord[]> {
   await ensureSchema();
-  if (!query.trim()) return getAllCourses();
-  const like = `%${query.trim().toLowerCase()}%`;
+  const q = query.trim();
+  if (!q) return getAllCourses();
+
+  const like = `%${q.toLowerCase()}%`;
+  const expandedLike = `%${expandDeptAlias(q).toLowerCase()}%`;
+
   const result = await db.execute({
     sql: `
       SELECT * FROM courses
       WHERE lower(display_code) LIKE ?
          OR lower(code) LIKE ?
          OR lower(title) LIKE ?
-      ORDER BY department, code
+         OR lower(display_code) LIKE ?
+         OR lower(code) LIKE ?
+      ORDER BY
+        CASE WHEN lower(display_code) LIKE ? OR lower(code) LIKE ? THEN 0 ELSE 1 END,
+        department, code
     `,
-    args: [like, like, like],
+    args: [like, like, like, expandedLike, expandedLike, expandedLike, expandedLike],
   });
   return (result.rows as unknown as CourseRow[]).map(rowToCourse);
 }

@@ -6,6 +6,7 @@ import { buildGraph, getFullPrereqChain } from "@/lib/graph";
 import { validatePlan, findDuplicatePlacements, sortSemesters } from "@/lib/validate-plan";
 import { MAJORS } from "@/data/majors";
 import { checkMajorProgress, countSatisfied } from "@/lib/major-progress";
+import { expandDeptAlias } from "@/lib/dept-aliases";
 
 // ────────────────────────────────────────────────────────────────────────────
 //  Helpers
@@ -198,13 +199,17 @@ export default function PlannerClient() {
 
   // Search results: courses not yet placed anywhere in the plan
   const placedCodes = new Set(semesters.flatMap((s) => s.courseCodes));
-  const searchResults = query.trim()
+  const q = query.trim().toLowerCase();
+  const expandedQ = expandDeptAlias(query).trim().toLowerCase();
+  const searchResults = q
     ? allCourses.filter(
         (c) =>
           !placedCodes.has(c.code) &&
-          (c.code.toLowerCase().includes(query.toLowerCase()) ||
-            c.displayCode.toLowerCase().includes(query.toLowerCase()) ||
-            c.title.toLowerCase().includes(query.toLowerCase()))
+          (c.code.toLowerCase().includes(q) ||
+            c.displayCode.toLowerCase().includes(q) ||
+            c.title.toLowerCase().includes(q) ||
+            c.code.toLowerCase().includes(expandedQ) ||
+            c.displayCode.toLowerCase().includes(expandedQ))
       )
     : [];
 
