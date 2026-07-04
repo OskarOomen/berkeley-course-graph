@@ -25,4 +25,5 @@ export const PREREQ_OVERRIDES: Record<string, string> = {
   MEC85: "MATH 53 and PHYSICS 7A",
   EE121: "ELENG 64, ELENG 66, and COMPSCI 70",
   MATH104: "MATH 53, MATH 54, and MATH 55",
+  MATHH104: "MATH 53, MATH 54, and MATH 55",
 };
