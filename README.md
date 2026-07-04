@@ -29,8 +29,8 @@ No external database server needed: SQLite runs as a local file (`dev.db`). The 
 Each course stores its prerequisites as a **boolean expression tree** (not a flat list), because real prerequisites aren't simple chains:
 
 ```
-CS 188 requires: (CS 61A OR CS 61B) AND CS 70
-CS 189 requires: CS 61B AND CS 70 AND Math 53 AND (Math 54 OR EECS 16A)
+Data C100 requires: (DATA C8 OR STAT 20) AND (CS 61A OR CS C88C OR ENGIN 7)
+BIOE 150 requires:  (BIOE 11 OR BIO 1A) AND CHEM 1A
 ```
 
 A flat edge list can't represent the OR case — a student who took 61B would be wrongly flagged as missing 61A. The tree makes "is this requirement satisfied" answerable correctly, and doubles as the prereq diagram's layout data.
