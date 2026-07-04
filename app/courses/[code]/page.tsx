@@ -5,6 +5,8 @@ import { buildGraph, getFullPrereqChain, getDownstreamCourses, describeExpr } fr
 import { getAllCourses } from "@/lib/queries";
 import { PrereqDiagram } from "@/app/components/PrereqDiagram";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({ params }: { params: Promise<{ code: string }> }) {
   const { code } = await params;
   const course = await getCourseByCode(code);
