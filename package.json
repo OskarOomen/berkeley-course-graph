@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "db:seed": "tsx scripts/seed-from-scraped.ts",
-    "scrape:catalog": "tsx scripts/scrape-catalog.ts",
-    "fix:titles": "tsx scripts/fix-titles.ts",
+    "db:seed": "tsx --env-file=.env scripts/seed-from-scraped.ts",
+    "scrape:catalog": "tsx --env-file=.env scripts/scrape-catalog.ts",
+    "fix:titles": "tsx --env-file=.env scripts/fix-titles.ts",
     "test": "vitest run"
   },
   "dependencies": {

@@ -3,3 +3,5 @@ node_modules
 dev.db
 .env
 *.tsbuildinfo
+.vercel
+.env*
