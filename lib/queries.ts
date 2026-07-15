@@ -122,11 +122,13 @@ export async function updatePlan(id: string, data: PlanData, name?: string): Pro
   return result.rowsAffected > 0;
 }
 
-export async function getStats(): Promise<{ totalPlans: number; totalViews: number }> {
+export async function getStats(): Promise<{ totalPlans: number; totalViews: number; totalCourses: number }> {
   await ensureSchema();
   const result = await db.execute(
     "SELECT COUNT(*) as count, COALESCE(SUM(view_count), 0) as views FROM plans"
   );
   const row = result.rows[0] as unknown as { count: number; views: number };
-  return { totalPlans: row.count, totalViews: row.views };
+  const courses = await db.execute("SELECT COUNT(*) as n FROM courses");
+  const cRow = courses.rows[0] as unknown as { n: number };
+  return { totalPlans: row.count, totalViews: row.views, totalCourses: cRow.n };
 }

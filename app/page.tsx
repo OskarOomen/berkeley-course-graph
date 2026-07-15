@@ -73,7 +73,7 @@ export default async function HomePage({
       )}
 
       <div className="mt-16 pt-6 border-t border-(--color-rule) flex items-center justify-between text-xs text-(--color-ink-soft)">
-        <span>{stats.totalPlans} plans created on this catalog</span>
+        <span>{stats.totalCourses} courses · CDSS, Math &amp; College of Engineering</span>
         <Link href="/planner" className="text-(--color-blue) hover:underline">
           Start a plan →
         </Link>
