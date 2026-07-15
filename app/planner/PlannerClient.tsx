@@ -7,6 +7,7 @@ import { validatePlan, findDuplicatePlacements, sortSemesters } from "@/lib/vali
 import { MAJORS } from "@/data/majors";
 import { checkMajorProgress, countSatisfied } from "@/lib/major-progress";
 import { expandDeptAlias } from "@/lib/dept-aliases";
+import { track } from "@/lib/track";
 
 // ────────────────────────────────────────────────────────────────────────────
 //  Helpers
@@ -177,6 +178,7 @@ export default function PlannerClient() {
 
   // Load courses from the API
   useEffect(() => {
+    track("planner_opened");
     fetch("/api/courses")
       .then((r) => r.json())
       .then((data: CourseRecord[]) => {
@@ -215,6 +217,7 @@ export default function PlannerClient() {
 
   const addCourse = useCallback(
     (code: string, semesterId: string) => {
+      track("course_added");
       setSemesters((prev) =>
         prev.map((s) =>
           s.id === semesterId && !s.courseCodes.includes(code)
@@ -279,6 +282,7 @@ export default function PlannerClient() {
     const sorted = sortSemesters(semesters);
     // Fill chain courses into earliest available semesters
     const needed = chain.filter((c) => !placedCodes.has(c));
+    if (needed.length > 0) track("course_added");
     let newSemesters = [...semesters];
     needed.forEach((c, i) => {
       const targetSem = sorted[i % sorted.length];
@@ -307,6 +311,7 @@ export default function PlannerClient() {
       const json = await res.json();
       const id = planId ?? json.id;
       setPlanId(id);
+      track("plan_saved");
       const link = `${window.location.origin}/plans/${id}`;
       setShareUrl(link);
     } catch {

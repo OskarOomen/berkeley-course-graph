@@ -31,6 +31,14 @@ CREATE TABLE IF NOT EXISTS plans (
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS events (
+  id         INTEGER PRIMARY KEY AUTOINCREMENT,
+  anon_id    TEXT NOT NULL,
+  event      TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_events_event ON events(event, anon_id);
 `;
 
 let initialized = false;
